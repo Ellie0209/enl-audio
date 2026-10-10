@@ -1,0 +1,25 @@
+name: Korean audio (Supertonic F1/M1)
+on:
+  push:
+    paths: ['tools/ko_manifest.json', 'tools/ko_build.py', '.github/workflows/ko-audio.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - run: pip install -q supertonic soundfile numpy
+      - run: python tools/ko_build.py
+      - name: Commit audio
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ko elk biz
+          git commit -q -m "Korean audio: Supertonic F1/M1 [skip ci]" || echo "nothing to commit"
+          git pull --rebase -q origin main && git push -q origin HEAD:main
