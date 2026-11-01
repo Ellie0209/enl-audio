@@ -1,0 +1,28 @@
+[
+  {
+    "day": 1,
+    "date": "2026-11-01",
+    "levels": {
+      "1": {
+        "title": "Jump in the Leaves",
+        "topic": "autumn leaves (season)",
+        "genre": "Pattern text"
+      },
+      "2": {
+        "title": "The Pumpkin Seeds",
+        "topic": "carving a pumpkin and roasting the seeds with Dad (family, autumn)",
+        "genre": "Story"
+      },
+      "3": {
+        "title": "Squirrels Get Ready for Winter",
+        "topic": "how squirrels store nuts for winter and plant trees (animals, science)",
+        "genre": "Nonfiction"
+      },
+      "4": {
+        "title": "The Bus Stop Library",
+        "topic": "a girl builds a little free library at her school bus stop (community, friendship)",
+        "genre": "Community story"
+      }
+    }
+  }
+]

@@ -1,0 +1,124 @@
+{
+  "day": 1,
+  "date": "2026-11-01",
+  "scripts": {
+    "1": {
+      "title": "Jump in the Leaves",
+      "title_kr": "낙엽 속으로 점프",
+      "genre": "Pattern text",
+      "topic": "autumn leaves (season)",
+      "lines": [
+        "*Look*! | A *leaf*!",
+        "It is *red*. ↘",
+        "It is on | my *hat*.",
+        "Can I *jump* | in the leaves? ↗",
+        "*Yes*, | you *can*!",
+        "Jump, | jump, | *jump*! ↘"
+      ],
+      "targets": ["look", "a", "leaf", "it", "is", "red", "hat", "jump", "yes"],
+      "vocab": [["look", "봐"], ["leaf", "나뭇잎"], ["red", "빨간"], ["on", "~ 위에"], ["hat", "모자"], ["jump", "뛰다, 점프하다"], ["leaves", "나뭇잎들 (leaf의 복수)"], ["yes", "응, 그래"]],
+      "sounds": [
+        ["Short e", "red, yes, get, wet", "입을 옆으로 살짝 벌리고 짧게 '에' 해요. '예스'처럼 길게 끌지 마요."],
+        ["j in jump", "jump, jam, jet", "j는 입술을 살짝 내밀고 '쥬' 하듯 시작해요. '점프'의 'ㅈ'보다 입술이 둥글어요."],
+        ["leaf → leaves", "leaf, leaves", "leaf는 끝이 f(바람 소리), leaves는 v에 z가 붙어 목이 울려요."]
+      ],
+      "expression": "Point at your hat, then jump a little higher on each 'jump'!",
+      "practice": ["red", "yes", "get", "wet"],
+      "events": []
+    },
+    "2": {
+      "title": "The Pumpkin Seeds",
+      "title_kr": "호박씨",
+      "genre": "Story",
+      "topic": "carving a pumpkin and roasting the seeds with Dad (family, autumn)",
+      "lines": [
+        "Mia *carved* a pumpkin | with her *dad*.",
+        "She *scooped* out | the *slimy* seeds. ↘",
+        "“*Yuck*!” | Mia *giggled*.",
+        "“Don't throw them *away*,” | said Dad.",
+        "He *washed* the seeds | and *baked* them.",
+        "The kitchen *smelled* | warm and *salty*.",
+        "Mia *tasted* one. | *Crunch*!",
+        "“Can we carve *another* one | *tomorrow*?” | she asked. ↗"
+      ],
+      "targets": ["carved", "scooped", "slimy", "giggled", "washed", "baked", "smelled", "tasted"],
+      "vocab": [["carved", "조각했다"], ["scooped out", "퍼냈다"], ["slimy", "미끌미끌한"], ["seeds", "씨앗"], ["giggled", "킥킥 웃었다"], ["throw away", "버리다"], ["baked", "(오븐에) 구웠다"], ["salty", "짭짤한"], ["tasted", "맛보았다"]],
+      "sounds": [
+        ["-ed endings", "scooped /t/, carved /d/, tasted /id/", "-ed는 scooped처럼 t, carved처럼 d, tasted처럼 '이드' 세 가지로 나요."],
+        ["no extra syllable", "baked, washed", "baked는 '베이크-드' 두 박자가 아니라 '베익트' 한 박자로 끝내요."],
+        ["sc in scooped", "scooped, school, scary", "s 다음의 c(k)는 바람을 거의 내지 않아 '스꿉트'에 가깝게 들려요."]
+      ],
+      "expression": "Make a funny face on “Yuck!”, then sound excited when Mia asks for another one.",
+      "practice": ["scooped /t/", "carved /d/", "tasted /id/", "baked /t/"],
+      "events": []
+    },
+    "3": {
+      "title": "Squirrels Get Ready for Winter",
+      "title_kr": "겨울을 준비하는 다람쥐",
+      "genre": "Nonfiction",
+      "topic": "how squirrels store nuts for winter and plant trees (animals, science)",
+      "lines": [
+        "Have you ever *seen* a squirrel | running with a nut | in its *mouth*? ↗",
+        "In the fall, | squirrels are very *busy*.",
+        "They *collect* | *acorns*, | seeds, | and nuts | to eat in winter.",
+        "Then they *bury* them | in *hundreds* of different places.",
+        "How do they *find* them again? ↗",
+        "Squirrels have a strong *sense* of *smell*. ↘",
+        "They also *remember* | many of their *hiding spots*.",
+        "But they don't find *every* nut.",
+        "Some *forgotten* nuts | *grow* into new trees!",
+        "So a busy squirrel | is also | a *tree planter*! ↘"
+      ],
+      "targets": ["collect", "acorns", "bury", "hundreds", "sense", "remember", "forgotten", "planter"],
+      "vocab": [["collect", "모으다"], ["acorns", "도토리"], ["bury", "땅에 묻다"], ["hundreds", "수백 개의"], ["sense of smell", "후각"], ["remember", "기억하다"], ["hiding spots", "숨겨 둔 곳"], ["forgotten", "잊어버린"], ["tree planter", "나무를 심는 일꾼"]],
+      "sounds": [
+        ["bury = berry", "bury, berry", "bury는 '뷰리'가 아니라 berry처럼 '베리'라고 읽어요."],
+        ["squirrel", "squirrel", "squirrel은 SKWUR-ul. r에서 혀를 뒤로 당기고, 끝 l은 혀끝을 윗니 뒤에 대요."],
+        ["Linking", "them again, grow into", "them again은 '데머겐', grow into는 '그로우인투'처럼 끊지 말고 이어 읽어요."]
+      ],
+      "expression": "Ask the first question like a curious science host, and sound amazed on the last line.",
+      "practice": ["bury", "squirrel", "acorns", "forgotten"],
+      "events": []
+    },
+    "4": {
+      "title": "The Bus Stop Library",
+      "title_kr": "버스 정류장 도서관",
+      "genre": "Community story",
+      "topic": "a girl builds a little free library at her school bus stop (community, friendship)",
+      "lines": [
+        "Every morning, | Rosa waited for the school bus | at the *corner* of Elm Street.",
+        "The other kids *stared* at their shoes | or *yawned*. | No one talked.",
+        "“This bus stop is so *boring*,” | Rosa *sighed*. ↘",
+        "That weekend, | she and her *uncle* | built a *wooden box* | with a glass door.",
+        "They painted it *bright yellow* | and *nailed* it | to a post by the stop.",
+        "Rosa filled it | with *five* of her favorite *books*.",
+        "On the door, | she wrote: | “*Take* a book. | *Leave* a book.”",
+        "On Monday, | a shy boy named *Eli* | opened the door *slowly*.",
+        "“Can I *really* take one?” | he asked. ↗",
+        "“*Of course*!” | Rosa *smiled*.",
+        "By Friday, | the box was *empty*— | and then it was *full* again, | with books Rosa had never seen.",
+        "Someone even left a note: | “*Thank you*, | bus stop *librarian*!”",
+        "Now the kids at the corner | *trade* books | and talk about stories | until the bus *arrives*. ↘"
+      ],
+      "targets": ["corner", "stared", "yawned", "boring", "sighed", "nailed", "librarian", "arrives"],
+      "vocab": [["corner", "모퉁이"], ["stared", "빤히 쳐다봤다"], ["yawned", "하품했다"], ["boring", "지루한"], ["sighed", "한숨 쉬었다"], ["nailed", "못으로 박았다"], ["librarian", "사서"], ["trade", "서로 바꾸다"], ["arrives", "도착하다"]],
+      "sounds": [
+        ["Character voices", "“This bus stop is so boring,” (bored), “Can I really take one?” (shy), “Of course!” (cheerful)", "해설은 차분하게, 로사는 처음엔 지루하게, 엘리는 수줍게, “Of course!”는 밝게 읽어요."],
+        ["librarian", "librarian", "librarian은 가운데 BRAIR를 세게, lie-BRAIR-ee-un이에요."],
+        ["r vs. l", "really, Rosa, librarian, yellow", "r은 혀가 아무 데도 닿지 않게, l은 혀끝을 윗니 뒤에 대요. really는 r과 l을 둘 다 연습해요."]
+      ],
+      "expression": "Let your voice change from bored to proud as the quiet bus stop comes alive.",
+      "practice": ["“This bus stop is so boring,” (bored)", "“Can I really take one?” (shy)", "“Of course!” (cheerful)"],
+      "events": [
+        "Rosa waited every morning at a quiet, boring bus stop.",
+        "The kids at the stop never talked to each other.",
+        "Rosa and her uncle built a wooden box with a glass door.",
+        "They painted it yellow and nailed it to a post by the stop.",
+        "Rosa filled it with five books and wrote “Take a book. Leave a book.”",
+        "A shy boy named Eli asked if he could really take one.",
+        "By Friday the box was empty, then full of new books.",
+        "Now the kids trade books and talk about stories."
+      ]
+    }
+  }
+}
