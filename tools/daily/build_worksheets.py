@@ -122,11 +122,11 @@ def solo_box(lv, sc):
     return f'<section class="box"><h3>{h}</h3><p class="small">{p}</p>{body}</section>'
 
 
-def header(lv, day, date, sc, kind, qrs):
+def header(lv, day, date, sc, kind, qrs, note=""):
     L = LEVELS[lv]
     q = "".join(f'<figure><img src="{qr(u)}"><figcaption>{e(c)}</figcaption></figure>' for c, u in qrs)
     return f"""<header class="hd"><div class="band"><span>Shadow &amp; Shine Daily · Level {lv} {L['name']} · {L['ar']}</span><span class="nm">Name ________________</span></div>
-<div class="hrow"><div><p class="kind">{kind} · Day {day} · {e(date)}</p><h1>{e(sc['title'])}</h1><p class="kr">{e(sc['title_kr'])} · {e(sc['genre'])}</p>
+<div class="hrow"><div><p class="kind">{kind} · Day {day} · {e(date)}</p><h1>{e(sc['title'])}</h1><p class="kr">{e(sc['title_kr'])} · {e(sc['genre'])}</p>{note}
 </div><div class="qrs">{q}</div></div></header>"""
 
 
@@ -168,12 +168,11 @@ def page_dictation(lv, day, date, sc, urls, answer=False):
 <section class="box"><h3>A. Target Words</h3>{a}</section>
 <section class="box"><h3>B. Fill in the Blanks</h3>{b}</section>
 <section class="box"><h3>C. Sentence Dictation</h3>{c}</section>"""
-    bar = "".join(f'<span><i class="cb"></i>{t}</span>' for t in ["Shadowing done first? · 쉐도잉 먼저 했나요?", "Capital · 대문자", "Spaces · 띄어쓰기", "Period · 마침표"])
-    return f"""<div class="sheet">{header(lv, day, date, sc, 'Dictation Worksheet', [('SLOW', urls['slow']), ('NORMAL', urls['us1'])])}
-<p class="inst">Do the shadowing first. Listen to SLOW, then check with NORMAL. · 쉐도잉을 먼저 하고, SLOW로 받아쓰고 NORMAL로 확인해요.</p>
+    bar = "".join(f'<span><i class="cb"></i>{t}</span>' for t in ["Shadowing done first?", "Capital", "Spaces", "Period"])
+    return f"""<div class="sheet">{header(lv, day, date, sc, 'Dictation Worksheet', [('SLOW', urls['slow']), ('NORMAL', urls['us1'])], '<p class="inst">Shadow first → SLOW → check with NORMAL</p>')}
 <section class="box"><h3>A. Target Words · 목표 단어 <small>Listen and write. The first letter is a hint. · 첫 글자가 힌트예요.</small></h3>{a}</section>
 <section class="box"><h3>B. Listen and Fill in · 빈칸 채우기 <small>Write the strong words. · 강하게 들리는 단어를 써요.</small></h3>{b}</section>
-<section class="box brk"><h3>C. Write the Whole Sentence · 문장 받아쓰기</h3>{c}<div class="checkbar">{bar}</div><p class="sign">Parent / Teacher sign · 확인 ______________________ &nbsp; Score ____ / {len(tg) + sum(len(pick_blanks(l, tg)) for l in sc['lines']) + n}</p></section></div>"""
+<section class="box brk"><h3>C. Write the Whole Sentence · 문장 받아쓰기</h3>{c}<div class="checkbar">{bar}<span class="sign">Parent / Teacher · 확인 ____________ &nbsp; Score ____ / {len(tg) + sum(len(pick_blanks(l, tg)) for l in sc['lines']) + n}</span></div></section></div>"""
 
 
 def page_teacher(lv, day, date, sc, urls):
@@ -213,7 +212,7 @@ h1{margin:0;font-size:19pt;line-height:1.1}.kr{margin:1px 0 0;font-size:12pt;col
 .script{background:var(--lt);border:1.5px solid var(--lv);border-radius:10px;padding:5px 10px;margin-bottom:6px;font-family:"DejaVu Serif","Noto Serif CJK KR",serif;line-height:1.38}
 .script p{margin:0 0 3px}.script p:has(.num){padding-left:1.3em;text-indent:-1.3em}.script b{color:#111;font-weight:800}
 .bar{color:var(--lv);font-weight:700;margin:0 .3em}.arw{color:var(--lv);font-weight:700}
-.num{display:inline-block;min-width:1.7em;color:#888;font-family:"DejaVu Sans",sans-serif;font-size:.75em}
+.num{display:inline-block;text-indent:0;min-width:1.7em;color:#888;font-family:"DejaVu Sans",sans-serif;font-size:.75em}
 .key{font-family:"Noto Sans CJK KR",sans-serif;font-size:12pt !important;color:#555;margin:2px 0 0 !important}
 .tscript{font-size:13pt}
 .box{border:1.5px solid #D9D4C7;border-radius:10px;padding:4px 12px 6px;margin-bottom:6px;break-inside:avoid}
@@ -236,7 +235,7 @@ h1{margin:0;font-size:19pt;line-height:1.1}.kr{margin:1px 0 0;font-size:12pt;col
 .starrow{display:flex;justify-content:space-around;margin-top:4px}.starrow span{font-size:24pt;color:var(--lv);text-align:center;line-height:1}
 .starrow small{display:block;font-size:12pt;color:#555}
 .sign{margin:6px 0 0;font-size:12pt}
-.inst{margin:0 0 4px;font-size:12pt;color:#444}
+.inst{margin:2px 0 0;font-size:12pt;color:#444}
 .tw{display:grid;grid-template-columns:1fr 1fr;gap:4px 14px}
 .twi{display:flex;align-items:flex-end;gap:6px}.twi .n{font-weight:700;color:var(--lv);width:1.4em}
 .hw{flex:1;height:9.5mm;position:relative;border-top:1px solid #9a9a9a;border-bottom:1.4px solid #555;
@@ -244,10 +243,10 @@ h1{margin:0;font-size:19pt;line-height:1.1}.kr{margin:1px 0 0;font-size:12pt;col
  background-size:100% 100%;margin-top:3px}
 .hw::after{content:"";position:absolute;left:0;right:0;top:50%;border-top:1px dashed #fff}
 .hint{position:absolute;left:4px;bottom:0;font-size:19pt;line-height:1;color:#B0B0B0;font-family:"DejaVu Sans",sans-serif}
-.bl{margin:0;padding-left:22px}.bl li{font-size:13pt;line-height:1.85}
+.bl{margin:0;padding-left:22px}.bl li{font-size:12.5pt;line-height:1.8}
 .blank{display:inline-block;border-bottom:1.5px solid #333;height:1.1em;vertical-align:-2px;margin:0 2px}
-.cl{margin:0;padding-left:22px}.cl li{margin-bottom:4px;break-inside:avoid}.checkbar{break-inside:avoid}
-.checkbar{border-top:1px dashed #ccc;padding-top:4px;margin-top:4px;display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12pt}
+.cl{margin:0;padding-left:22px}.cl .hw{height:9mm}.cl li{margin-bottom:4px;break-inside:avoid}.checkbar{break-inside:avoid}
+.checkbar .sign{margin:0 0 0 auto}.checkbar{border-top:1px dashed #ccc;padding-top:4px;margin-top:4px;display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12pt}
 .ans{color:#B23B3B;font-weight:700;border-bottom:1.5px solid #B23B3B;padding:0 2px}
 .ans-grid{grid-template-columns:repeat(3,1fr)}.ans-grid .ans{border:0}
 .sec{font-size:16pt;color:var(--lv);margin:0 0 6px;break-before:page}
