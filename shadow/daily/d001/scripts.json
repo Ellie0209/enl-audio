@@ -39,7 +39,7 @@
         "He *washed* the seeds | and *baked* them.",
         "The kitchen *smelled* | warm and *salty*.",
         "Mia *tasted* one. | *Crunch*!",
-        "“Can we carve *another* one | *tomorrow*?” | she asked. ↗"
+        "“Can we make *more* | *tomorrow*?” | Mia asked. ↗"
       ],
       "targets": ["carved", "scooped", "slimy", "giggled", "washed", "baked", "smelled", "tasted"],
       "vocab": [["carved", "조각했다"], ["scooped out", "퍼냈다"], ["slimy", "미끌미끌한"], ["seeds", "씨앗"], ["giggled", "킥킥 웃었다"], ["throw away", "버리다"], ["baked", "(오븐에) 구웠다"], ["salty", "짭짤한"], ["tasted", "맛보았다"]],
@@ -48,7 +48,7 @@
         ["no extra syllable", "baked, washed", "baked는 '베이크-드' 두 박자가 아니라 '베익트' 한 박자로 끝내요."],
         ["sc in scooped", "scooped, school, scary", "s 다음의 c(k)는 바람을 거의 내지 않아 '스꿉트'에 가깝게 들려요."]
       ],
-      "expression": "Make a funny face on “Yuck!”, then sound excited when Mia asks for another one.",
+      "expression": "Make a funny face on “Yuck!”, then sound excited when Mia asks for more.",
       "practice": ["scooped /t/", "carved /d/", "tasted /id/", "baked /t/"],
       "events": []
     },
