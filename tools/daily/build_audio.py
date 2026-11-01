@@ -15,9 +15,9 @@ import soundfile as sf
 SR = 24000
 VOICES = {"us": ("a", "af_heart"), "uk": ("b", "bf_emma")}
 # normal speaking speed per level (Kokoro speed factor); slow = normal * SLOW
-SPEED = {"1": 0.85, "2": 0.9, "3": 0.95, "4": 1.0}
+SPEED = {"1": 0.72, "2": 0.75, "3": 0.75, "4": 0.8}  # ≈ L1 80 · L2 100 · L3 120 · L4 140 wpm incl. gaps
 SLOW = 0.8
-GAP = {"1": 0.9, "2": 0.8, "3": 0.7, "4": 0.65}  # silence between lines (s), normal track
+GAP = {"1": 1.5, "2": 1.3, "3": 1.2, "4": 0.8}  # silence between lines (s), normal track
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 _pipes = {}
@@ -96,7 +96,7 @@ def main():
         for lv, sc in sorted(d["scripts"].items()):
             out = os.path.join(ROOT, "shadow/daily", "l" + lv, nnn)
             os.makedirs(out, exist_ok=True)
-            sha = hashlib.sha1(json.dumps([sc["lines"], VOICES, SPEED[lv], SLOW]).encode()).hexdigest()
+            sha = hashlib.sha1(json.dumps([sc["lines"], VOICES, SPEED[lv], SLOW, GAP[lv]]).encode()).hexdigest()
             shaf = os.path.join(out, ".lines.sha1")
             names = [f"{a}-{k}.mp3" for a in VOICES for k in ("1", "slow", "2")]
             have = all(os.path.exists(os.path.join(out, n)) and os.path.getsize(os.path.join(out, n)) > 1000 for n in names)
@@ -107,7 +107,7 @@ def main():
                 print(f"build {nnn} L{lv} {acc}", flush=True)
                 write_mp3(track_normal(acc, sc["lines"], SPEED[lv], GAP[lv]), os.path.join(out, f"{acc}-1.mp3"))
                 write_mp3(track_normal(acc, sc["lines"], SPEED[lv] * SLOW, GAP[lv] * 1.4), os.path.join(out, f"{acc}-slow.mp3"))
-                write_mp3(track_echo(acc, sc["lines"], SPEED[lv] * 0.95), os.path.join(out, f"{acc}-2.mp3"))
+                write_mp3(track_echo(acc, sc["lines"], SPEED[lv]), os.path.join(out, f"{acc}-2.mp3"))
             open(shaf, "w").write(sha + "\n")
             built += 1
     print(f"built {built} level-day(s)")

@@ -19,7 +19,7 @@ One new original text per level (1 Sprout · 2 Seedling · 3 Sapling · 4 Tree) 
 - American: Kokoro `af_heart` (lang `a`)
 - British: Kokoro `bf_emma` (lang `b`)
 - Model `hexgrad/Kokoro-82M`, 24 kHz mono, MP3 96 kbps.
-- Normal speed factor by level: L1 0.85 · L2 0.90 · L3 0.95 · L4 1.00; slow = normal × 0.8; echo = normal × 0.95 with a pause after each phrase (1.2× phrase length + 0.8 s) and after the whole line.
+- Normal speed factor by level: L1 0.72 · L2 0.75 · L3 0.75 · L4 0.80, with line gaps 1.5 / 1.3 / 1.2 / 0.8 s — about 80 / 100 / 120 / 140 wpm, matching the level wpm bands. Slow = normal × 0.8 (gaps × 1.4). Echo = normal speed with a pause after each phrase (1.2× phrase length + 0.8 s) and after the whole line.
 
 Changing a voice or speed rebuilds every day the next time the workflow runs (the hash includes them).
 
