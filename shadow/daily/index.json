@@ -24,5 +24,31 @@
         "genre": "Community story"
       }
     }
+  },
+  {
+    "day": 2,
+    "date": "2026-11-02",
+    "levels": {
+      "1": {
+        "title": "Get the Mop!",
+        "topic": "a tipped cup and a wet mess cleaned up at home (family, helping)",
+        "genre": "Story"
+      },
+      "2": {
+        "title": "Picture Day",
+        "topic": "school picture day and wind-blown hair (school, feelings)",
+        "genre": "Story"
+      },
+      "3": {
+        "title": "Where Do Rainbows Come From?",
+        "topic": "how sunlight and raindrops make a rainbow (science, weather)",
+        "genre": "Nonfiction"
+      },
+      "4": {
+        "title": "Jun's Gimbap Lunch",
+        "topic": "a new student shares his Korean lunch and makes a friend (school, feelings, culture)",
+        "genre": "Realistic fiction"
+      }
+    }
   }
 ]

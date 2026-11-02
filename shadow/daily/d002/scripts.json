@@ -1,0 +1,125 @@
+{
+  "day": 2,
+  "date": "2026-11-02",
+  "scripts": {
+    "1": {
+      "title": "Get the Mop!",
+      "title_kr": "대걸레 가져와!",
+      "genre": "Story",
+      "topic": "a tipped cup and a wet mess cleaned up at home (family, helping)",
+      "lines": [
+        "*Tip*, | tip! | The *cup* | can *tip*!",
+        "*Drip*, | drop. | It is a *mess*. ↘",
+        "Can you *get* | the *mop*? ↗",
+        "*Yes*! | I can *get* it.",
+        "*Mop*, | mop, | *mop* | the *wet* spot.",
+        "Now it is *not* | a *mess*! ↘"
+      ],
+      "targets": ["cup", "tip", "can", "mess", "get", "mop", "wet", "spot", "not"],
+      "vocab": [["tip", "기울어지다, 넘어지다"], ["cup", "컵"], ["drip, drop", "똑, 똑 (물 떨어지는 소리)"], ["mess", "엉망, 어질러진 것"], ["get", "가져오다"], ["mop", "대걸레; 대걸레로 닦다"], ["wet", "젖은"], ["spot", "자리, 부분"]],
+      "sounds": [
+        ["Short o", "mop, not, spot, drop", "입을 크게 벌리고 짧게 '아'에 가까운 소리를 내요. '모프'가 아니라 '맙'처럼 짧게 끝내요."],
+        ["Short i", "tip, drip, it, is", "입을 살짝만 벌리고 짧게 '이' 해요. '팁'을 길게 '티-입'으로 끌지 마요."],
+        ["Final p and t", "tip, mop, wet, not", "끝소리 p와 t는 '프', '트'를 붙이지 말고 입만 닫듯 짧게 멈춰요."]
+      ],
+      "expression": "Sound surprised on “Tip, tip!”, make a mopping motion on each “mop”, and finish with a proud smile.",
+      "practice": ["mop", "not", "spot", "drop"],
+      "events": []
+    },
+    "2": {
+      "title": "Picture Day",
+      "title_kr": "사진 찍는 날",
+      "genre": "Story",
+      "topic": "school picture day and wind-blown hair (school, feelings)",
+      "lines": [
+        "On *picture day*, | Leo *brushed* his hair | very *neatly*.",
+        "On the way to school, | the *wind* *puffed* it up | like a *bird's nest*!",
+        "“Oh *no*!” | Leo *gasped*. ↘",
+        "He *pressed* it down | with both *hands*.",
+        "But it *popped* | right back *up*. ↘",
+        "“Say *cheese*!” | called the man | with the *camera*.",
+        "Leo *laughed* | and *forgot* | all about his hair.",
+        "It *turned out* | to be his *favorite* picture! ↘"
+      ],
+      "targets": ["brushed", "puffed", "gasped", "pressed", "popped", "camera", "laughed", "picture"],
+      "vocab": [["picture day", "학교 사진 찍는 날"], ["brushed", "빗었다"], ["neatly", "단정하게"], ["puffed up", "부풀어 오르게 했다"], ["bird's nest", "새 둥지"], ["gasped", "헉 하고 놀랐다"], ["pressed down", "꾹 눌렀다"], ["popped back up", "다시 툭 튀어 올랐다"], ["laughed", "웃었다"]],
+      "sounds": [
+        ["-ed as /t/", "brushed, puffed, gasped, popped", "sh, f, s, p 뒤의 -ed는 짧은 t 소리예요. '브러쉬드'가 아니라 '브러쉬트'처럼 한 박자로 끝내요."],
+        ["laughed", "laughed, laugh", "gh가 f 소리가 나요. laughed는 '래프트'처럼 한 박자로 읽어요."],
+        ["ch in cheese", "cheese, cheek, chin", "ch는 입술을 앞으로 내밀고 '치', ee는 입꼬리를 옆으로 당겨 길게 '이-' 해요."]
+      ],
+      "expression": "Gasp with surprise on “Oh no!”, push down with your hands, and smile big on “Say cheese!”",
+      "practice": ["brushed /t/", "puffed /t/", "gasped /t/", "laughed /t/"],
+      "events": []
+    },
+    "3": {
+      "title": "Where Do Rainbows Come From?",
+      "title_kr": "무지개는 어디서 올까?",
+      "genre": "Nonfiction",
+      "topic": "how sunlight and raindrops make a rainbow (science, weather)",
+      "lines": [
+        "The rain *stops*. | The sun comes *out*. | And look— | a *rainbow*! ↘",
+        "But where do all those *colors* | come *from*? ↗",
+        "Sunlight looks *white*, | but it is really | a *mix* of many colors.",
+        "When sunlight shines | through *raindrops*, | the drops *bend* the light.",
+        "Then the colors *spread out* | like a *fan*.",
+        "Red is always on the *top*, | and *violet* is on the *bottom*.",
+        "In between are *orange*, | yellow, | green, | blue, | and *indigo*.",
+        "To see a rainbow, | the sun must be *behind* you | and the rain must be in *front* of you.",
+        "You can even *make* one | with a *garden hose* | on a sunny day!",
+        "Just stand with your *back* to the sun | and spray a fine *mist*. ↘",
+        "Science can be *beautiful*! ↘"
+      ],
+      "targets": ["rainbow", "colors", "mix", "raindrops", "bend", "violet", "behind", "mist"],
+      "vocab": [["rainbow", "무지개"], ["mix", "섞인 것, 혼합"], ["raindrops", "빗방울"], ["bend", "꺾다, 휘게 하다"], ["spread out", "펼쳐지다"], ["violet", "보라색"], ["indigo", "남색"], ["behind", "~의 뒤에"], ["garden hose", "정원용 물 호스"], ["mist", "아주 고운 물방울, 물안개"]],
+      "sounds": [
+        ["Compound words", "RAIN-bow, RAIN-drops, SUN-light", "두 단어가 합쳐진 말은 앞 단어를 세게 읽어요: RAIN-bow (레인보우의 '레인'을 강하게)."],
+        ["v in violet", "violet, very, five", "v는 윗니를 아랫입술에 살짝 대고 목을 울려요. '바이올렛'처럼 b로 읽지 마요."],
+        ["List intonation", "orange↗, yellow↗, green↗, blue↗, and indigo↘", "여러 개를 나열할 때는 앞의 단어들은 살짝 올리고, 마지막 단어만 내려요."]
+      ],
+      "expression": "Start with wonder on “a rainbow!”, explain the middle like a science teacher, and end with a warm, amazed voice.",
+      "practice": ["rainbow", "violet", "indigo", "sunlight"],
+      "events": []
+    },
+    "4": {
+      "title": "Jun's Gimbap Lunch",
+      "title_kr": "준의 김밥 도시락",
+      "genre": "Realistic fiction",
+      "topic": "a new student shares his Korean lunch and makes a friend (school, feelings, culture)",
+      "lines": [
+        "On his *first* day at Maple School, | Jun held his lunch box | very *tightly*.",
+        "Inside were rolls of *gimbap* | that his *mom* had made | that morning.",
+        "At lunchtime, | a girl at his table | *pointed* at his food.",
+        "“What *is* that?” | she asked. ↗",
+        "Jun's cheeks turned *hot*. | He wanted to *hide* the box | under the table.",
+        "“It's... | *gimbap*,” | he said *quietly*. | “Rice and vegetables | rolled in *seaweed*.”",
+        "The girl's eyes went *wide*. | “*Seaweed*? | That's so *cool*!”",
+        "Her name was *Ava*, | and she had *never* tried it before.",
+        "Jun took a deep *breath* | and *offered* her a piece.",
+        "Ava *chewed* | and *nodded*. | “*Mmm*! | It's *salty* | and a little bit *sweet*!”",
+        "The next day, | Ava brought her grandma's *empanadas* | to share with Jun.",
+        "Soon, | their whole table was *sharing* bites | and telling *stories* | about their families' favorite foods.",
+        "Jun *still* held his lunch box | on the way to school— | but now he held it | *proudly*. ↘"
+      ],
+      "targets": ["tightly", "pointed", "hide", "quietly", "seaweed", "offered", "chewed", "proudly"],
+      "vocab": [["tightly", "꽉, 단단히"], ["pointed at", "~을 가리켰다"], ["cheeks", "볼, 뺨"], ["hide", "숨기다"], ["quietly", "조용히, 작은 목소리로"], ["seaweed", "김, 해초"], ["offered", "(먹어 보라고) 권했다"], ["chewed", "씹었다"], ["proudly", "자랑스럽게"]],
+      "sounds": [
+        ["Character voices", "“What is that?” (curious), “It's... gimbap,” (shy), “That's so cool!” (excited)", "해설은 차분하게, 에이바의 질문은 궁금하게, 준은 처음엔 작고 수줍게, “That's so cool!”은 신나게 읽어요."],
+        ["-ly adverbs", "TIGHT-ly, QUI-et-ly, PROUD-ly", "-ly는 약하고 짧게 '리'. 강세는 앞부분에 둬요. quietly는 세 박자 QUI-et-ly예요."],
+        ["th in that, the", "that, the, breath", "혀끝을 윗니 사이로 살짝 내밀어요. that은 '댓'이 아니고, breath 끝은 바람만 '스-' 나와요."]
+      ],
+      "expression": "Let your voice grow from nervous and quiet to warm and proud as Jun makes a new friend.",
+      "practice": ["“What is that?” (curious)", "“It's... gimbap,” (shy)", "“That's so cool!” (excited)"],
+      "events": [
+        "Jun held his lunch box tightly on his first day at a new school.",
+        "His mom had made gimbap for his lunch that morning.",
+        "A girl at his table pointed at his food and asked what it was.",
+        "Jun felt embarrassed and wanted to hide the box.",
+        "He quietly explained that gimbap is rice and vegetables rolled in seaweed.",
+        "Ava thought it was cool, and Jun offered her a piece.",
+        "The next day Ava brought her grandma's empanadas to share.",
+        "Soon the whole table shared food and stories, and Jun felt proud."
+      ]
+    }
+  }
+}
