@@ -50,5 +50,31 @@
         "genre": "Realistic fiction"
       }
     }
+  },
+  {
+    "day": 3,
+    "date": "2026-11-03",
+    "levels": {
+      "1": {
+        "title": "Run, Pup, Run!",
+        "topic": "playing with a pet puppy in the sun (pets, animals, family)",
+        "genre": "Rhyme"
+      },
+      "2": {
+        "title": "The Broken Crayon",
+        "topic": "a red crayon snaps in half and a friend turns it into sharing (school, feelings, friendship)",
+        "genre": "Story"
+      },
+      "3": {
+        "title": "Why Do We Have Day and Night?",
+        "topic": "Earth spinning makes day and night (science, space)",
+        "genre": "Nonfiction"
+      },
+      "4": {
+        "title": "The Night the Lights Went Out",
+        "topic": "a storm knocks out the power and a family makes shadow animals by flashlight (family, feelings, weather)",
+        "genre": "Family story"
+      }
+    }
   }
 ]

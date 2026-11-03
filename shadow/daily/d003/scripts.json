@@ -1,0 +1,125 @@
+{
+  "day": 3,
+  "date": "2026-11-03",
+  "scripts": {
+    "1": {
+      "title": "Run, Pup, Run!",
+      "title_kr": "달려라, 강아지야!",
+      "genre": "Rhyme",
+      "topic": "playing with a pet puppy in the sun (pets, animals, family)",
+      "lines": [
+        "*Run*, | pup, | *run*! | Run in the *sun*.",
+        "Run *up* | the *hill*. | It is *fun*! ↘",
+        "*Sit*, | pup, | *sit*! | Sit on the *rug*.",
+        "*Wag*, | pup, | *wag*! | Can I *get* a *hug*? ↗",
+        "*Yes*! | Pup can *jump* | *up*!",
+        "*Hug*, | hug, | *hug*! | I *love* my *pup*! ↘"
+      ],
+      "targets": ["run", "sun", "pup", "up", "fun", "sit", "rug", "hug", "jump"],
+      "vocab": [["pup", "강아지 (puppy를 짧게 부르는 말)"], ["run", "달리다"], ["sun", "해, 햇빛"], ["hill", "언덕"], ["fun", "재미있는"], ["sit", "앉다"], ["rug", "깔개, 작은 카펫"], ["wag", "(꼬리를) 흔들다"], ["hug", "안아 주기; 안다"], ["jump up", "펄쩍 뛰어오르다"]],
+      "sounds": [
+        ["Short u", "run, sun, pup, fun, rug, hug", "입을 살짝 벌리고 힘을 빼고 짧게 '어' 해요. run은 '런', '룬'이 아니에요."],
+        ["Word families -un / -ug", "run, sun, fun / rug, hug", "끝이 같은 단어는 운율(rhyme)이 맞아요. 앞소리만 바꿔 리듬 있게 읽어 보세요."],
+        ["Yes/no question ↗", "Can I get a hug? ↗", "Can I ~? 질문은 끝을 올려요. 대답 Yes!는 힘차게 내려요."]
+      ],
+      "expression": "Clap a steady beat on each “Run, pup, run!”, sound hopeful on “Can I get a hug?” and give yourself a big hug at the end.",
+      "practice": ["run", "sun", "fun", "rug", "hug"],
+      "events": []
+    },
+    "2": {
+      "title": "The Broken Crayon",
+      "title_kr": "부러진 크레용",
+      "genre": "Story",
+      "topic": "a red crayon snaps in half and a friend turns it into sharing (school, feelings, friendship)",
+      "lines": [
+        "Mia *opened* | her new box | of *crayons*.",
+        "She *picked* the red one | and *pressed* too hard. | *Snap*!",
+        "The crayon *cracked* | in *half*! ↘",
+        "“Oh *no*,” | Mia *sighed*. | “My *best* color!”",
+        "Her friend Sam *looked* at the pieces | and *smiled*.",
+        "“Now you have *two* red crayons,” | he said. | “Can I *borrow* one?” ↗",
+        "Mia *laughed* | and *handed* him a piece.",
+        "Together they *colored* | a big red *fire truck*! ↘"
+      ],
+      "targets": ["opened", "picked", "cracked", "sighed", "smiled", "borrow", "laughed", "handed", "colored"],
+      "vocab": [["crayons", "크레용"], ["picked", "골랐다"], ["pressed", "꾹 눌렀다"], ["snap", "딱! (부러지는 소리)"], ["cracked in half", "반으로 쪼개졌다"], ["sighed", "한숨을 쉬었다"], ["pieces", "조각들"], ["borrow", "빌리다"], ["handed", "건네주었다"], ["fire truck", "소방차"]],
+      "sounds": [
+        ["-ed as /t/", "picked, pressed, cracked, looked", "k, s 뒤의 -ed는 짧은 t 소리예요. picked는 '픽트'처럼 한 박자로 끝내요."],
+        ["-ed as /d/", "opened, sighed, smiled, colored", "모음이나 n, l, r 뒤의 -ed는 d 소리예요. smiled는 '스마일드' 한 박자예요."],
+        ["-ed as /id/", "handed", "t, d 뒤의 -ed만 '이드'로 한 박자가 더 생겨요: HAN-ded."]
+      ],
+      "expression": "Say “Snap!” sharply, sigh sadly on “Oh no,” then let Sam sound kind and playful when he asks to borrow one.",
+      "practice": ["picked /t/", "smiled /d/", "colored /d/", "handed /id/"],
+      "events": []
+    },
+    "3": {
+      "title": "Why Do We Have Day and Night?",
+      "title_kr": "낮과 밤은 왜 생길까?",
+      "genre": "Nonfiction",
+      "topic": "Earth spinning makes day and night (science, space)",
+      "lines": [
+        "Every morning, | the sun seems to *rise*. | Every evening, | it seems to *set*.",
+        "But the sun is not really *moving* | across the sky. ↘",
+        "*We* are the ones | who are moving! ↘",
+        "Earth *spins* | like a giant *top*. | It makes one full *turn* | every *day*.",
+        "When your side of Earth *faces* the sun, | it is *daytime*.",
+        "When your side *turns away* | from the sun, | it is *night*.",
+        "So while it is *day* in Korea, | it is *night* in New York!",
+        "We cannot *feel* Earth spinning, | because it turns so *smoothly*.",
+        "Try this: | shine a *lamp* | on a *ball* | and slowly *turn* the ball.",
+        "Can you see where it is *day* | and where it is *night*? ↗"
+      ],
+      "targets": ["rise", "set", "moving", "spins", "turn", "daytime", "night", "smoothly", "lamp"],
+      "vocab": [["rise", "(해가) 뜨다"], ["set", "(해가) 지다"], ["seems to", "~하는 것처럼 보이다"], ["across the sky", "하늘을 가로질러"], ["spins", "빙글빙글 돈다"], ["a giant top", "커다란 팽이"], ["faces", "~을 마주 보다"], ["turns away", "등을 돌리다"], ["smoothly", "부드럽게, 매끄럽게"], ["lamp", "전등, 스탠드"]],
+      "sounds": [
+        ["igh = long i", "night, light, right", "igh는 '아이' 소리이고 gh는 소리가 나지 않아요. night는 '나잍'처럼 끝 t를 짧게 멈춰요."],
+        ["th in Earth", "Earth, the, smoothly", "혀끝을 윗니와 아랫니 사이에 살짝 내밀어요. Earth 끝은 바람만 나오는 th, smoothly는 목이 울리는 th예요."],
+        ["Contrast stress", "But the sun is not really moving… WE are the ones who are moving!", "생각을 뒤집을 때는 바뀐 말(We)을 크고 길게 강조해요."]
+      ],
+      "expression": "Ask the opening like a puzzle, say “We are the ones who are moving!” as a surprise, and read the experiment like a friendly science teacher.",
+      "practice": ["rise", "night", "Earth", "smoothly"],
+      "events": []
+    },
+    "4": {
+      "title": "The Night the Lights Went Out",
+      "title_kr": "불이 꺼진 밤",
+      "genre": "Family story",
+      "topic": "a storm knocks out the power and a family makes shadow animals by flashlight (family, feelings, weather)",
+      "lines": [
+        "On a *windy* November night, | the lights in Hana's house | *flickered*— | and went *out*. ↘",
+        "The fridge stopped *humming*. | The TV went *silent*. | Everything was *dark*.",
+        "Hana *grabbed* her little brother's hand. | “I don't *like* this,” | Minu *whispered*.",
+        "Dad found a *flashlight* | in the kitchen drawer | and *clicked* it on.",
+        "“A *storm* knocked out the power,” | he said *calmly*. | “It will come *back* soon.”",
+        "Mom *lit* a *candle* | and set it on the table, | far away from the *curtains*.",
+        "Then Dad held up his hands | in front of the flashlight, | and a *rabbit* appeared | on the *wall*!",
+        "Minu *giggled*. | “Do a *dog*!” | he begged.",
+        "Soon everyone was making *shadow animals*— | a *bird*, | a *snail*, | and even a wobbly *elephant*.",
+        "Then Mom told a story | about the night *she* lost power | when she was a girl in *Busan*.",
+        "Hana *forgot* to be scared. | She even forgot | about the *TV*.",
+        "Suddenly, | the lights *flashed* back on, | and the fridge began to *hum*. ↘",
+        "Everyone *blinked* | in the bright light.",
+        "“*Aww*,” | said Minu. | “Can we turn them *off* again?” ↗"
+      ],
+      "targets": ["flickered", "silent", "whispered", "flashlight", "calmly", "candle", "giggled", "shadow", "blinked"],
+      "vocab": [["flickered", "깜빡거렸다"], ["humming", "웅웅거리는 소리를 내는"], ["silent", "조용한, 소리 없는"], ["whispered", "속삭였다"], ["flashlight", "손전등"], ["knocked out the power", "전기를 끊어 놓았다 (정전시켰다)"], ["calmly", "침착하게"], ["candle", "양초"], ["giggled", "킥킥 웃었다"], ["shadow animals", "손 그림자 동물"], ["blinked", "눈을 깜빡였다"]],
+      "sounds": [
+        ["Character voices", "“I don't like this,” (scared whisper), “It will come back soon.” (calm), “Do a dog!” (excited)", "해설은 이야기하듯, 미누는 처음엔 작게 속삭이다가 점점 신나게, 아빠는 낮고 차분하게 읽어요."],
+        ["Silent l in calmly", "calm, calmly, half, talk", "calmly의 l은 소리가 나지 않아요. '캄리'처럼 읽고, '칼믈리'로 읽지 마요."],
+        ["fl / bl blends", "flickered, flashlight, flashed, blinked", "f·b와 l 사이에 '으'를 넣지 마요. '플-'이 아니라 입술과 혀를 한 번에 붙여 fl을 빠르게 이어요."]
+      ],
+      "expression": "Start slow and spooky as the lights go out, let the middle grow warm and playful with the shadow animals, and end with Minu's disappointed “Aww.”",
+      "practice": ["“I don't like this,” (scared whisper)", "“A storm knocked out the power.” (calm)", "“Do a dog!” (excited)", "“Can we turn them off again?” (disappointed)"],
+      "events": [
+        "On a windy November night, the lights in Hana's house went out.",
+        "Hana held her little brother Minu's hand because he was scared of the dark.",
+        "Dad found a flashlight and calmly said a storm had knocked out the power.",
+        "Mom lit a candle and set it far away from the curtains.",
+        "Dad made a shadow rabbit on the wall, and Minu giggled.",
+        "Everyone made shadow animals, and Mom told a story about losing power in Busan.",
+        "Hana forgot to be scared, and the lights suddenly came back on.",
+        "Minu was sad and asked if they could turn the lights off again."
+      ]
+    }
+  }
+}
