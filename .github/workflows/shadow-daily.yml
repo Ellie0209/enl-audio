@@ -34,4 +34,4 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add shadow/daily index.html
           git commit -q -m "Shadow & Shine Daily audio (Kokoro af_heart / bf_emma) [skip ci]" || echo "nothing to commit"
-          git pull --rebase -q origin main && git push -q origin HEAD:main
+          git pull --rebase -X theirs -q origin main && git push -q origin HEAD:main  # -X theirs: on overlapping runs keep this run's (newer) audio

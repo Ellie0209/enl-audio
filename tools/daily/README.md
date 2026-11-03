@@ -11,7 +11,7 @@ One new original text per level (1 Sprout · 2 Seedling · 3 Sapling · 4 Tree) 
 | `shadow/daily/index.html` | List of all days (linked from the root Audio Library page) |
 
 ## Tools
-- `build_audio.py` — Kokoro TTS, runs in GitHub Actions (`.github/workflows/shadow-daily.yml`), triggered by pushing `shadow/daily/d*/scripts.json`. Rebuilds a level only if a file is missing or its lines changed (`.lines.sha1`). Commits with `[skip ci]`.
+- `build_audio.py` — Kokoro TTS, runs in GitHub Actions (`.github/workflows/shadow-daily.yml`), triggered by pushing `shadow/daily/d*/scripts.json`. Rebuilds a level only if a file is missing or its lines changed (`.lines.sha1`). Commits with `[skip ci]`; if two runs overlap, the later run's audio wins (`git pull --rebase -X theirs`).
 - `build_pages.py` — player pages, `index.json`, daily list and the root-index block. Pure Python; run locally before pushing (the workflow also runs it).
 - `build_worksheets.py` — A4 PDFs (shadowing worksheet, dictation worksheet, answer key & teacher script) via HTML → Chromium (Playwright). Needs `segno` and the Noto Sans CJK KR font. Output: `ShadowShine_Daily_DNNN_L{lv}_{Level}.pdf`.
 
