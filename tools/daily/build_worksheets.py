@@ -251,7 +251,7 @@ h1{margin:0;font-size:19pt;line-height:1.1}.kr{margin:1px 0 0;font-size:12pt;col
 .ans-grid{grid-template-columns:repeat(3,1fr)}.ans-grid .ans{border:0}
 .sec{font-size:16pt;color:var(--lv);margin:0 0 6px;break-before:page}
 .plan{border-collapse:collapse;width:100%}.plan td{border-bottom:1px dotted #ccc;padding:3px 4px;font-size:12pt;vertical-align:top}
-.brk{break-inside:auto}
+.brk{break-inside:auto}.brk h3{break-after:avoid}
 .ev{margin:0;padding-left:22px;font-size:12pt}
 """
 
