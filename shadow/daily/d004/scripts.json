@@ -1,0 +1,407 @@
+{
+  "day": 4,
+  "date": "2026-11-04",
+  "scripts": {
+    "1": {
+      "title": "Get Set, Let's Go!",
+      "title_kr": "준비됐어, 출발!",
+      "genre": "Pattern text",
+      "topic": "getting ready for school in the morning (school, family, routine)",
+      "lines": [
+        "*Get* up, | *get* up! | Get out of *bed*!",
+        "Get my *vest*. | My vest is *red*.",
+        "Get my *cup*. | Get my *egg*.",
+        "Get my *bag*. | Is it *big*? ↗",
+        "*Yes*! | Is *Mom* set? | Is *Dad* set? ↗",
+        "*Yes*! | We are *all* *set*. | *Let's* *go*! ↘"
+      ],
+      "targets": [
+        "get",
+        "bed",
+        "vest",
+        "red",
+        "cup",
+        "egg",
+        "bag",
+        "yes",
+        "set"
+      ],
+      "vocab": [
+        [
+          "get up",
+          "일어나다"
+        ],
+        [
+          "get out of bed",
+          "침대에서 나오다"
+        ],
+        [
+          "vest",
+          "조끼"
+        ],
+        [
+          "red",
+          "빨간"
+        ],
+        [
+          "cup",
+          "컵"
+        ],
+        [
+          "egg",
+          "달걀"
+        ],
+        [
+          "bag",
+          "가방"
+        ],
+        [
+          "big",
+          "큰"
+        ],
+        [
+          "set",
+          "준비가 된 (all set: 다 준비됐어)"
+        ],
+        [
+          "Let's go!",
+          "가자! 출발!"
+        ]
+      ],
+      "sounds": [
+        [
+          "Short e",
+          "get, bed, red, vest, egg, yes, set",
+          "입을 옆으로 살짝 벌리고 짧게 '에' 해요. bed는 '베드'가 아니라 '벧'처럼 짧게 끝내요."
+        ],
+        [
+          "Word family -et",
+          "get, set, let's",
+          "끝소리 -et가 같아요. 앞소리만 바꿔서 g-et, s-et 리듬 있게 읽어 보세요."
+        ],
+        [
+          "Yes/no question ↗",
+          "Is it big? ↗ Is Dad set? ↗",
+          "Is ~? 질문은 끝을 올려요. 대답 Yes!는 힘차게 내려요."
+        ]
+      ],
+      "expression": "Start sleepy and slow on “Get up,” get brighter with each thing you pack, ask the questions with a rising voice, and shout “Let's go!” like you are running out the door.",
+      "practice": [
+        "get",
+        "bed",
+        "red",
+        "set",
+        "yes"
+      ],
+      "events": []
+    },
+    "2": {
+      "title": "The First Frost",
+      "title_kr": "첫서리",
+      "genre": "Story",
+      "topic": "a boy discovers frost on a cold morning and watches it melt (seasons, weather, science)",
+      "lines": [
+        "On a *cold* morning, | Leo *looked* | out the window.",
+        "The grass was *white* | and *sparkly*! ↘",
+        "Leo *asked*, | “Is it *snow*?” ↗",
+        "“No, | it is *frost*,” | Mom *explained*. | “Tiny bits of *ice*.”",
+        "Leo *pulled* on his boots | and *rushed* outside.",
+        "He *touched* the icy car window | and *drew* a *heart*.",
+        "Then the sun *peeked* out, | and the frost *melted* | drop by *drop*.",
+        "Leo *waved*. | “*Bye*, frost! | Come *back* tomorrow!” ↘"
+      ],
+      "targets": [
+        "looked",
+        "sparkly",
+        "asked",
+        "frost",
+        "explained",
+        "pulled",
+        "rushed",
+        "peeked",
+        "melted"
+      ],
+      "vocab": [
+        [
+          "frost",
+          "서리"
+        ],
+        [
+          "sparkly",
+          "반짝반짝 빛나는"
+        ],
+        [
+          "explained",
+          "설명했다"
+        ],
+        [
+          "tiny",
+          "아주 작은"
+        ],
+        [
+          "ice",
+          "얼음"
+        ],
+        [
+          "pulled on",
+          "(신발·옷을) 잡아당겨 신었다/입었다"
+        ],
+        [
+          "rushed",
+          "서둘러 갔다"
+        ],
+        [
+          "icy",
+          "얼음으로 덮인"
+        ],
+        [
+          "peeked out",
+          "빼꼼 나타났다"
+        ],
+        [
+          "melted",
+          "녹았다"
+        ],
+        [
+          "drop by drop",
+          "한 방울씩"
+        ]
+      ],
+      "sounds": [
+        [
+          "-ed as /t/",
+          "looked, asked, rushed, touched, peeked",
+          "k, s, sh, ch 뒤의 -ed는 짧은 t 소리: looked '룩트' 한 박자. asked는 '애슥트'처럼 한 번에."
+        ],
+        [
+          "-ed as /d/",
+          "explained, pulled, waved",
+          "모음, n, l, v 뒤는 d 소리: waved '웨이브드' 한 박자, '웨이브이드'가 아니에요."
+        ],
+        [
+          "-ed as /id/",
+          "melted",
+          "t, d 뒤의 -ed만 '이드'로 한 박자 더: MEL-ted."
+        ]
+      ],
+      "expression": "Sound amazed on “white and sparkly,” curious when Leo asks “Is it snow?”, gentle when Mom explains, and wave goodbye cheerfully at the end.",
+      "practice": [
+        "looked /t/",
+        "asked /t/",
+        "explained /d/",
+        "melted /id/"
+      ],
+      "events": []
+    },
+    "3": {
+      "title": "How to Make a Pinecone Bird Feeder",
+      "title_kr": "솔방울 새 모이통 만들기",
+      "genre": "How-to",
+      "topic": "making a pinecone bird feeder to help birds in winter (science, animals, seasons)",
+      "lines": [
+        "When *winter* comes, | many birds have a *hard* time | finding *food*.",
+        "You can *help* them | with a simple *pinecone* bird feeder!",
+        "*First*, | ask a grown-up to help you | tie a *string* | around a big, *dry* pinecone.",
+        "*Next*, | use a spoon | to *spread* sunflower seed butter | all over the pinecone.",
+        "*Then*, | *roll* it in a plate of *birdseed* | until it is *covered*.",
+        "*Finally*, | *hang* your feeder on a *branch* | where you can *see* it | from a window.",
+        "Be *patient*. | It may take a few *days* | for the birds to *find* it.",
+        "Soon you might see *chickadees*, | *finches*, | or even a bright red *cardinal*!",
+        "Keep a *notebook* | and write down | every bird you *spot*.",
+        "How many *different* birds | will visit *your* feeder? ↗"
+      ],
+      "targets": [
+        "winter",
+        "pinecone",
+        "string",
+        "spread",
+        "birdseed",
+        "branch",
+        "patient",
+        "different"
+      ],
+      "vocab": [
+        [
+          "pinecone",
+          "솔방울"
+        ],
+        [
+          "bird feeder",
+          "새 모이통"
+        ],
+        [
+          "grown-up",
+          "어른"
+        ],
+        [
+          "string",
+          "끈"
+        ],
+        [
+          "spread",
+          "(버터 등을) 바르다"
+        ],
+        [
+          "sunflower seed butter",
+          "해바라기씨 버터"
+        ],
+        [
+          "birdseed",
+          "새 모이"
+        ],
+        [
+          "covered",
+          "덮인"
+        ],
+        [
+          "branch",
+          "나뭇가지"
+        ],
+        [
+          "patient",
+          "참을성 있는"
+        ],
+        [
+          "spot",
+          "발견하다, 찾아내다"
+        ]
+      ],
+      "sounds": [
+        [
+          "Sequence words",
+          "First, Next, Then, Finally,",
+          "순서를 알려 주는 말은 또렷하게 말하고, 쉼표에서 살짝 쉬어요. 듣는 사람이 단계를 따라올 수 있어요."
+        ],
+        [
+          "Long ee",
+          "seed, see, feeder, keep, chickadees",
+          "ee는 입을 옆으로 당겨 길게 '이-'. spread의 ea는 짧은 '에'라서 소리가 달라요."
+        ],
+        [
+          "List intonation",
+          "chickadees ↗, finches ↗, or a cardinal ↘",
+          "목록을 말할 때 앞의 것들은 끝을 살짝 올리고, 마지막 하나에서 내려요."
+        ]
+      ],
+      "expression": "Read it like a friendly TV craft teacher: clear and step by step, a little excited when the birds arrive, and end with a real question to your listener.",
+      "practice": [
+        "pinecone",
+        "birdseed",
+        "chickadees",
+        "patient"
+      ],
+      "events": []
+    },
+    "4": {
+      "title": "Peanut on the Loose!",
+      "title_kr": "햄스터 피넛이 사라졌다!",
+      "genre": "Mystery/Humor",
+      "topic": "the class hamster escapes and the students follow a crumb trail to find him (school, animals, humor)",
+      "lines": [
+        "On Monday morning, | Ms. Rivera *gasped*. | The hamster cage was wide *open*— | and Peanut was *gone*! ↘",
+        "“Nobody *panic*,” | she said, | but her voice sounded a little *squeaky*.",
+        "Everyone *searched* the classroom. | Dylan checked under the *bookshelf*, | and Sora looked inside every *backpack*.",
+        "Peanut was not in the *reading* corner. | He was not in the *lost-and-found* box, | either.",
+        "Then Sora *noticed* something strange: | a tiny trail of cracker *crumbs* | across the floor.",
+        "“*Detectives*,” | said Ms. Rivera, | “follow that *trail*!”",
+        "The class *tiptoed* silently | past the sink, | past the art cart, | all the way to her *desk*.",
+        "The trail *stopped* | at her bottom *drawer*, | which was open | just a *crack*.",
+        "Ms. Rivera *slowly* pulled it open, | and everyone *held* their breath.",
+        "There was Peanut, | curled up in a nest | of *shredded* paper, | *snoring* softly.",
+        "Next to him lay the *crumbs* | of Ms. Rivera's *granola bar*.",
+        "The whole class *burst* out laughing. ↘",
+        "Dylan *grinned*. | “Ms. Rivera, | I *think* | Peanut ate your *snack*!” ↘",
+        "That afternoon, | they put a brand-new *lock* | on Peanut's cage— | just in *case*. ↘"
+      ],
+      "targets": [
+        "gasped",
+        "panic",
+        "searched",
+        "crumbs",
+        "detectives",
+        "tiptoed",
+        "drawer",
+        "shredded",
+        "snoring"
+      ],
+      "vocab": [
+        [
+          "on the loose",
+          "(동물이) 탈출해서 돌아다니는"
+        ],
+        [
+          "gasped",
+          "헉 하고 숨을 들이쉬었다"
+        ],
+        [
+          "panic",
+          "당황하다, 겁에 질리다"
+        ],
+        [
+          "squeaky",
+          "끽끽거리는, 높고 가는 (목소리)"
+        ],
+        [
+          "searched",
+          "샅샅이 찾았다"
+        ],
+        [
+          "crumbs",
+          "부스러기"
+        ],
+        [
+          "detectives",
+          "탐정들"
+        ],
+        [
+          "tiptoed",
+          "발끝으로 살금살금 걸었다"
+        ],
+        [
+          "drawer",
+          "서랍"
+        ],
+        [
+          "held their breath",
+          "숨을 죽였다"
+        ],
+        [
+          "shredded",
+          "잘게 찢어진"
+        ],
+        [
+          "burst out laughing",
+          "웃음을 터뜨렸다"
+        ],
+        [
+          "just in case",
+          "혹시 모르니까"
+        ]
+      ],
+      "sounds": [
+        [
+          "Character voices",
+          "“Nobody panic,” (trying to stay calm), “Follow that trail!” (excited), “Peanut ate your snack!” (joking)",
+          "해설은 탐정 이야기처럼 긴장감 있게, 선생님은 침착한 척하지만 살짝 떨리게, 딜런은 장난스럽게 읽어요."
+        ],
+        [
+          "Dramatic pause (—)",
+          "wide open— and Peanut was gone!",
+          "줄표(—) 앞에서 잠깐 멈췄다가 다음 말을 놀란 목소리로 말하면 이야기에 긴장감이 생겨요."
+        ],
+        [
+          "shr / cr blends",
+          "shredded, crumbs, crack, cracker",
+          "sh·c와 r 사이에 '으'를 넣지 마요. '슈레디드'가 아니라 shr을 한 번에 붙여 빠르게 이어요."
+        ]
+      ],
+      "expression": "Begin with a shocked gasp, build quiet suspense as the class tiptoes after the crumbs, whisper when the drawer opens, then let the laugh and Dylan's joke burst out.",
+      "practice": [
+        "“Nobody panic.” (trying to stay calm)",
+        "“Detectives, follow that trail!” (excited)",
+        "“Ms. Rivera, I think Peanut ate your snack!” (joking)"
+      ],
+      "events": []
+    }
+  }
+}

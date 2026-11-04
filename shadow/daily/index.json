@@ -76,5 +76,31 @@
         "genre": "Family story"
       }
     }
+  },
+  {
+    "day": 4,
+    "date": "2026-11-04",
+    "levels": {
+      "1": {
+        "title": "Get Set, Let's Go!",
+        "topic": "getting ready for school in the morning (school, family, routine)",
+        "genre": "Pattern text"
+      },
+      "2": {
+        "title": "The First Frost",
+        "topic": "a boy discovers frost on a cold morning and watches it melt (seasons, weather, science)",
+        "genre": "Story"
+      },
+      "3": {
+        "title": "How to Make a Pinecone Bird Feeder",
+        "topic": "making a pinecone bird feeder to help birds in winter (science, animals, seasons)",
+        "genre": "How-to"
+      },
+      "4": {
+        "title": "Peanut on the Loose!",
+        "topic": "the class hamster escapes and the students follow a crumb trail to find him (school, animals, humor)",
+        "genre": "Mystery/Humor"
+      }
+    }
   }
 ]
