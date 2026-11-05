@@ -102,5 +102,31 @@
         "genre": "Mystery/Humor"
       }
     }
+  },
+  {
+    "day": 5,
+    "date": "2026-11-05",
+    "levels": {
+      "1": {
+        "title": "Will It Tip?",
+        "topic": "two friends build a tall block tower at school and it tips over (school, play, friendship)",
+        "genre": "Story"
+      },
+      "2": {
+        "title": "Hello, Grandma!",
+        "topic": "a girl video-calls her grandma in Korea and shows her a family drawing (family, feelings, culture)",
+        "genre": "Story"
+      },
+      "3": {
+        "title": "Dear Mr. Lopez",
+        "topic": "a thank-you letter to the school crossing guard (community, school, kindness)",
+        "genre": "Letter"
+      },
+      "4": {
+        "title": "Why Geese Fly in a V",
+        "topic": "why Canada geese fly in a V shape when they migrate (animals, science, seasons)",
+        "genre": "Nonfiction"
+      }
+    }
   }
 ]

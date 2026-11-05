@@ -1,0 +1,362 @@
+{
+  "day": 5,
+  "date": "2026-11-05",
+  "scripts": {
+    "1": {
+      "title": "Will It Tip?",
+      "title_kr": "넘어질까?",
+      "genre": "Story",
+      "topic": "two friends build a tall block tower at school and it tips over (school, play, friendship)",
+      "lines": [
+        "*Kim* and *Sid* | *sit* on the *rug*.",
+        "Kim has a *big* block. | Sid has a *pink* block.",
+        "*Up*, | *up*, | *up* | it *goes*!",
+        "It is *big*. | It is *big*! | Will it *tip*? ↗",
+        "It *tips*! | It *tips*! | *Bam*! ↘",
+        "Kim and Sid *grin*. | Let's *fix* it! ↘"
+      ],
+      "targets": [
+        "sit",
+        "rug",
+        "big",
+        "pink",
+        "up",
+        "tip",
+        "grin",
+        "fix"
+      ],
+      "vocab": [
+        [
+          "block",
+          "블록, 쌓기 나무"
+        ],
+        [
+          "rug",
+          "깔개, 러그"
+        ],
+        [
+          "pink",
+          "분홍색의"
+        ],
+        [
+          "up it goes",
+          "위로 올라가요"
+        ],
+        [
+          "tip",
+          "기울어 넘어지다"
+        ],
+        [
+          "Bam!",
+          "쾅!"
+        ],
+        [
+          "grin",
+          "활짝 웃다"
+        ],
+        [
+          "fix",
+          "고치다, 다시 세우다"
+        ]
+      ],
+      "sounds": [
+        [
+          "Short i",
+          "sit, big, pink, tip, grin, fix",
+          "입을 살짝만 벌리고 짧게 '이'. 길게 '이-' 하고 늘이지 마요."
+        ],
+        [
+          "Ending -nk / -x",
+          "pink, fix",
+          "pink는 끝의 k를 짧게 끊고, fix는 '픽스'처럼 ks를 붙여 한 번에."
+        ],
+        [
+          "Question ↗",
+          "Will it tip? ↗",
+          "질문은 끝을 올리고, Bam!은 크게 내려요."
+        ]
+      ],
+      "expression": "Stack the blocks slowly, get excited on “Up, up, up,” hold your breath on “Will it tip?”, shout “Bam!”, then finish with a happy grin.",
+      "practice": [
+        "sit",
+        "big",
+        "pink",
+        "tip",
+        "fix"
+      ],
+      "events": []
+    },
+    "2": {
+      "title": "Hello, Grandma!",
+      "title_kr": "할머니, 안녕하세요!",
+      "genre": "Story",
+      "topic": "a girl video-calls her grandma in Korea and shows her a family drawing (family, feelings, culture)",
+      "lines": [
+        "On Saturday morning, | Mina's tablet *buzzed*.",
+        "It was *Grandma*, | calling all the way from *Korea*!",
+        "Mina *waved* | and *shouted*, | “*Hi*, Grandma!”",
+        "Grandma *smiled*. | “What did you *do* today?” ↘",
+        "Mina *picked* up her *drawing*. | “*Look*, Grandma!”",
+        "“I *painted* us!” | Grandma *laughed* and *clapped*.",
+        "“I *miss* you,” | said Mina. | “I miss you *too*!” ↘",
+        "Then they blew a *big* *kiss* | through the *screen*. ↘"
+      ],
+      "targets": [
+        "buzzed",
+        "waved",
+        "shouted",
+        "smiled",
+        "picked",
+        "drawing",
+        "painted",
+        "laughed",
+        "clapped"
+      ],
+      "vocab": [
+        [
+          "buzzed",
+          "(진동이) 윙 울렸다"
+        ],
+        [
+          "waved",
+          "손을 흔들었다"
+        ],
+        [
+          "drawing",
+          "그림"
+        ],
+        [
+          "screen",
+          "화면"
+        ],
+        [
+          "clapped",
+          "손뼉을 쳤다"
+        ],
+        [
+          "miss",
+          "보고 싶다, 그리워하다"
+        ],
+        [
+          "blew a kiss",
+          "손 키스를 날렸다"
+        ]
+      ],
+      "sounds": [
+        [
+          "-ed as /d/",
+          "buzzed, waved, smiled",
+          "z, v, l 뒤 -ed는 d 소리: waved '웨이브드'처럼 짧게."
+        ],
+        [
+          "-ed as /t/",
+          "picked, laughed, clapped",
+          "k, f, p 뒤 -ed는 짧은 t: laughed '래프트'."
+        ],
+        [
+          "-ed as /id/",
+          "shouted, painted",
+          "t 뒤 -ed만 '이드'로 한 박자 더: PAINT-ed."
+        ]
+      ],
+      "expression": "Sound surprised when the tablet buzzes, proud when Mina shows her drawing, and soft and warm on “I miss you.”",
+      "practice": [
+        "waved /d/",
+        "picked /t/",
+        "laughed /t/",
+        "painted /id/"
+      ],
+      "events": []
+    },
+    "3": {
+      "title": "Dear Mr. Lopez",
+      "title_kr": "로페즈 아저씨께",
+      "genre": "Letter",
+      "topic": "a thank-you letter to the school crossing guard (community, school, kindness)",
+      "lines": [
+        "*Dear* Mr. Lopez, | my name is Ava, | and I am in *second* grade.",
+        "Every morning, | you *help* us cross | the *busy* street | by our school.",
+        "You hold up your *bright* red sign, | and all the cars *stop*. ↘",
+        "Even on *rainy* days, | you are *always* there | in your yellow *raincoat*.",
+        "You know *everyone's* name | and say, “Have a *great* day!”",
+        "Last week, | I *dropped* my lunch box | in the middle of the *crosswalk*.",
+        "You *picked* it up for me | and walked me *safely* | to the other *side*.",
+        "My little brother thinks | you are a *superhero*, | and I *agree*!",
+        "Thank you | for keeping us *safe* | every *single* day.",
+        "Your *friend*, | Ava ↘"
+      ],
+      "targets": [
+        "busy",
+        "bright",
+        "rainy",
+        "always",
+        "dropped",
+        "crosswalk",
+        "superhero",
+        "safe"
+      ],
+      "vocab": [
+        [
+          "crossing guard",
+          "등하굣길 교통안전 지도원"
+        ],
+        [
+          "busy street",
+          "차가 많이 다니는 길"
+        ],
+        [
+          "raincoat",
+          "비옷"
+        ],
+        [
+          "crosswalk",
+          "횡단보도"
+        ],
+        [
+          "dropped",
+          "떨어뜨렸다"
+        ],
+        [
+          "safely",
+          "안전하게"
+        ],
+        [
+          "every single day",
+          "하루도 빠짐없이"
+        ]
+      ],
+      "sounds": [
+        [
+          "Letter voice",
+          "Dear …, / Your friend,",
+          "말하듯 따뜻하게. 인사 뒤에서 잠깐 쉬어요."
+        ],
+        [
+          "R sound",
+          "bright, red, rainy",
+          "입술을 동그랗게, 혀는 어디에도 닿지 않게."
+        ],
+        [
+          "Linking",
+          "picked it up",
+          "이어 읽어요: '픽티럽'."
+        ]
+      ],
+      "expression": "Talk to Mr. Lopez warmly and politely, sound worried in the lunch-box part, and proud on “superhero.”",
+      "practice": [
+        "bright red",
+        "raincoat",
+        "crosswalk",
+        "picked it up"
+      ],
+      "events": []
+    },
+    "4": {
+      "title": "Why Geese Fly in a V",
+      "title_kr": "기러기는 왜 V자로 날까?",
+      "genre": "Nonfiction",
+      "topic": "why Canada geese fly in a V shape when they migrate (animals, science, seasons)",
+      "lines": [
+        "Have you ever *heard* loud honking | high in the autumn *sky*? ↗",
+        "Look *up*, | and you may see a flock of *Canada geese* | flying in the shape of a giant *V*.",
+        "Every fall, | these birds *migrate*, | or travel *south*, | to find warmer weather and more *food*.",
+        "Some flocks fly *thousands* of miles, | and the V shape helps them | make the long *journey*.",
+        "When a goose *flaps* its wings, | it stirs up the air | and creates a little *lift* | for the bird behind it.",
+        "By flying in a V, | each goose gets a *boost* | and uses *less* *energy*.",
+        "Flying at the *front* of the V | is the *hardest* job of all.",
+        "When the *leader* gets *tired*, | it drops *back*, | and another goose moves up | to *take its place*.",
+        "All along the way, | the geese keep *honking*.",
+        "Scientists *think* | the honking helps the flock *stay together* | and *cheer on* the leader.",
+        "In the *spring*, | the geese fly *north* again | to build nests and raise their *goslings*.",
+        "So the next time you hear honking *overhead*, | look *up* | and *count* the birds in the V! ↘",
+        "Can you *spot* | which goose is the *leader*? ↗"
+      ],
+      "targets": [
+        "migrate",
+        "journey",
+        "flaps",
+        "lift",
+        "boost",
+        "energy",
+        "hardest",
+        "leader",
+        "goslings"
+      ],
+      "vocab": [
+        [
+          "honking",
+          "(기러기의) 끼룩끼룩 울음소리"
+        ],
+        [
+          "flock",
+          "(새) 떼"
+        ],
+        [
+          "migrate",
+          "(철새가) 이동하다"
+        ],
+        [
+          "journey",
+          "긴 여행, 여정"
+        ],
+        [
+          "flaps",
+          "(날개를) 퍼덕이다"
+        ],
+        [
+          "lift",
+          "위로 띄워 주는 힘 (양력)"
+        ],
+        [
+          "boost",
+          "밀어 올려 주는 힘, 도움"
+        ],
+        [
+          "energy",
+          "에너지, 힘"
+        ],
+        [
+          "take its place",
+          "그 자리를 대신하다"
+        ],
+        [
+          "cheer on",
+          "응원하다"
+        ],
+        [
+          "goslings",
+          "새끼 거위·기러기"
+        ],
+        [
+          "overhead",
+          "머리 위로"
+        ]
+      ],
+      "sounds": [
+        [
+          "Hook question ↗",
+          "Have you ever heard loud honking high in the autumn sky? ↗",
+          "첫 문장은 듣는 사람에게 진짜 묻듯이 끝을 올려 호기심을 끌어요."
+        ],
+        [
+          "Word stress",
+          "MI-grate, JOUR-ney, EN-er-gy, GOS-lings",
+          "긴 단어는 첫 음절을 크고 길게, 나머지는 약하고 짧게 읽어요."
+        ],
+        [
+          "Cause and effect",
+          "By flying in a V, each goose gets a boost",
+          "이유를 설명하는 문장은 천천히, 핵심어(boost, less energy)를 또렷하게 말해요."
+        ]
+      ],
+      "expression": "Read it like a nature-show host: open with a curious question, explain the science clearly and calmly, and finish with an excited challenge to look up.",
+      "practice": [
+        "migrate",
+        "journey",
+        "energy",
+        "goslings"
+      ],
+      "events": []
+    }
+  }
+}
