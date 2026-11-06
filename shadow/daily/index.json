@@ -128,5 +128,31 @@
         "genre": "Nonfiction"
       }
     }
+  },
+  {
+    "day": 6,
+    "date": "2026-11-06",
+    "levels": {
+      "1": {
+        "title": "Yum, a Bun!",
+        "topic": "baking buns at home with Mom (family, food, cooking)",
+        "genre": "Pattern text"
+      },
+      "2": {
+        "title": "Rainy Day Recess",
+        "topic": "rain keeps the class inside at recess and the teacher brings out games (school, weather, feelings)",
+        "genre": "Story"
+      },
+      "3": {
+        "title": "A Visit to the Fire Station",
+        "topic": "a class field trip to the fire station and the safety rule for a smoke alarm (community, school, safety)",
+        "genre": "Personal narrative"
+      },
+      "4": {
+        "title": "Bram Builds a Dam",
+        "topic": "a proud young beaver tries to build a dam alone before winter and learns to accept help (animals, seasons, teamwork, feelings)",
+        "genre": "Fable"
+      }
+    }
   }
 ]

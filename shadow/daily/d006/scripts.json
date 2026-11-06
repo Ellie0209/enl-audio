@@ -1,0 +1,159 @@
+{
+  "day": 6,
+  "date": "2026-11-06",
+  "scripts": {
+    "1": {
+      "title": "Yum, a Bun!",
+      "title_kr": "냠냠, 빵이다!",
+      "genre": "Pattern text",
+      "topic": "baking buns at home with Mom (family, food, cooking)",
+      "lines": [
+        "*Mom* and I | *mix* and *mix*.",
+        "*Pat* it, | *pat* it, | *pat* it *flat*.",
+        "Put the *buns* | in the *pan*.",
+        "In they *go*. | *Wait*, | *wait*, | *wait*.",
+        "*Ding*! | The buns are *hot*! ↘",
+        "*Yum*, | *yum*! | I *love* a *bun*! ↘"
+      ],
+      "targets": ["mom", "mix", "pat", "flat", "pan", "hot", "yum", "bun"],
+      "vocab": [
+        ["mix", "섞다"],
+        ["pat", "톡톡 두드리다"],
+        ["flat", "납작한"],
+        ["bun", "동그란 빵"],
+        ["pan", "(빵 굽는) 팬"],
+        ["Ding!", "띵! (오븐 타이머 소리)"],
+        ["hot", "뜨거운"],
+        ["Yum!", "냠냠, 맛있다!"]
+      ],
+      "sounds": [
+        ["Short a", "pat, flat, pan", "입을 옆으로 크게 벌리고 '애'에 가깝게 짧게 말해요."],
+        ["Short u", "bun, yum", "bun, yum의 u는 힘을 빼고 짧게 '어'. '분'이 아니라 '번'이에요."],
+        ["Exclamation ↘", "Ding! The buns are hot! ↘", "느낌표 문장은 크고 신나게, 끝은 내려요."]
+      ],
+      "expression": "Stir a big bowl on “mix and mix,” pat your hand on “pat it flat,” whisper the three “wait”s, jump on “Ding!”, and rub your tummy on “Yum, yum!”",
+      "practice": ["mix", "pat", "flat", "bun", "yum"],
+      "events": []
+    },
+    "2": {
+      "title": "Rainy Day Recess",
+      "title_kr": "비 오는 날의 쉬는 시간",
+      "genre": "Story",
+      "topic": "rain keeps the class inside at recess and the teacher brings out games (school, weather, feelings)",
+      "lines": [
+        "On Monday, | it *rained* | and *rained*.",
+        "“No recess *outside* today,” | said Ms. *Bell*. ↘",
+        "Tom *frowned*. | “But I *wanted* to play *tag*!”",
+        "Then Ms. Bell *pulled* out | a big *box* of *games*.",
+        "The class *played* freeze *dance* | and *hopped* like *frogs*.",
+        "Tom *jumped* so *high* | that everyone *giggled*.",
+        "“Can we do this *tomorrow*?” ↗ | asked Tom.",
+        "Ms. Bell *laughed*. | “Only if it *rains*!” ↘"
+      ],
+      "targets": ["rained", "frowned", "wanted", "pulled", "played", "hopped", "jumped", "giggled", "laughed"],
+      "vocab": [
+        ["recess", "쉬는 시간 (놀이 시간)"],
+        ["outside", "밖에서"],
+        ["frowned", "얼굴을 찌푸렸다"],
+        ["tag", "술래잡기"],
+        ["pulled out", "꺼냈다"],
+        ["freeze dance", "음악이 멈추면 얼음! 하는 춤 놀이"],
+        ["hopped", "깡충 뛰었다"],
+        ["giggled", "킥킥 웃었다"]
+      ],
+      "sounds": [
+        ["-ed as /d/", "rained, frowned, pulled, played", "n, l, y 뒤의 -ed는 짧은 d 소리: rained '레인드'."],
+        ["-ed as /t/", "hopped, jumped, laughed", "p, f 소리 뒤의 -ed는 t 소리: hopped '합트'. '합페드'가 아니에요."],
+        ["-ed as /id/", "wanted", "t 뒤의 -ed는 '이드'로 한 박자 더: want-ed '원티드'."]
+      ],
+      "expression": "Sound gloomy on the rain and Tom's frown, get bouncy and excited for the games, ask “Can we do this tomorrow?” with hope, and give Ms. Bell's last line a playful laugh.",
+      "practice": ["rained", "frowned", "wanted", "hopped", "giggled"],
+      "events": []
+    },
+    "3": {
+      "title": "A Visit to the Fire Station",
+      "title_kr": "소방서 견학",
+      "genre": "Personal narrative",
+      "topic": "a class field trip to the fire station and the safety rule for a smoke alarm (community, school, safety)",
+      "lines": [
+        "Last Friday, | our class took a *trip* | to the *fire* station | on Oak Street.",
+        "A firefighter named *Captain* Rosa | met us at the big red *door*.",
+        "First, | she showed us the *fire* truck. | It was *shiny* and *enormous*!",
+        "We saw the long *ladder* | and the *hoses* | rolled up on the side.",
+        "Then Captain Rosa put on her *gear*: | a *heavy* coat, | boots, | a *helmet*, | and a *mask*.",
+        "She looked a little *scary*, | but she *smiled* and said, | “It's still *me*!”",
+        "She told us what to do | if we ever hear a *smoke* alarm.",
+        "“Get *low*, | get *out*, | and *stay* out!” ↘",
+        "At the end, | we each got a *sticker* | and sat in the *driver's* seat.",
+        "Now I know | firefighters are *helpers*, | even when they wear their *masks*. ↘"
+      ],
+      "targets": ["trip", "captain", "shiny", "enormous", "ladder", "heavy", "helmet", "sticker", "helpers"],
+      "vocab": [
+        ["fire station", "소방서"],
+        ["firefighter", "소방관"],
+        ["captain", "대장, (소방) 반장"],
+        ["enormous", "거대한, 엄청 큰"],
+        ["ladder", "사다리"],
+        ["hoses", "(소방) 호스"],
+        ["gear", "장비"],
+        ["helmet", "헬멧, 안전모"],
+        ["smoke alarm", "화재경보기, 연기 감지기"]
+      ],
+      "sounds": [
+        ["Word stress", "e-NOR-mous, FIRE-fight-er, CAP-tain", "긴 단어는 힘주는 음절 하나만 크고 길게, 나머지는 약하게."],
+        ["Compound nouns", "FIRE station, SMOKE alarm", "두 단어가 합쳐진 이름은 앞 단어에 힘을 줘요."],
+        ["List rhythm", "a heavy coat, boots, a helmet, and a mask", "목록은 쉼표마다 살짝 올리다가 마지막 'and a mask'에서 내려요."]
+      ],
+      "expression": "Tell it like an excited reporter back from a field trip: amazed at the truck, a little nervous at the mask, then loud and clear on the safety rule “Get low, get out, and stay out!”",
+      "practice": ["enormous", "firefighter", "helmet", "smoke alarm"],
+      "events": []
+    },
+    "4": {
+      "title": "Bram Builds a Dam",
+      "title_kr": "브램의 댐 짓기",
+      "genre": "Fable",
+      "topic": "a proud young beaver tries to build a dam alone before winter and learns to accept help (animals, seasons, teamwork, feelings)",
+      "lines": [
+        "At the edge of a quiet *forest*, | there lived a young beaver | named *Bram*.",
+        "Bram was *proud* of his strong *teeth* | and his flat, *paddle*-shaped tail.",
+        "One chilly *November* morning, | he decided to build | the *biggest* dam | the river had ever *seen*.",
+        "“I don't need *anyone's* help,” | he *announced*. | “I can do it *all* by *myself*.” ↘",
+        "Day after day, | Bram *chewed* through branches | and *dragged* them into the *stream*.",
+        "But every *night*, | the rushing water | *pulled* his sticks *apart*.",
+        "A *muskrat* paddled over | and *offered* to bring some *mud*.",
+        "“*No*, thank you,” | Bram said *stiffly*. | “This is *my* dam.”",
+        "Soon the *first* snowflakes began to *fall*, | and Bram's paws were *sore* and *tired*.",
+        "He sat on the riverbank | and stared at the *pile* | of *loose* sticks.",
+        "“Maybe | I can't do it *alone*,” | he *whispered*. ↘",
+        "The next morning, | Bram *asked* the muskrat, | the *otters*, | and two *ducks* for help.",
+        "The ducks *gathered* reeds, | the otters *rolled* stones, | and the muskrat *packed* the mud.",
+        "By *sunset*, | the dam stood *strong* | against the *icy* water.",
+        "All winter long, | the pond stayed *calm* and *deep*, | and Bram never *forgot* | what his friends had *taught* him:",
+        "*Many* paws | make *light* work. ↘"
+      ],
+      "targets": ["proud", "announced", "dragged", "stream", "offered", "stiffly", "whispered", "gathered", "sunset"],
+      "vocab": [
+        ["beaver", "비버"],
+        ["dam", "댐, 둑"],
+        ["proud", "자랑스러워하는, 자신만만한"],
+        ["announced", "(큰 소리로) 선언했다"],
+        ["dragged", "질질 끌고 갔다"],
+        ["stream", "개울, 시내"],
+        ["muskrat", "사향쥐 (물가에 사는 동물)"],
+        ["offered", "(도와주겠다고) 제안했다"],
+        ["stiffly", "딱딱하게, 퉁명스럽게"],
+        ["gathered reeds", "갈대를 모았다"],
+        ["icy", "얼음처럼 차가운"],
+        ["Many paws make light work.", "여럿이 함께하면 일이 쉬워진다."]
+      ],
+      "sounds": [
+        ["Character voice", "“I don't need anyone's help.” / “Maybe I can't do it alone.”", "처음엔 크고 자신만만하게, 나중엔 작고 조용하게 — 브램의 마음이 바뀐 걸 목소리로 보여 줘요."],
+        ["-ed endings", "announced /t/, dragged /d/, gathered /d/", "announced는 '어나운스트'처럼 t로 짧게 끝내요."],
+        ["Moral ↘", "Many paws | make light work. ↘", "교훈 문장은 천천히, 끊어서, 끝을 확실히 내려요."]
+      ],
+      "expression": "Read it like a storyteller: proud and bossy for Bram at first, worried as the snow falls, soft and honest on “Maybe I can't do it alone,” busy and cheerful as the friends work, and slow and wise on the moral.",
+      "practice": ["announced", "stiffly", "whispered", "Many paws make light work"],
+      "events": []
+    }
+  }
+}
