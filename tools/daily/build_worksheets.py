@@ -169,10 +169,12 @@ def page_dictation(lv, day, date, sc, urls, answer=False):
 <section class="box"><h3>B. Fill in the Blanks</h3>{b}</section>
 <section class="box"><h3>C. Sentence Dictation</h3>{c}</section>"""
     bar = "".join(f'<span><i class="cb"></i>{t}</span>' for t in ["Shadowing done first?", "Capital", "Spaces", "Period"])
+    # last sentence + check bar stay together (no orphaned check bar on its own page)
+    c_head = "<ol class='cl'>" + "".join(f"<li>{hw_lines(2)}</li>" for _ in sel[:-1]) + "</ol>" if len(sel) > 1 else ""
     return f"""<div class="sheet">{header(lv, day, date, sc, 'Dictation Worksheet', [('SLOW', urls['slow']), ('NORMAL', urls['us1'])], '<p class="inst">Shadow first → SLOW → check with NORMAL</p>')}
 <section class="box"><h3>A. Target Words · 목표 단어 <small>Listen and write. The first letter is a hint. · 첫 글자가 힌트예요.</small></h3>{a}</section>
 <section class="box"><h3>B. Listen and Fill in · 빈칸 채우기 <small>Write the strong words. · 강하게 들리는 단어를 써요.</small></h3>{b}</section>
-<section class="box brk"><h3>C. Write the Whole Sentence · 문장 받아쓰기</h3>{c}<div class="checkbar">{bar}<span class="sign">Parent / Teacher · 확인 ____________ &nbsp; Score ____ / {len(tg) + sum(len(pick_blanks(l, tg)) for l in sc['lines']) + n}</span></div></section></div>"""
+<section class="box brk"><h3>C. Write the Whole Sentence · 문장 받아쓰기</h3>{c_head}<div class="keep"><ol class='cl' start="{len(sel)}"><li>{hw_lines(2)}</li></ol><div class="checkbar">{bar}<span class="sign">Parent / Teacher · 확인 ____________ &nbsp; Score ____ / {len(tg) + sum(len(pick_blanks(l, tg)) for l in sc['lines']) + n}</span></div></div></section></div>"""
 
 
 def page_teacher(lv, day, date, sc, urls):
@@ -245,7 +247,7 @@ h1{margin:0;font-size:19pt;line-height:1.1}.kr{margin:1px 0 0;font-size:12pt;col
 .hint{position:absolute;left:4px;bottom:0;font-size:19pt;line-height:1;color:#B0B0B0;font-family:"DejaVu Sans",sans-serif}
 .bl{margin:0;padding-left:22px}.bl li{font-size:12.5pt;line-height:1.8}
 .blank{display:inline-block;border-bottom:1.5px solid #333;height:1.1em;vertical-align:-2px;margin:0 2px}
-.cl{margin:0;padding-left:22px}.cl .hw{height:9mm}.cl li{margin-bottom:4px;break-inside:avoid}.checkbar{break-inside:avoid}
+.cl{margin:0;padding-left:22px}.cl .hw{height:9mm}.cl li{margin-bottom:4px;break-inside:avoid}.checkbar{break-inside:avoid}.keep{break-inside:avoid}.keep .cl{margin-top:0}
 .checkbar .sign{margin:0 0 0 auto}.checkbar{border-top:1px dashed #ccc;padding-top:4px;margin-top:4px;display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12pt}
 .ans{color:#B23B3B;font-weight:700;border-bottom:1.5px solid #B23B3B;padding:0 2px}
 .ans-grid{grid-template-columns:repeat(3,1fr)}.ans-grid .ans{border:0}
