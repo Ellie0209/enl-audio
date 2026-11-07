@@ -1,0 +1,156 @@
+{
+  "day": 7,
+  "date": "2026-11-07",
+  "scripts": {
+    "1": {
+      "title": "Tap, Tap, Drum!",
+      "title_kr": "둥둥, 북을 쳐요!",
+      "genre": "Rhyme",
+      "topic": "family music time with a drum, humming and clapping (family, music, play)",
+      "lines": [
+        "*Tap*, | *tap*, | *tap* the *drum*.",
+        "*Dad* can *hum*. | *Hum*, | *hum*, | *hum*.",
+        "*Mom* can *clap*. | *Clap*, | *clap*, | *clap*.",
+        "The *cat* | *naps* on my *lap*.",
+        "*Bam*! | *Bam*! | It is *so* much *fun*! ↘",
+        "Come and *tap* with us, | *everyone*! ↘"
+      ],
+      "targets": ["tap", "drum", "dad", "hum", "mom", "clap", "lap", "fun"],
+      "vocab": [
+        ["tap", "톡톡 치다"],
+        ["drum", "북, 드럼"],
+        ["hum", "콧노래를 부르다, 흥얼거리다"],
+        ["clap", "손뼉을 치다"],
+        ["nap", "낮잠 자다"],
+        ["lap", "무릎 (앉았을 때 허벅지 위)"],
+        ["Bam!", "쾅! (북 치는 소리)"],
+        ["everyone", "모두, 다 같이"]
+      ],
+      "sounds": [
+        ["Short a", "tap, dad, clap, cat, nap, lap", "입을 옆으로 크게 벌리고 '애'에 가깝게 짧게 말해요."],
+        ["Short u", "drum, hum, fun", "u는 힘을 빼고 짧게 '어'. drum은 '드럼'이 아니라 '드뤔'처럼 한 박자로 붙여요."],
+        ["Rhyme", "drum – hum, clap – lap, fun – everyone", "끝소리가 같은 단어는 같은 박자로 또박또박, 리듬을 살려요."]
+      ],
+      "expression": "Tap the table on every “tap,” hum with closed lips, clap three times, whisper “The cat naps on my lap,” then shout “Bam! Bam!” and wave everyone in on the last line.",
+      "practice": ["tap", "drum", "hum", "clap", "lap"],
+      "events": []
+    },
+    "2": {
+      "title": "The Tulip Bulb",
+      "title_kr": "튤립 알뿌리",
+      "genre": "Story",
+      "topic": "planting a tulip bulb in fall and waiting all winter for it to bloom in spring (seasons, plants, patience)",
+      "lines": [
+        "In *November*, | Lucy and Mom *planted* | a *tulip* bulb.",
+        "Lucy *patted* the dirt | and *watered* it.",
+        "The next *morning*, | she *rushed* outside. | “Is my *flower* up?” ↗",
+        "Mom *smiled*. | “It needs to *sleep* | all *winter*.”",
+        "Lucy *waited* | and *waited*. | Snow *covered* the ground.",
+        "Then one *spring* day, | she *spotted* | a little green *tip*.",
+        "It *grew* and *grew* | into a bright red *tulip*!",
+        "“It was *worth* the wait!” | Lucy *shouted*. ↘"
+      ],
+      "targets": ["planted", "patted", "watered", "rushed", "smiled", "waited", "covered", "spotted", "shouted"],
+      "vocab": [
+        ["tulip", "튤립"],
+        ["bulb", "알뿌리, 구근"],
+        ["planted", "심었다"],
+        ["patted", "톡톡 두드렸다"],
+        ["rushed", "급히 달려갔다"],
+        ["covered", "덮었다"],
+        ["spotted", "발견했다, 찾아냈다"],
+        ["worth the wait", "기다린 보람이 있는"]
+      ],
+      "sounds": [
+        ["-ed as /id/", "planted, patted, waited, spotted, shouted", "t, d 뒤의 -ed는 '이드'로 한 박자 더: plant-ed '플랜티드'."],
+        ["-ed as /d/", "watered, smiled, covered", "r, l, r 소리 뒤의 -ed는 짧은 d: smiled '스마일드'."],
+        ["-ed as /t/", "rushed", "sh 뒤의 -ed는 t 소리: rushed '러쉬트'. '러쉬드'가 아니에요."]
+      ],
+      "expression": "Sound gentle while planting, hurry and hope on “Is my flower up?”, use Mom's calm voice, stretch out “waited and waited,” then sound surprised at the green tip and burst with joy on “It was worth the wait!”",
+      "practice": ["planted", "rushed", "covered", "spotted", "worth the wait"],
+      "events": []
+    },
+    "3": {
+      "title": "How Bats See with Sound",
+      "title_kr": "박쥐는 소리로 본다",
+      "genre": "Nonfiction",
+      "topic": "how bats use echolocation to find their way and catch insects at night (animals, science)",
+      "lines": [
+        "Most *bats* fly at *night*, | when it is *dark* outside.",
+        "So *how* do they find their *way*? ↘ | They use their *ears*!",
+        "As a bat *flies*, | it makes *high*, | *squeaky* sounds.",
+        "The sounds are so *high* | that people *cannot* hear them.",
+        "The sounds *bounce* off trees, | walls, | and bugs, | and come back as *echoes*.",
+        "The bat *listens* to the echoes | to learn what is *nearby*.",
+        "If an echo comes back *fast*, | something is *close*.",
+        "If it takes *longer*, | the thing is *farther* away.",
+        "This special skill | is called *echolocation*.",
+        "With it, | one little bat can catch | *hundreds* of *insects* | in just *one* hour! ↘"
+      ],
+      "targets": ["squeaky", "cannot", "bounce", "echoes", "listens", "nearby", "close", "farther", "insects"],
+      "vocab": [
+        ["bat", "박쥐"],
+        ["squeaky", "찍찍거리는, 끽끽 하는"],
+        ["bounce off", "~에 부딪혀 튕겨 나오다"],
+        ["echo / echoes", "메아리, 반사되어 돌아오는 소리"],
+        ["nearby", "가까이에 있는"],
+        ["farther", "더 멀리"],
+        ["echolocation", "반향 위치 측정 (소리로 위치 알기)"],
+        ["insects", "곤충, 벌레"]
+      ],
+      "sounds": [
+        ["Word stress", "EC-ho, ec-ho-lo-CA-tion, IN-sects", "긴 단어는 힘주는 음절 하나만 크고 길게: echolocation은 'CA'에 힘!"],
+        ["Contrast stress", "fast → close / longer → farther", "서로 반대되는 말(fast/longer, close/farther)에 힘을 주면 뜻이 또렷해져요."],
+        ["Wh-question ↘", "So how do they find their way? ↘", "how, what, where 질문은 끝을 내려요. 대답 'They use their ears!'는 신나게."]
+      ],
+      "expression": "Read it like a nature-show host: a little mysterious on the dark night, curious on the question, excited on “They use their ears!”, clear and careful when you explain fast and slow echoes, and amazed on the last line.",
+      "practice": ["squeaky", "echoes", "nearby", "echolocation"],
+      "events": []
+    },
+    "4": {
+      "title": "The Thankful Chain",
+      "title_kr": "감사의 종이 사슬",
+      "genre": "Realistic fiction",
+      "topic": "a boy who can't think of what to be thankful for notices small kindnesses during Thanksgiving week and fills a paper chain (holidays, school, feelings, gratitude)",
+      "lines": [
+        "The week before *Thanksgiving*, | Ms. Ortiz handed out | strips of *colorful* paper.",
+        "“Write one thing you're *thankful* for | on each strip,” | she *explained*. | “We'll link them into a *chain*.”",
+        "Leo stared at his *blank* strip | and *chewed* on his pencil.",
+        "He wrote “my dog, *Biscuit*,” | and then he got *stuck*.",
+        "“I can't think of *anything* else,” | he *sighed*. ↘",
+        "“Try *looking* around you today,” | Ms. Ortiz said *gently*. | “Thankful things are often *small*.”",
+        "At *recess*, | Leo *tripped* on the field, | and his friend Ana | helped him *up*.",
+        "At *lunch*, | the cafeteria worker | *remembered* that he liked | *extra* apple slices.",
+        "In the *afternoon*, | the heater *rattled* and stopped, | and Mr. Reyes, the *custodian*, | came to fix it *right* away.",
+        "On the bus ride *home*, | Leo pulled out *four* new strips | and began to *write*.",
+        "By *Friday*, | his strips *stretched* | from his desk | all the way to the *door*.",
+        "When the class hung the chain | across the *ceiling*, | it *looped* around the room | *three* times.",
+        "Leo *smiled* up | at all the *colors*. ↘",
+        "Ms. Ortiz was *right*: | thankful things *are* small, | but when you *add* them up, | they fill a *whole* room. ↘"
+      ],
+      "targets": ["thankful", "explained", "blank", "sighed", "gently", "remembered", "custodian", "stretched", "ceiling"],
+      "vocab": [
+        ["Thanksgiving", "추수감사절 (11월 넷째 목요일)"],
+        ["strip", "길쭉한 종잇조각"],
+        ["thankful", "감사하는, 고마워하는"],
+        ["blank", "아무것도 안 쓴, 빈"],
+        ["sighed", "한숨을 쉬었다"],
+        ["gently", "부드럽게, 다정하게"],
+        ["cafeteria worker", "급식실 선생님"],
+        ["rattled", "덜컹거렸다"],
+        ["custodian", "학교 시설 관리인"],
+        ["stretched", "(길게) 이어졌다, 뻗었다"],
+        ["ceiling", "천장"],
+        ["add them up", "모두 더하다"]
+      ],
+      "sounds": [
+        ["Thought groups", "At recess, | Leo tripped on the field, | and his friend Ana | helped him up.", "| 마다 짧게 쉬고, 한 덩어리는 한 숨에 이어서 읽어요."],
+        ["-ed endings", "explained /d/, sighed /d/, tripped /t/, stretched /t/, looped /t/", "p, ch 뒤의 -ed는 t로 짧게: stretched '스트레치트'."],
+        ["Emphatic stress", "thankful things ARE small", "평소엔 약한 are에 힘을 주면 '정말 그렇다'는 뜻이 돼요."]
+      ],
+      "expression": "Read it like a warm storyteller: stuck and a little grumpy for Leo at first, kind and calm for Ms. Ortiz, quicker and brighter as Leo notices each small kindness, and slow and proud on the final line.",
+      "practice": ["thankful", "custodian", "stretched", "thankful things are small"],
+      "events": []
+    }
+  }
+}

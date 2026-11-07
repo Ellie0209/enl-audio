@@ -154,5 +154,31 @@
         "genre": "Fable"
       }
     }
+  },
+  {
+    "day": 7,
+    "date": "2026-11-07",
+    "levels": {
+      "1": {
+        "title": "Tap, Tap, Drum!",
+        "topic": "family music time with a drum, humming and clapping (family, music, play)",
+        "genre": "Rhyme"
+      },
+      "2": {
+        "title": "The Tulip Bulb",
+        "topic": "planting a tulip bulb in fall and waiting all winter for it to bloom in spring (seasons, plants, patience)",
+        "genre": "Story"
+      },
+      "3": {
+        "title": "How Bats See with Sound",
+        "topic": "how bats use echolocation to find their way and catch insects at night (animals, science)",
+        "genre": "Nonfiction"
+      },
+      "4": {
+        "title": "The Thankful Chain",
+        "topic": "a boy who can't think of what to be thankful for notices small kindnesses during Thanksgiving week and fills a paper chain (holidays, school, feelings, gratitude)",
+        "genre": "Realistic fiction"
+      }
+    }
   }
 ]
