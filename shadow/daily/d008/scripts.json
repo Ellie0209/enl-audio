@@ -13,7 +13,7 @@
         "*Mom* comes *in* | and *sits* with *me*.",
         "We *hug*. | We *rest*. | I *let* it all *out*.",
         "Now I am *glad*! | I can *run* and *jump*!",
-        "*Mad*, | *sad*, | *glad*. | It is *okay* | to *feel* them *all*. ↘"
+        "*Mad*, | *sad*, | *glad*. | I can *feel* them *all*. ↘"
       ],
       "targets": [
         "mad",
@@ -73,7 +73,7 @@
         [
           "Ending blends",
           "stomp, jump, rest",
-          "끝 자음 두 개를 모두 살짝: sto-m-p. '스톰프으'처럼 '으'를 붙이지 않아요."
+          "끝 자음 두 개를 모두 살짝: sto-m-p. '으'를 붙이지 않아요."
         ]
       ],
       "expression": "Make a grumpy face and stomp on the first line, use a small, slow voice for “I am sad,” sound soft and calm for the hug, then sound bright and bouncy on “Now I am glad!” and say the last line kindly, like a friend.",
@@ -118,10 +118,6 @@
           "이발소"
         ],
         [
-          "climbed",
-          "(올라)탔다, 올라갔다"
-        ],
-        [
           "worried",
           "걱정하는"
         ],
@@ -154,17 +150,17 @@
         [
           "-ed as /t/",
           "walked, dropped, peeked",
-          "k, p 뒤의 -ed는 짧은 t: walked '웍트', peeked '픽트'. '워크드'가 아니에요."
+          "k, p 뒤의 -ed는 짧은 t: walked '웍트'."
         ],
         [
           "-ed as /d/",
-          "climbed, trimmed, combed, turned, grinned, whispered",
-          "m, n, r 뒤의 -ed는 짧은 d: combed '코움드' (b는 소리 내지 않아요)."
+          "climbed, trimmed, combed, turned, grinned",
+          "m, n 뒤의 -ed는 짧은 d: combed '코움드' (b는 묵음)."
         ],
         [
           "Yes/No question ↗",
           "“Is that me?” ↗",
-          "Yes/No 질문은 끝을 올려요. me를 높고 길게, 깜짝 놀란 목소리로."
+          "끝을 올려요. me를 높고 길게, 놀란 목소리로."
         ]
       ],
       "expression": "Sound calm for Dad's walk, small and nervous on “Not too short, please,” snappy on “Snip, snip!”, slow and careful as Sam peeks, then surprised on “Is that me?” and proud and happy on “I look cool!”",
