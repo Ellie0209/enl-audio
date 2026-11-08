@@ -180,5 +180,31 @@
         "genre": "Realistic fiction"
       }
     }
+  },
+  {
+    "day": 8,
+    "date": "2026-11-08",
+    "levels": {
+      "1": {
+        "title": "Mad, Sad, Glad",
+        "topic": "naming the feelings mad, sad and glad and calming down with a hug from Mom (feelings, family)",
+        "genre": "Pattern text"
+      },
+      "2": {
+        "title": "Sam's New Haircut",
+        "topic": "a boy is nervous about a haircut at the barber shop and loves the result (family, feelings, community)",
+        "genre": "Story"
+      },
+      "3": {
+        "title": "Brrr! Why Do We Shiver?",
+        "topic": "why our bodies shiver and get goosebumps when we are cold (science, human body, seasons)",
+        "genre": "Nonfiction"
+      },
+      "4": {
+        "title": "Mina's Left Foot",
+        "topic": "a soccer player practices kicking with her weaker left foot every day and scores in the last game of the season (sports, perseverance, feelings)",
+        "genre": "Sports story"
+      }
+    }
   }
 ]

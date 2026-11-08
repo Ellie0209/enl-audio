@@ -1,0 +1,387 @@
+{
+  "day": 8,
+  "date": "2026-11-08",
+  "scripts": {
+    "1": {
+      "title": "Mad, Sad, Glad",
+      "title_kr": "화나고, 슬프고, 기뻐요",
+      "genre": "Pattern text",
+      "topic": "naming the feelings mad, sad and glad and calming down with a hug from Mom (feelings, family)",
+      "lines": [
+        "I am *mad*. | I *stomp*, | *stomp*, | *stomp*! ↘",
+        "I am *sad*. | I *sit* on my *bed*. ↘",
+        "*Mom* comes *in* | and *sits* with *me*.",
+        "We *hug*. | We *rest*. | I *let* it all *out*.",
+        "Now I am *glad*! | I can *run* and *jump*!",
+        "*Mad*, | *sad*, | *glad*. | It is *okay* | to *feel* them *all*. ↘"
+      ],
+      "targets": [
+        "mad",
+        "stomp",
+        "sad",
+        "bed",
+        "mom",
+        "hug",
+        "glad",
+        "jump"
+      ],
+      "vocab": [
+        [
+          "mad",
+          "화난"
+        ],
+        [
+          "stomp",
+          "쿵쿵 발을 구르다"
+        ],
+        [
+          "sad",
+          "슬픈"
+        ],
+        [
+          "bed",
+          "침대"
+        ],
+        [
+          "hug",
+          "꼭 껴안다, 포옹"
+        ],
+        [
+          "rest",
+          "쉬다"
+        ],
+        [
+          "glad",
+          "기쁜"
+        ],
+        [
+          "feel",
+          "(기분을) 느끼다"
+        ]
+      ],
+      "sounds": [
+        [
+          "Short a",
+          "mad, sad, glad, can",
+          "입을 옆으로 크게 벌리고 '애'에 가깝게 짧게: mad '매드', glad '글래드'."
+        ],
+        [
+          "Short u",
+          "hug, run, jump",
+          "u는 힘을 빼고 짧게 '어': hug는 '허그', jump는 '점프'예요."
+        ],
+        [
+          "Ending blends",
+          "stomp, jump, rest",
+          "끝 자음 두 개를 모두 살짝: sto-m-p. '스톰프으'처럼 '으'를 붙이지 않아요."
+        ]
+      ],
+      "expression": "Make a grumpy face and stomp on the first line, use a small, slow voice for “I am sad,” sound soft and calm for the hug, then sound bright and bouncy on “Now I am glad!” and say the last line kindly, like a friend.",
+      "practice": [
+        "mad",
+        "sad",
+        "glad",
+        "stomp",
+        "hug"
+      ],
+      "events": []
+    },
+    "2": {
+      "title": "Sam's New Haircut",
+      "title_kr": "샘의 새 머리",
+      "genre": "Story",
+      "topic": "a boy is nervous about a haircut at the barber shop and loves the result (family, feelings, community)",
+      "lines": [
+        "On *Saturday*, | Dad *walked* Sam | to the *barber* shop.",
+        "Sam *climbed* into the big *chair*. | He looked *worried*.",
+        "“Not too *short*, | *please*,” | he *whispered*.",
+        "*Snip*, | *snip*! | The barber *trimmed* | and *combed*.",
+        "Bits of hair *dropped* | on the *floor*.",
+        "Then the barber *turned* the chair | to the *mirror*.",
+        "Sam *peeked* | with *one* eye. | “Is that *me*?” ↗",
+        "He *grinned* | from *ear* to *ear*. | “I look *cool*!” ↘"
+      ],
+      "targets": [
+        "walked",
+        "climbed",
+        "whispered",
+        "trimmed",
+        "combed",
+        "dropped",
+        "turned",
+        "peeked",
+        "grinned"
+      ],
+      "vocab": [
+        [
+          "barber shop",
+          "이발소"
+        ],
+        [
+          "climbed",
+          "(올라)탔다, 올라갔다"
+        ],
+        [
+          "worried",
+          "걱정하는"
+        ],
+        [
+          "whispered",
+          "속삭였다"
+        ],
+        [
+          "trimmed",
+          "(머리를) 다듬었다"
+        ],
+        [
+          "mirror",
+          "거울"
+        ],
+        [
+          "peeked",
+          "살짝 엿보았다"
+        ],
+        [
+          "grinned",
+          "활짝 웃었다"
+        ],
+        [
+          "from ear to ear",
+          "입이 귀에 걸리게"
+        ]
+      ],
+      "sounds": [
+        [
+          "-ed as /t/",
+          "walked, dropped, peeked",
+          "k, p 뒤의 -ed는 짧은 t: walked '웍트', peeked '픽트'. '워크드'가 아니에요."
+        ],
+        [
+          "-ed as /d/",
+          "climbed, trimmed, combed, turned, grinned, whispered",
+          "m, n, r 뒤의 -ed는 짧은 d: combed '코움드' (b는 소리 내지 않아요)."
+        ],
+        [
+          "Yes/No question ↗",
+          "“Is that me?” ↗",
+          "Yes/No 질문은 끝을 올려요. me를 높고 길게, 깜짝 놀란 목소리로."
+        ]
+      ],
+      "expression": "Sound calm for Dad's walk, small and nervous on “Not too short, please,” snappy on “Snip, snip!”, slow and careful as Sam peeks, then surprised on “Is that me?” and proud and happy on “I look cool!”",
+      "practice": [
+        "whispered",
+        "trimmed",
+        "peeked",
+        "grinned",
+        "from ear to ear"
+      ],
+      "events": []
+    },
+    "3": {
+      "title": "Brrr! Why Do We Shiver?",
+      "title_kr": "부르르! 우리는 왜 몸을 떨까요?",
+      "genre": "Nonfiction",
+      "topic": "why our bodies shiver and get goosebumps when we are cold (science, human body, seasons)",
+      "lines": [
+        "On a *cold* day, | your body may start to *shake*.",
+        "Your teeth might *chatter*, | and your arms might get *goosebumps*.",
+        "This shaking | is called *shivering*.",
+        "But *why* does it happen? ↘ | Your body is trying | to keep you *warm*!",
+        "Your body works *best* | when it stays at about the *same* temperature.",
+        "When you get too *cold*, | your *brain* sends a *message* | to your *muscles*.",
+        "The muscles *tighten* and *relax* | very *quickly*, | again and *again*.",
+        "All that tiny *movement* | makes *heat*, | like rubbing your *hands* together.",
+        "Goosebumps make the tiny *hairs* on your skin | stand *up*. | Furry animals do this | to *trap* warm air.",
+        "So the next time you *shiver*, | put on a *coat* | and *thank* your busy *body*! ↘"
+      ],
+      "targets": [
+        "shake",
+        "chatter",
+        "goosebumps",
+        "shivering",
+        "warm",
+        "brain",
+        "message",
+        "muscles",
+        "tighten"
+      ],
+      "vocab": [
+        [
+          "shiver",
+          "(추워서) 몸을 떨다"
+        ],
+        [
+          "chatter",
+          "(이가) 딱딱 부딪치다"
+        ],
+        [
+          "goosebumps",
+          "소름, 닭살"
+        ],
+        [
+          "temperature",
+          "온도, 체온"
+        ],
+        [
+          "brain",
+          "뇌"
+        ],
+        [
+          "muscles",
+          "근육"
+        ],
+        [
+          "tighten / relax",
+          "조이다(수축하다) / 풀다(이완하다)"
+        ],
+        [
+          "movement",
+          "움직임"
+        ],
+        [
+          "trap",
+          "가두다, 붙잡아 두다"
+        ]
+      ],
+      "sounds": [
+        [
+          "Silent c",
+          "muscles",
+          "muscles의 c는 소리 내지 않아요: '머슬즈'. '머스클즈'가 아니에요."
+        ],
+        [
+          "Compound stress",
+          "GOOSE-bumps, MOVE-ment, TEM-per-a-ture",
+          "합성어·긴 단어는 앞 음절 하나에 힘을 주고, 나머지는 가볍게."
+        ],
+        [
+          "Linking",
+          "stand up, again and again",
+          "자음 끝 + 모음 시작은 이어서: stand up → '스탠덥', again and again → '어게인앤더게인'."
+        ]
+      ],
+      "expression": "Read it like a friendly science teacher: shiver a little on the first line, sound curious on “But why does it happen?”, excited on “keep you warm!”, clear and steady when you explain the brain and muscles, and cheerful on the last line.",
+      "practice": [
+        "goosebumps",
+        "shivering",
+        "muscles",
+        "temperature"
+      ],
+      "events": []
+    },
+    "4": {
+      "title": "Mina's Left Foot",
+      "title_kr": "미나의 왼발",
+      "genre": "Sports story",
+      "topic": "a soccer player practices kicking with her weaker left foot every day and scores in the last game of the season (sports, perseverance, feelings)",
+      "lines": [
+        "Mina was the *fastest* runner | on the Blue Jays *soccer* team, | but she had one *problem*.",
+        "She could only kick | with her *right* foot.",
+        "Every time the ball rolled to her *left*, | she *stopped*, ↗ | *turned*, ↗ | and lost a *second*. ↘",
+        "And in soccer, | one second is all a *defender* needs | to *steal* the ball.",
+        "“Your left foot isn't *weak*,” | Coach Dana told her after *practice*. | “It's just *bored*. | Give it something to *do*.”",
+        "So every day after *school*, | Mina kicked a ball | against the *garage* door | with her *left* foot only.",
+        "At *first*, | the ball *wobbled* | and rolled into the *bushes*.",
+        "Her little brother *laughed* | every time she had to *crawl* in after it.",
+        "Mina's cheeks turned *red*, | but she *didn't* quit.",
+        "By the *second* week, | the ball went *straight* | more often than *not*.",
+        "By the *third* week, | she heard a *solid* thump | almost every *time*.",
+        "Then came the last game of the *season*. | The score was tied, | *one* to *one*.",
+        "With only a *minute* left, | the ball rolled to Mina's *left* side.",
+        "This time, | she didn't *stop*. | She didn't *turn*. | She just *kicked*.",
+        "The ball *sailed* past the *goalie* | and into the corner of the *net*!",
+        "As her team *cheered*, | Mina *grinned* | and patted her left *knee*. | “Not *bored* anymore,” | she *whispered*. ↘"
+      ],
+      "targets": [
+        "fastest",
+        "problem",
+        "defender",
+        "practice",
+        "garage",
+        "wobbled",
+        "solid",
+        "season",
+        "goalie"
+      ],
+      "vocab": [
+        [
+          "soccer",
+          "축구"
+        ],
+        [
+          "defender",
+          "수비수"
+        ],
+        [
+          "steal the ball",
+          "공을 빼앗다"
+        ],
+        [
+          "practice",
+          "연습"
+        ],
+        [
+          "bored",
+          "지루한, 심심한"
+        ],
+        [
+          "garage",
+          "차고"
+        ],
+        [
+          "wobbled",
+          "비틀비틀 흔들렸다"
+        ],
+        [
+          "quit",
+          "그만두다, 포기하다"
+        ],
+        [
+          "solid",
+          "단단한, 묵직한"
+        ],
+        [
+          "season",
+          "(스포츠) 시즌"
+        ],
+        [
+          "tied",
+          "동점인"
+        ],
+        [
+          "goalie",
+          "골키퍼"
+        ],
+        [
+          "sailed",
+          "(공이) 쭉 날아갔다"
+        ]
+      ],
+      "sounds": [
+        [
+          "List intonation",
+          "she stopped ↗, turned ↗, and lost a second ↘",
+          "여러 개를 나열할 때는 앞의 것은 살짝 올리고, 마지막 것만 내려요."
+        ],
+        [
+          "-ed endings",
+          "stopped /t/, kicked /t/, laughed /t/, wobbled /d/, cheered /d/, patted /id/",
+          "p, k, f 소리 뒤의 -ed는 t로 짧게: laughed '래프트'. t 뒤는 '이드': patted '패티드'."
+        ],
+        [
+          "Repetition & stress",
+          "She didn't STOP. | She didn't TURN. | She just KICKED.",
+          "같은 모양이 반복될 때는 바뀌는 단어에 힘을 줘서, 점점 강하게 읽어요."
+        ]
+      ],
+      "expression": "Read it like a sports announcer telling a true story: matter-of-fact about Mina's problem, warm and a little funny for Coach Dana, slow and stubborn through the practice weeks, then faster and more excited in the last minute, a big burst on “into the corner of the net!”, and a quiet, proud whisper at the end.",
+      "practice": [
+        "defender",
+        "practice",
+        "garage",
+        "She didn't stop. She didn't turn. She just kicked."
+      ],
+      "events": []
+    }
+  }
+}
