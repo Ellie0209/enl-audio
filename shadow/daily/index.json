@@ -206,5 +206,31 @@
         "genre": "Sports story"
       }
     }
+  },
+  {
+    "day": 9,
+    "date": "2026-11-09",
+    "levels": {
+      "1": {
+        "title": "A Frog on a Log",
+        "topic": "a frog on a log on a hot day catches a bug and jumps into the pond (animals, nature)",
+        "genre": "Rhyme"
+      },
+      "2": {
+        "title": "Bunny Ears",
+        "topic": "a boy learns to tie his shoes with Grandma's bunny-ears trick (family, perseverance, feelings)",
+        "genre": "Story"
+      },
+      "3": {
+        "title": "Questions for Grandpa",
+        "topic": "a child interviews her grandpa, a Navy veteran, for a Veterans Day class project (community, family, holidays)",
+        "genre": "Interview story"
+      },
+      "4": {
+        "title": "The Amazing Octopus",
+        "topic": "how an octopus squeezes, changes color, squirts ink and solves puzzles (animals, ocean, science)",
+        "genre": "Nonfiction"
+      }
+    }
   }
 ]

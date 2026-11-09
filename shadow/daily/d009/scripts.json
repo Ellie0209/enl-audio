@@ -1,0 +1,382 @@
+{
+  "day": 9,
+  "date": "2026-11-09",
+  "scripts": {
+    "1": {
+      "title": "A Frog on a Log",
+      "title_kr": "통나무 위의 개구리",
+      "genre": "Rhyme",
+      "topic": "a frog on a log on a hot day catches a bug and jumps into the pond (animals, nature)",
+      "lines": [
+        "A *big* *frog* | *sits* on a *log*. ↘",
+        "The *sun* is *hot*. | The frog says, | “*Ribbit*!”",
+        "A *bug* *zips* past. | The *frog* can *see* it.",
+        "*Zap*! | He *gets* the *bug*. | *Yum*, | *yum*! ↘",
+        "Then *hop*, | *hop*, | *splash*! | He is *in* the *pond*.",
+        "Is the *frog* *hot*? ↗ | *Not* *now*! ↘"
+      ],
+      "targets": [
+        "big",
+        "frog",
+        "log",
+        "sun",
+        "hot",
+        "bug",
+        "hop",
+        "pond"
+      ],
+      "vocab": [
+        [
+          "frog",
+          "개구리"
+        ],
+        [
+          "log",
+          "통나무"
+        ],
+        [
+          "hot",
+          "더운, 뜨거운"
+        ],
+        [
+          "bug",
+          "벌레"
+        ],
+        [
+          "zip past",
+          "휙 지나가다"
+        ],
+        [
+          "yum",
+          "냠냠 (맛있다)"
+        ],
+        [
+          "splash",
+          "첨벙"
+        ],
+        [
+          "pond",
+          "연못"
+        ]
+      ],
+      "sounds": [
+        [
+          "Short o",
+          "frog, log, hot, hop, pond",
+          "입을 동그랗고 크게 벌려 '아'에 가깝게 짧게: hot '핫', log '라그'."
+        ],
+        [
+          "Short u",
+          "sun, bug, yum",
+          "u는 힘을 빼고 짧게 '어': sun '썬', bug '버그'."
+        ],
+        [
+          "Beginning blends",
+          "frog, splash",
+          "f-r, s-p-l을 '으' 없이 붙여서 한 번에: frog는 '프로그'가 아니라 'fr-og'."
+        ]
+      ],
+      "expression": "Sound lazy and sleepy on the first line, use a deep frog voice for “Ribbit!”, say “Zap!” fast and sharp, make “splash” big and loud, ask the question with your voice going up, then answer “Not now!” with a happy grin.",
+      "practice": [
+        "frog",
+        "log",
+        "hot",
+        "hop",
+        "pond"
+      ],
+      "events": []
+    },
+    "2": {
+      "title": "Bunny Ears",
+      "title_kr": "토끼 귀 신발끈",
+      "genre": "Story",
+      "topic": "a boy learns to tie his shoes with Grandma's bunny-ears trick (family, perseverance, feelings)",
+      "lines": [
+        "Theo *wanted* to tie | his *own* shoes.",
+        "He *crossed* the laces | and *pulled* them *tight*.",
+        "He *looped* one lace, | but it *slipped* away. | Theo *sighed*.",
+        "“Try *bunny ears*,” | said *Grandma*. | She *showed* him *how*.",
+        "Theo *made* two *loops*. | He *crossed* them | and *tucked* one *under*.",
+        "He *pulled* them | *slowly*. | Did it *work*? ↗",
+        "“I *did* it!” | Theo *shouted*. | Grandma *clapped* and *cheered*.",
+        "The next *morning*, | Theo *tied* his shoes | *all* by *himself*. ↘"
+      ],
+      "targets": [
+        "wanted",
+        "crossed",
+        "pulled",
+        "looped",
+        "slipped",
+        "sighed",
+        "tucked",
+        "shouted",
+        "clapped"
+      ],
+      "vocab": [
+        [
+          "tie",
+          "묶다"
+        ],
+        [
+          "laces",
+          "신발끈"
+        ],
+        [
+          "loop",
+          "고리"
+        ],
+        [
+          "slipped",
+          "미끄러져 풀렸다"
+        ],
+        [
+          "sighed",
+          "한숨 쉬었다"
+        ],
+        [
+          "bunny ears",
+          "토끼 귀 (모양)"
+        ],
+        [
+          "tucked",
+          "밀어 넣었다"
+        ],
+        [
+          "by himself",
+          "혼자서"
+        ]
+      ],
+      "sounds": [
+        [
+          "-ed as /t/",
+          "crossed, looped, slipped, tucked",
+          "s, p, k 뒤의 -ed는 짧은 t: looped '룹트', tucked '턱트'."
+        ],
+        [
+          "-ed as /id/",
+          "wanted, shouted",
+          "t 뒤의 -ed는 '이드'로 한 박자 더: wanted '원티드', shouted '샤우티드'."
+        ],
+        [
+          "Yes/No question ↗",
+          "“Did it work?” ↗",
+          "끝을 올려요. work를 살짝 높게, 두근두근하는 목소리로."
+        ]
+      ],
+      "expression": "Sound eager on the first line, careful as Theo crosses and pulls, let your voice drop with a big sigh on “Theo sighed,” use a warm, kind Grandma voice, slow down and hold your breath on “Did it work?”, then shout “I did it!” and say the last line proudly.",
+      "practice": [
+        "crossed",
+        "looped",
+        "sighed",
+        "bunny ears",
+        "by himself"
+      ],
+      "events": []
+    },
+    "3": {
+      "title": "Questions for Grandpa",
+      "title_kr": "할아버지께 드리는 질문",
+      "genre": "Interview story",
+      "topic": "a child interviews her grandpa, a Navy veteran, for a Veterans Day class project (community, family, holidays)",
+      "lines": [
+        "On *November* eleventh, | America *celebrates* | *Veterans* Day.",
+        "*Veterans* are people | who *served* in the *military* | to *protect* our *country*.",
+        "This year, | my teacher asked us | to *interview* a *veteran*.",
+        "I *called* my *grandpa*. | He was in the *Navy* | for *twenty* years.",
+        "“*Where* did you *live*?” ↘ | I asked *first*. | “On a huge *ship*,” | he said. | “It was like a *floating* city.”",
+        "“Were you ever *scared*?” ↗ | Grandpa was *quiet* | for a *moment*.",
+        "“*Sometimes*,” | he said. | “But my *friends* on the ship | helped me be *brave*.”",
+        "“What did you *miss* the most?” ↘ | He *laughed*. | “Grandma's *cooking*!”",
+        "On Veterans Day, | I *read* my interview | to the whole *class*.",
+        "Grandpa *came* to *listen*, | wearing his *Navy* cap.",
+        "At the *end*, | everyone *stood* up | and said, | “*Thank* you | for your *service*!” ↘"
+      ],
+      "targets": [
+        "celebrates",
+        "veterans",
+        "served",
+        "military",
+        "protect",
+        "interview",
+        "Navy",
+        "floating",
+        "service"
+      ],
+      "vocab": [
+        [
+          "veteran",
+          "참전 용사, 퇴역 군인"
+        ],
+        [
+          "celebrate",
+          "기념하다"
+        ],
+        [
+          "served",
+          "복무했다"
+        ],
+        [
+          "military",
+          "군대"
+        ],
+        [
+          "protect",
+          "지키다, 보호하다"
+        ],
+        [
+          "interview",
+          "인터뷰(하다)"
+        ],
+        [
+          "Navy",
+          "해군"
+        ],
+        [
+          "floating",
+          "물 위에 떠 있는"
+        ],
+        [
+          "brave",
+          "용감한"
+        ],
+        [
+          "service",
+          "복무, 봉사"
+        ]
+      ],
+      "sounds": [
+        [
+          "Wh- question ↘ vs. Yes/No ↗",
+          "“Where did you live?” ↘ / “Were you ever scared?” ↗",
+          "Where, What으로 시작하는 질문은 끝을 내리고, Were/Did로 시작하는 질문은 끝을 올려요."
+        ],
+        [
+          "Word stress",
+          "VET-er-ans, MIL-i-tar-y, IN-ter-view, pro-TECT",
+          "긴 단어는 힘주는 음절 하나만 크고 길게, 나머지는 가볍게. protect는 뒤에 힘!"
+        ],
+        [
+          "Linking",
+          "stood up, Thank you",
+          "자음 끝 + 모음 시작은 이어서: stood up → '스투덥'. Thank you → '땡큐'처럼 한 덩어리로."
+        ]
+      ],
+      "expression": "Read it like a young reporter: clear and steady for the facts about Veterans Day, curious when you ask each question, slower and deeper for Grandpa's answers, a warm laugh on “Grandma's cooking!”, and a proud, loud “Thank you for your service!” at the end.",
+      "practice": [
+        "veterans",
+        "military",
+        "interview",
+        "Thank you for your service!"
+      ],
+      "events": []
+    },
+    "4": {
+      "title": "The Amazing Octopus",
+      "title_kr": "놀라운 문어",
+      "genre": "Nonfiction",
+      "topic": "how an octopus squeezes, changes color, squirts ink and solves puzzles (animals, ocean, science)",
+      "lines": [
+        "Deep in the *ocean*, | a rock *seems* to *move*. | Look *closer*. | It's not a rock at *all*. | It's an *octopus*!",
+        "An octopus has *eight* long *arms* | and *no* *bones* in its body.",
+        "Because it has no bones, | it can *squeeze* through a *crack* | much *smaller* than its body.",
+        "Each arm is covered with *suckers*. | They help the octopus *grab*, ↗ | *taste*, ↗ | and *feel* things. ↘",
+        "The octopus is also | a *master* of *disguise*.",
+        "Special cells in its *skin* | can change *color* | in less than a *second*.",
+        "It can even make its skin *bumpy* | to look like *rocks* | or *seaweed*.",
+        "If a *hungry* shark finds it anyway, | the octopus has *another* trick.",
+        "It shoots out a cloud of dark *ink* | and *zooms* away | while the shark is *confused*.",
+        "Here's a *surprising* fact: | an octopus has *three* hearts, | and its blood is *blue*!",
+        "Scientists also say | that octopuses are very *smart*.",
+        "In *aquariums*, | some have learned to *open* jars | to get the *food* inside.",
+        "A *few* have even *escaped* from their tanks | at *night*!",
+        "So the next time you see a *rock* in the ocean, | look *twice*. | It might be *looking* back at *you*! ↘"
+      ],
+      "targets": [
+        "octopus",
+        "bones",
+        "squeeze",
+        "suckers",
+        "disguise",
+        "seaweed",
+        "ink",
+        "confused",
+        "escaped"
+      ],
+      "vocab": [
+        [
+          "octopus",
+          "문어"
+        ],
+        [
+          "squeeze",
+          "비집고 들어가다"
+        ],
+        [
+          "crack",
+          "갈라진 틈"
+        ],
+        [
+          "suckers",
+          "빨판"
+        ],
+        [
+          "master of disguise",
+          "변장의 달인"
+        ],
+        [
+          "cells",
+          "세포"
+        ],
+        [
+          "bumpy",
+          "울퉁불퉁한"
+        ],
+        [
+          "seaweed",
+          "해초, 미역"
+        ],
+        [
+          "ink",
+          "먹물"
+        ],
+        [
+          "confused",
+          "헷갈린, 어리둥절한"
+        ],
+        [
+          "aquarium",
+          "수족관"
+        ],
+        [
+          "escaped",
+          "탈출했다"
+        ]
+      ],
+      "sounds": [
+        [
+          "Word stress",
+          "OC-to-pus, dis-GUISE, a-QUAR-i-um, con-FUSED",
+          "힘주는 음절을 크고 길게. octopus는 앞에, disguise·confused는 뒤에 힘을 줘요."
+        ],
+        [
+          "List intonation",
+          "grab ↗, taste ↗, and feel ↘",
+          "여러 개를 나열할 때 앞의 것은 살짝 올리고, 마지막 것만 내려요."
+        ],
+        [
+          "th sound",
+          "three, things, the",
+          "혀끝을 윗니 아래에 살짝 대고 바람을 내보내요. three는 '쓰리'가 아니라 'θree'."
+        ]
+      ],
+      "expression": "Read it like a nature documentary narrator: soft and mysterious at the start, then “It's an octopus!” with a surprise, amazed and clear for each fact, quick and sneaky on “zooms away,” extra excited on the three hearts and blue blood, and playful and spooky on the last line.",
+      "practice": [
+        "octopus",
+        "disguise",
+        "aquariums",
+        "It might be looking back at you!"
+      ],
+      "events": []
+    }
+  }
+}
