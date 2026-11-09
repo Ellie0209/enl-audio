@@ -94,12 +94,12 @@
       "lines": [
         "Theo *wanted* to tie | his *own* shoes.",
         "He *crossed* the laces | and *pulled* them *tight*.",
-        "He *looped* one lace, | but it *slipped* away. | Theo *sighed*.",
-        "“Try *bunny ears*,” | said *Grandma*. | She *showed* him *how*.",
-        "Theo *made* two *loops*. | He *crossed* them | and *tucked* one *under*.",
+        "He *looped* one lace. | It *slipped*! | Theo *sighed*.",
+        "“Try *bunny ears*!” | Grandma *showed* him *how*.",
+        "He *made* two *loops* | and *tucked* one *under*.",
         "He *pulled* them | *slowly*. | Did it *work*? ↗",
-        "“I *did* it!” | Theo *shouted*. | Grandma *clapped* and *cheered*.",
-        "The next *morning*, | Theo *tied* his shoes | *all* by *himself*. ↘"
+        "“I *did* it!” | Theo *shouted*. | Grandma *clapped*.",
+        "The next *day*, | Theo *tied* his shoes | by *himself*! ↘"
       ],
       "targets": [
         "wanted",
@@ -155,7 +155,7 @@
         [
           "-ed as /id/",
           "wanted, shouted",
-          "t 뒤의 -ed는 '이드'로 한 박자 더: wanted '원티드', shouted '샤우티드'."
+          "t 뒤의 -ed는 '이드': wanted '원티드'."
         ],
         [
           "Yes/No question ↗",
@@ -163,7 +163,7 @@
           "끝을 올려요. work를 살짝 높게, 두근두근하는 목소리로."
         ]
       ],
-      "expression": "Sound eager on the first line, careful as Theo crosses and pulls, let your voice drop with a big sigh on “Theo sighed,” use a warm, kind Grandma voice, slow down and hold your breath on “Did it work?”, then shout “I did it!” and say the last line proudly.",
+      "expression": "Sound eager at first, drop your voice with a big sigh on “Theo sighed,” use a kind Grandma voice, hold your breath on “Did it work?”, then shout “I did it!” and end proudly.",
       "practice": [
         "crossed",
         "looped",
