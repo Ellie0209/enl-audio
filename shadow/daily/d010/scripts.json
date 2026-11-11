@@ -96,8 +96,8 @@
         "“Can you *find* these | for me?” ↗ | she *asked*.",
         "Leo *pushed* the *cart* | and *looked* at the list.",
         "He *picked* *apples*, ↗ | *milk*, ↗ | and *eggs*. ↘",
-        "Then he *stopped*. | “Mom, | what does *this* word say?” ↘",
-        "Mom *laughed*. | “It says *flour*, | for Dad's *birthday* cake!”",
+        "Then he *stopped*. | “Mom, | what's *this* word?” ↘",
+        "Mom *laughed*. | “*Flour*, | for Dad's *birthday* cake!”",
         "Leo *grabbed* the *flour* | and *checked* the last *box*.",
         "“We *did* it!” | Mom *smiled*. | “*Thanks*, | my *helper*!” ↘"
       ],
@@ -149,21 +149,21 @@
       "sounds": [
         [
           "-ed as /t/",
-          "asked, pushed, looked, picked, stopped, laughed, checked",
-          "k, sh, p, f 소리 뒤의 -ed는 짧은 t: looked '룩트', laughed '래프트'."
+          "asked, looked, stopped, laughed",
+          "k, p, f 소리 뒤 -ed는 짧은 t: looked '룩트'."
         ],
         [
-          "-ed as /d/ and /id/",
+          "-ed as /d/, /id/",
           "grabbed, smiled / handed",
           "b, l 뒤는 d: grabbed '그랩드'. d 뒤는 '이드': handed '핸디드'."
         ],
         [
           "List intonation",
           "apples ↗, milk ↗, and eggs ↘",
-          "나열할 때 앞의 것은 살짝 올리고 마지막 eggs만 내려요."
+          "앞은 살짝 올리고 마지막 eggs만 내려요."
         ]
       ],
-      "expression": "Use a kind Mom voice for her question, sound careful while Leo shops, puzzled on “what does this word say?”, warm and laughing for Mom's answer, then cheer “We did it!” and end proudly.",
+      "expression": "Use a kind Mom voice for her question, sound puzzled on “what's this word?”, laugh warmly for Mom's answer, then cheer “We did it!” and end proudly.",
       "practice": [
         "handed",
         "looked",
