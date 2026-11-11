@@ -1,0 +1,391 @@
+{
+  "day": 10,
+  "date": "2026-11-11",
+  "scripts": {
+    "1": {
+      "title": "Pop, Pop, Pop!",
+      "title_kr": "톡, 톡, 톡! 팝콘",
+      "genre": "Story",
+      "topic": "making popcorn with Dad for family movie night (family, food, sounds)",
+      "lines": [
+        "*Dad* and *Kim* | *get* a *big* *pot*.",
+        "In *go* the *corn* *bits*. | The *pot* gets *hot*.",
+        "*Pop*! | *Pop*! | *Pop*, | *pop*, | *pop*! ↘",
+        "The *lid* *hops* *up*! | Kim *yells*, | “Oh *no*!”",
+        "Dad *sets* it *back*. | Kim *gets* a *tub*.",
+        "Can we *sit* and *munch*? ↗ | *Yes*, | we *can*! ↘"
+      ],
+      "targets": [
+        "big",
+        "pot",
+        "hot",
+        "pop",
+        "lid",
+        "up",
+        "tub",
+        "sit"
+      ],
+      "vocab": [
+        [
+          "pot",
+          "냄비"
+        ],
+        [
+          "corn bits",
+          "옥수수 알갱이"
+        ],
+        [
+          "hot",
+          "뜨거운"
+        ],
+        [
+          "pop",
+          "톡/펑 하고 터지다"
+        ],
+        [
+          "lid",
+          "뚜껑"
+        ],
+        [
+          "hops up",
+          "튀어 오르다"
+        ],
+        [
+          "tub",
+          "통"
+        ],
+        [
+          "munch",
+          "우적우적 먹다"
+        ]
+      ],
+      "sounds": [
+        [
+          "Short o",
+          "pot, hot, pop",
+          "입을 크게 벌려 짧게 '아'에 가깝게: pot '팟', hot '핫'."
+        ],
+        [
+          "Short u",
+          "up, tub, munch",
+          "힘을 빼고 짧게 '어': tub '텁', munch '먼치'."
+        ],
+        [
+          "Short i",
+          "Kim, lid, sit, bits",
+          "'이'보다 입을 살짝 덜 벌리고 짧게: sit '씻'. seat처럼 길게 끌지 않아요."
+        ]
+      ],
+      "expression": "Start calm and busy, make each “Pop!” short and bouncy like real popcorn, sound surprised on “Oh no!”, ask the question with your voice going up, then answer “Yes, we can!” with a big happy smile.",
+      "practice": [
+        "pot",
+        "hot",
+        "pop",
+        "lid",
+        "munch"
+      ],
+      "events": []
+    },
+    "2": {
+      "title": "Leo's Shopping List",
+      "title_kr": "레오의 장보기 목록",
+      "genre": "Story",
+      "topic": "a boy helps Mom at the grocery store by reading the shopping list (family, community, helping)",
+      "lines": [
+        "Mom *handed* Leo | a *shopping* *list*.",
+        "“Can you *find* these | for me?” ↗ | she *asked*.",
+        "Leo *pushed* the *cart* | and *looked* at the list.",
+        "He *picked* *apples*, ↗ | *milk*, ↗ | and *eggs*. ↘",
+        "Then he *stopped*. | “Mom, | what does *this* word say?” ↘",
+        "Mom *laughed*. | “It says *flour*, | for Dad's *birthday* cake!”",
+        "Leo *grabbed* the *flour* | and *checked* the last *box*.",
+        "“We *did* it!” | Mom *smiled*. | “*Thanks*, | my *helper*!” ↘"
+      ],
+      "targets": [
+        "handed",
+        "asked",
+        "pushed",
+        "looked",
+        "picked",
+        "stopped",
+        "laughed",
+        "grabbed",
+        "checked"
+      ],
+      "vocab": [
+        [
+          "handed",
+          "건네주었다"
+        ],
+        [
+          "shopping list",
+          "장보기 목록"
+        ],
+        [
+          "cart",
+          "카트"
+        ],
+        [
+          "picked",
+          "골랐다"
+        ],
+        [
+          "flour",
+          "밀가루"
+        ],
+        [
+          "grabbed",
+          "집었다"
+        ],
+        [
+          "checked",
+          "체크 표시했다"
+        ],
+        [
+          "helper",
+          "도우미"
+        ]
+      ],
+      "sounds": [
+        [
+          "-ed as /t/",
+          "asked, pushed, looked, picked, stopped, laughed, checked",
+          "k, sh, p, f 소리 뒤의 -ed는 짧은 t: looked '룩트', laughed '래프트'."
+        ],
+        [
+          "-ed as /d/ and /id/",
+          "grabbed, smiled / handed",
+          "b, l 뒤는 d: grabbed '그랩드'. d 뒤는 '이드': handed '핸디드'."
+        ],
+        [
+          "List intonation",
+          "apples ↗, milk ↗, and eggs ↘",
+          "나열할 때 앞의 것은 살짝 올리고 마지막 eggs만 내려요."
+        ]
+      ],
+      "expression": "Use a kind Mom voice for her question, sound careful while Leo shops, puzzled on “what does this word say?”, warm and laughing for Mom's answer, then cheer “We did it!” and end proudly.",
+      "practice": [
+        "handed",
+        "looked",
+        "laughed",
+        "grabbed",
+        "shopping list"
+      ],
+      "events": []
+    },
+    "3": {
+      "title": "Goodbye, Germs!",
+      "title_kr": "잘 가, 세균아!",
+      "genre": "Nonfiction",
+      "topic": "what germs are, how they spread, and how to wash hands and sneeze into your elbow (health, science, school)",
+      "lines": [
+        "*Germs* are *tiny* living things. | They are *so* small | that you *can't* see them.",
+        "*Some* germs are *helpful*, | but *others* can make you *sick*.",
+        "Germs *spread* when we *cough*, ↗ | *sneeze*, ↗ | or *touch* things. ↘",
+        "They can *hide* on *doorknobs*, | *toys*, | and *pencils*.",
+        "So *how* can we *stop* them? ↘ | The *best* way | is to *wash* our hands.",
+        "First, | *wet* your hands | and add some *soap*.",
+        "*Scrub* the *backs* of your hands, | your *fingers*, | and *under* your *nails*.",
+        "Keep scrubbing | for *twenty* *seconds*. | That's about as long as singing | “Happy *Birthday*” *twice*!",
+        "Then *rinse* | and *dry* your hands | with a *clean* towel.",
+        "When you *sneeze*, | use your *elbow*, | *not* your hand.",
+        "Did you *wash* your hands *today*? ↗ | *Great*! | You're a *germ* *buster*! ↘"
+      ],
+      "targets": [
+        "germs",
+        "tiny",
+        "spread",
+        "sneeze",
+        "doorknobs",
+        "scrub",
+        "seconds",
+        "rinse",
+        "elbow"
+      ],
+      "vocab": [
+        [
+          "germs",
+          "세균"
+        ],
+        [
+          "tiny",
+          "아주 작은"
+        ],
+        [
+          "helpful",
+          "도움이 되는"
+        ],
+        [
+          "spread",
+          "퍼지다"
+        ],
+        [
+          "cough",
+          "기침하다"
+        ],
+        [
+          "sneeze",
+          "재채기하다"
+        ],
+        [
+          "doorknob",
+          "문손잡이"
+        ],
+        [
+          "scrub",
+          "문질러 닦다"
+        ],
+        [
+          "nails",
+          "손톱"
+        ],
+        [
+          "rinse",
+          "헹구다"
+        ],
+        [
+          "elbow",
+          "팔꿈치"
+        ],
+        [
+          "germ buster",
+          "세균 퇴치왕"
+        ]
+      ],
+      "sounds": [
+        [
+          "Wh- question ↘ vs. Yes/No ↗",
+          "“How can we stop them?” ↘ / “Did you wash your hands today?” ↗",
+          "How로 시작하는 질문은 끝을 내리고, Did로 시작하는 질문은 끝을 올려요."
+        ],
+        [
+          "sp-, sn-, scr- blends",
+          "spread, sneeze, scrub",
+          "자음을 '으' 없이 붙여 한 번에: spread는 '스프레드'가 아니라 'spr-ead'."
+        ],
+        [
+          "Silent letters",
+          "can't, doorknobs, towel",
+          "doorknobs의 k는 소리 내지 않아요: '도어납스'. can't는 t를 아주 짧게 끊어요."
+        ]
+      ],
+      "expression": "Read it like a friendly school nurse: clear and calm for the facts, a little spooky on “hide on doorknobs,” step by step and slow for the hand-washing steps, playful on “Happy Birthday twice,” and cheer “You're a germ buster!” at the end.",
+      "practice": [
+        "germs",
+        "spread",
+        "scrub",
+        "twenty seconds",
+        "You're a germ buster!"
+      ],
+      "events": []
+    },
+    "4": {
+      "title": "Flurry's First Fall",
+      "title_kr": "눈송이 플러리의 첫 여행",
+      "genre": "Fantasy",
+      "topic": "a shy snowflake is afraid to fall from her cloud, learns from an old raindrop, lands on a boy's nose and melts into a new adventure (seasons, weather, water cycle, feelings)",
+      "lines": [
+        "High above the *town*, | inside a *gray* *cloud*, | a tiny *snowflake* named *Flurry* | was *born*.",
+        "She had *six* *sparkling* arms, | and *no* other snowflake | looked *exactly* like her.",
+        "All around her, | her *sisters* and *brothers* | began to *drift* *down*. ↘",
+        "“*Come* on, Flurry!” | they *called*. | “It's time to *fall*!”",
+        "But Flurry *clung* to the cloud. | “What if I *land* | somewhere *cold* and *lonely*?”",
+        "An *old* *raindrop* floated *by*. | “I have *fallen* *many* times,” | he said *gently*.",
+        "“*Once* I landed on a *rose*. | Once I *filled* a *puddle* | for a little *bird* to *drink*.”",
+        "“*Every* landing | is a *new* *adventure*.”",
+        "Flurry took a *deep* breath | and *let* *go*.",
+        "She *twirled* past *rooftops* | and *danced* around a *streetlight*.",
+        "*Finally*, | she landed *softly* | on the *tip* of a little boy's *nose*.",
+        "The boy *giggled* | and looked up at the *sky*. | “It's *snowing*!” | he *shouted*.",
+        "Flurry *melted* into a tiny *drop*, | but she *wasn't* *sad*.",
+        "“*Now* I'm a *raindrop*,” | she thought. | “*Where* will my *next* adventure *take* me?” ↘"
+      ],
+      "targets": [
+        "snowflake",
+        "sparkling",
+        "exactly",
+        "drift",
+        "clung",
+        "lonely",
+        "adventure",
+        "twirled",
+        "melted"
+      ],
+      "vocab": [
+        [
+          "snowflake",
+          "눈송이"
+        ],
+        [
+          "sparkling",
+          "반짝이는"
+        ],
+        [
+          "exactly",
+          "꼭, 정확히"
+        ],
+        [
+          "drift down",
+          "천천히 떠내려오다"
+        ],
+        [
+          "clung to",
+          "꼭 매달렸다"
+        ],
+        [
+          "lonely",
+          "외로운"
+        ],
+        [
+          "gently",
+          "다정하게, 부드럽게"
+        ],
+        [
+          "puddle",
+          "물웅덩이"
+        ],
+        [
+          "adventure",
+          "모험"
+        ],
+        [
+          "let go",
+          "손을 놓다"
+        ],
+        [
+          "twirled",
+          "빙글빙글 돌았다"
+        ],
+        [
+          "melted",
+          "녹았다"
+        ]
+      ],
+      "sounds": [
+        [
+          "Word stress",
+          "SNOW-flake, ad-VEN-ture, EX-act-ly, LONE-ly",
+          "힘주는 음절을 크고 길게, 나머지는 가볍게. adventure는 가운데 VEN에 힘!"
+        ],
+        [
+          "-ed endings",
+          "twirled, called / danced / landed, melted",
+          "l·r 뒤는 d, s 소리 뒤는 t(danced '댄스트'), t·d 뒤는 '이드'(melted '멜티드')."
+        ],
+        [
+          "fl-, cl- blends",
+          "Flurry, floated, clung, cloud",
+          "f-l, c-l을 '으' 없이 붙여요. clung은 '클렁'이 아니라 'cl-ung' 한 번에."
+        ]
+      ],
+      "expression": "Read it like a gentle bedtime story: soft and dreamy at the start, cheerful for the other snowflakes, small and worried for Flurry's question, slow and kind for the old raindrop, light and twirly as she falls, a happy giggle on “It's snowing!”, and curious and hopeful on the last question.",
+      "practice": [
+        "snowflake",
+        "adventure",
+        "lonely",
+        "Every landing is a new adventure."
+      ],
+      "events": []
+    }
+  }
+}

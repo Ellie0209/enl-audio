@@ -232,5 +232,31 @@
         "genre": "Nonfiction"
       }
     }
+  },
+  {
+    "day": 10,
+    "date": "2026-11-11",
+    "levels": {
+      "1": {
+        "title": "Pop, Pop, Pop!",
+        "topic": "making popcorn with Dad for family movie night (family, food, sounds)",
+        "genre": "Story"
+      },
+      "2": {
+        "title": "Leo's Shopping List",
+        "topic": "a boy helps Mom at the grocery store by reading the shopping list (family, community, helping)",
+        "genre": "Story"
+      },
+      "3": {
+        "title": "Goodbye, Germs!",
+        "topic": "what germs are, how they spread, and how to wash hands and sneeze into your elbow (health, science, school)",
+        "genre": "Nonfiction"
+      },
+      "4": {
+        "title": "Flurry's First Fall",
+        "topic": "a shy snowflake is afraid to fall from her cloud, learns from an old raindrop, lands on a boy's nose and melts into a new adventure (seasons, weather, water cycle, feelings)",
+        "genre": "Fantasy"
+      }
+    }
   }
 ]
