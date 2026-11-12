@@ -258,5 +258,31 @@
         "genre": "Fantasy"
       }
     }
+  },
+  {
+    "day": 11,
+    "date": "2026-11-12",
+    "levels": {
+      "1": {
+        "title": "Zip Up the Tent!",
+        "topic": "camping with Mom: setting up a tent, a campfire hot dog and stars at night (family, outdoors, nature)",
+        "genre": "Story"
+      },
+      "2": {
+        "title": "Theo's First Steps",
+        "topic": "a big sister helps her baby brother take his first steps at home (family, growing up, feelings)",
+        "genre": "Story"
+      },
+      "3": {
+        "title": "Super Penguin Dads",
+        "topic": "how emperor penguin fathers keep their eggs warm through the Antarctic winter (animals, science, family)",
+        "genre": "Nonfiction"
+      },
+      "4": {
+        "title": "The Talent Show Juggler",
+        "topic": "a boy practices juggling for the school talent show, drops a beanbag on stage, makes a joke and tries again (school, performing, feelings, mistakes)",
+        "genre": "Realistic fiction"
+      }
+    }
   }
 ]
