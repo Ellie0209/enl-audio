@@ -68,12 +68,12 @@
         [
           "Short a",
           "camp, has, snap",
-          "입을 옆으로 크게 벌려 '애': camp '캠프'가 아니라 '캠p'."
+          "입을 옆으로 크게 벌려 짧게 '애': has '해즈', snap '스냅'."
         ],
         [
           "Ending -nt, -mp",
           "tent, camp",
-          "끝소리 t, p에 '으'를 붙이지 말고 입만 닫아요: tent '텐트' ✗ → '텐t' ○."
+          "끝소리 t, p 뒤에 '으'를 붙이지 말고 입만 살짝 닫아요."
         ]
       ],
       "expression": "Sound excited about camping, make “Snap! Pop!” crackle like a real fire, point up and wonder on “Can you see the stars?” with your voice going up, then whisper a soft, sleepy “Good night!”",
@@ -98,8 +98,8 @@
         "“*Uh-oh*!” | Theo *giggled* | and *tried* *again*.",
         "Ana *opened* her *arms*. | “*Come* *here*, Theo!” ↘",
         "*One* step, | *two* steps, | *three* steps! ↘",
-        "Theo *landed* in Ana's arms, | and she *hugged* him *tight*.",
-        "“Theo *walked*!” | Ana *shouted*. | Mom and Dad *clapped* and *cheered*. ↘"
+        "Theo *landed* in Ana's *arms*. | She *hugged* him *tight*.",
+        "“He *walked*!” | Ana *shouted*. | *Everyone* *cheered*. ↘"
       ],
       "targets": [
         "pulled",
@@ -118,10 +118,6 @@
           "붙잡고 일어섰다"
         ],
         [
-          "couch",
-          "소파"
-        ],
-        [
           "wobbled",
           "뒤뚱거렸다"
         ],
@@ -132,10 +128,6 @@
         [
           "giggled",
           "킥킥 웃었다"
-        ],
-        [
-          "opened her arms",
-          "두 팔을 벌렸다"
         ],
         [
           "landed in",
@@ -153,27 +145,27 @@
       "sounds": [
         [
           "-ed as /d/",
-          "pulled, wobbled, opened, hugged",
-          "l, b, n, g 뒤 -ed는 약한 d: pulled '풀드', hugged '허그드'."
+          "pulled, opened, hugged",
+          "l, n, g 뒤는 약한 d: pulled '풀드'."
         ],
         [
           "-ed as /id/, /t/",
-          "wanted, landed / plopped, walked",
-          "t·d 뒤는 '이드'(wanted '원티드'), p·k 뒤는 짧은 t(walked '웍트', l은 소리 안 나요)."
+          "landed / walked",
+          "d 뒤는 '이드', k 뒤는 t."
         ],
         [
           "Counting rhythm",
-          "One step, ↗ two steps, ↗ three steps! ↘",
-          "숫자에 힘을 주고 한 박자씩, 마지막 three steps에서 크게 내려요."
+          "one, two, three steps",
+          "숫자에 힘! 마지막에 내려요."
         ]
       ],
-      "expression": "Read it like a proud big sister: gentle at the start, a funny little “Uh-oh!” with a giggle, warm and inviting on “Come here, Theo!”, count the steps slowly with growing excitement, then shout “Theo walked!” with joy.",
+      "expression": "Read it like a proud big sister: a funny “Uh-oh!”, a warm “Come here, Theo!”, excited counting, and a joyful “He walked!”",
       "practice": [
         "wobbled",
         "plopped down",
         "giggled",
         "landed",
-        "Theo walked!"
+        "He walked!"
       ],
       "events": []
     },
