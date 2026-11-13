@@ -15,25 +15,79 @@
         "*Twist*, | *twist*! | *Kit* can *fix* it!",
         "*Can* it *go*? ↗ | *Yes*, it *can*! | *Zoom*! ↘"
       ],
-      "targets": ["tan", "van", "bump", "box", "sets", "nut", "twist", "fix"],
+      "targets": [
+        "tan",
+        "van",
+        "bump",
+        "box",
+        "sets",
+        "nut",
+        "twist",
+        "fix"
+      ],
       "vocab": [
-        ["van", "승합차 (장난감 차)"],
-        ["tan", "황갈색의"],
-        ["bump", "쿵 (부딪히는 소리)"],
-        ["wheel", "바퀴"],
-        ["fell off", "떨어졌다"],
-        ["box of tools", "공구 상자"],
-        ["nut", "너트 (볼트에 끼우는 쇠)"],
-        ["twist", "돌리다, 비틀다"],
-        ["fix", "고치다"]
+        [
+          "van",
+          "승합차 (장난감 차)"
+        ],
+        [
+          "tan",
+          "황갈색의"
+        ],
+        [
+          "bump",
+          "쿵 (부딪히는 소리)"
+        ],
+        [
+          "wheel",
+          "바퀴"
+        ],
+        [
+          "fell off",
+          "떨어졌다"
+        ],
+        [
+          "box of tools",
+          "공구 상자"
+        ],
+        [
+          "nut",
+          "너트 (볼트에 끼우는 쇠)"
+        ],
+        [
+          "twist",
+          "돌리다, 비틀다"
+        ],
+        [
+          "fix",
+          "고치다"
+        ]
       ],
       "sounds": [
-        ["Short a", "tan, van, can", "입을 옆으로 크게 벌려 짧게 '애': van '밴', can '캔'."],
-        ["Short i", "Kit, fix, spins, twist", "'이'를 짧고 힘 빼서: Kit '킽', fix '픽스'. 길게 '이-' 하지 않아요."],
-        ["Short u & -mp", "bump, nut", "'어'를 짧게: nut '넡'. bump 끝 p는 입술만 닫고 '프'를 붙이지 않아요."]
+        [
+          "Short a",
+          "tan, van, can",
+          "입을 옆으로 크게 벌려 짧게 '애': van '밴', can '캔'."
+        ],
+        [
+          "Short i",
+          "Kit, fix, spins, twist",
+          "'이'를 짧고 힘 빼서: Kit '킽', fix '픽스'. 길게 '이-' 하지 않아요."
+        ],
+        [
+          "Short u & -mp",
+          "bump, nut",
+          "'어'를 짧게: nut '넡'. bump 끝 p는 입술만 닫고 '프'를 붙이지 않아요."
+        ]
       ],
       "expression": "Zoom the van with a happy, fast voice, say “Bump! Oh no!” with a surprised drop, sound busy and proud on “Twist, twist! Kit can fix it!”, ask “Can it go?” with your voice going up, and shout a big, happy “Yes, it can! Zoom!”",
-      "practice": ["van", "box", "nut", "twist", "fix"],
+      "practice": [
+        "van",
+        "box",
+        "nut",
+        "twist",
+        "fix"
+      ],
       "events": []
     },
     "2": {
@@ -45,32 +99,82 @@
         "*Jack* *folded* a *paper* *plane* | at the *kitchen* *table*.",
         "He *painted* a *red* *star* | on *each* *wing*.",
         "*Outside*, | Jack *lifted* his *arm* | and *tossed* the *plane*.",
-        "It *zoomed* *up* | *over* the *fence*! | “Oh, *no*!” | Jack *gasped*. ↘",
+        "It *zoomed* over the *fence*! | “Oh, *no*!” Jack *gasped*. ↘",
         "Mr. *Gray* *peeked* over the fence. | “Is *this* *yours*?” ↗",
         "Jack *nodded*. | “*Thank* you!” | he *smiled*.",
-        "“Can you *show* me | *how* to *make* one?” ↗ | Mr. Gray *asked*.",
-        "They *folded* *two* *more* planes | and *raced* them *together*. ↘"
+        "“*How* do you *make* one?” ↘ | Mr. Gray *asked*.",
+        "They *folded* *two* *more* | and *raced* them *together*. ↘"
       ],
-      "targets": ["folded", "painted", "lifted", "tossed", "zoomed", "gasped", "peeked", "nodded", "asked"],
+      "targets": [
+        "folded",
+        "painted",
+        "lifted",
+        "tossed",
+        "zoomed",
+        "gasped",
+        "peeked",
+        "nodded",
+        "asked"
+      ],
       "vocab": [
-        ["folded", "접었다"],
-        ["paper plane", "종이비행기"],
-        ["painted", "색칠했다"],
-        ["wing", "날개"],
-        ["lifted", "들어 올렸다"],
-        ["tossed", "(가볍게) 던졌다"],
-        ["fence", "울타리"],
-        ["gasped", "헉 하고 놀랐다"],
-        ["peeked over", "너머로 살짝 보았다"],
-        ["nodded", "고개를 끄덕였다"]
+        [
+          "folded",
+          "접었다"
+        ],
+        [
+          "painted",
+          "색칠했다"
+        ],
+        [
+          "lifted",
+          "들어 올렸다"
+        ],
+        [
+          "tossed",
+          "(가볍게) 던졌다"
+        ],
+        [
+          "fence",
+          "울타리"
+        ],
+        [
+          "gasped",
+          "헉 하고 놀랐다"
+        ],
+        [
+          "peeked over",
+          "너머로 살짝 보았다"
+        ],
+        [
+          "nodded",
+          "고개를 끄덕였다"
+        ]
       ],
       "sounds": [
-        ["-ed as /id/", "folded, painted, lifted, nodded", "t, d 뒤의 -ed는 '이드': folded '폴디드', nodded '나디드'."],
-        ["-ed as /t/", "tossed, gasped, peeked, asked", "s, p, k 뒤는 짧은 t: tossed '토스트', asked '애스크트'."],
-        ["-ed as /d/", "zoomed, smiled", "m, l 뒤는 약한 d: zoomed '줌드', smiled '스마일드'."]
+        [
+          "-ed as /id/",
+          "folded, painted, lifted, nodded",
+          "t, d 뒤의 -ed는 '이드': folded '폴디드', nodded '나디드'."
+        ],
+        [
+          "-ed as /t/",
+          "tossed, gasped, peeked, asked",
+          "s, p, k 뒤는 짧은 t: tossed '토스트', asked '애스크트'."
+        ],
+        [
+          "-ed as /d/",
+          "zoomed, smiled",
+          "m, l 뒤는 약한 d: zoomed '줌드', smiled '스마일드'."
+        ]
       ],
-      "expression": "Sound calm and careful while Jack folds and paints, swoosh up excitedly on “It zoomed up over the fence!”, gasp a worried “Oh, no!”, make Mr. Gray's voice deep and friendly with a rising question, and end warmly as they race their planes together.",
-      "practice": ["folded", "paper plane", "Oh, no!", "Is this yours?", "Can you show me how to make one?"],
+      "expression": "Sound calm and careful while Jack folds and paints, swoosh up on “It zoomed over the fence!”, gasp a worried “Oh, no!”, give Mr. Gray a deep, friendly voice, and end warmly as they race their planes.",
+      "practice": [
+        "folded",
+        "paper plane",
+        "Oh, no!",
+        "Is this yours?",
+        "How do you make one?"
+      ],
       "events": []
     },
     "3": {
@@ -91,27 +195,88 @@
         "*Next* *time* you go for a *walk*, | *look* at your *socks*.",
         "Are *any* *seeds* | *hitching* a *ride*? ↗"
       ],
-      "targets": ["travel", "parachute", "carries", "helicopter", "spins", "covered", "tiny", "float", "hitching"],
+      "targets": [
+        "travel",
+        "parachute",
+        "carries",
+        "helicopter",
+        "spins",
+        "covered",
+        "tiny",
+        "float",
+        "hitching"
+      ],
       "vocab": [
-        ["travel", "이동하다, 여행하다"],
-        ["dandelion", "민들레"],
-        ["fluffy", "솜털 같은"],
-        ["parachute", "낙하산"],
-        ["maple", "단풍나무"],
-        ["helicopter", "헬리콥터"],
-        ["covered in", "~로 덮인"],
-        ["hook", "갈고리"],
-        ["fur", "(동물의) 털"],
-        ["float", "물에 뜨다"],
-        ["hitch a ride", "(남의 것을) 얻어 타다"]
+        [
+          "travel",
+          "이동하다, 여행하다"
+        ],
+        [
+          "dandelion",
+          "민들레"
+        ],
+        [
+          "fluffy",
+          "솜털 같은"
+        ],
+        [
+          "parachute",
+          "낙하산"
+        ],
+        [
+          "maple",
+          "단풍나무"
+        ],
+        [
+          "helicopter",
+          "헬리콥터"
+        ],
+        [
+          "covered in",
+          "~로 덮인"
+        ],
+        [
+          "hook",
+          "갈고리"
+        ],
+        [
+          "fur",
+          "(동물의) 털"
+        ],
+        [
+          "float",
+          "물에 뜨다"
+        ],
+        [
+          "hitch a ride",
+          "(남의 것을) 얻어 타다"
+        ]
       ],
       "sounds": [
-        ["Word stress", "DAN-de-li-on, PAR-a-chute, HEL-i-cop-ter, CO-co-nut", "첫 음절에 힘을 주고 나머지는 작고 빠르게. helicopter는 'HEL'만 크게!"],
-        ["ch as /sh/", "parachute", "parachute의 ch는 '취'가 아니라 '슈': '패러슈트'."],
-        ["Fl- blend", "fluffy, float, fields", "f와 l을 붙여서 한 번에: '플러피'처럼 '프' 소리를 따로 내지 않아요."]
+        [
+          "Word stress",
+          "DAN-de-li-on, PAR-a-chute, HEL-i-cop-ter, CO-co-nut",
+          "첫 음절에 힘을 주고 나머지는 작고 빠르게. helicopter는 'HEL'만 크게!"
+        ],
+        [
+          "ch as /sh/",
+          "parachute",
+          "parachute의 ch는 '취'가 아니라 '슈': '패러슈트'."
+        ],
+        [
+          "Fl- blend",
+          "fluffy, float, fields",
+          "f와 l을 붙여서 한 번에: '플러피'처럼 '프' 소리를 따로 내지 않아요."
+        ]
       ],
       "expression": "Read it like a curious nature guide: clear and interested for each fact, list “space, sunlight, and water” with a rising, falling pattern, spin your voice on “round and round,” sound surprised and a little funny on “or to your socks!”, and ask the last question with a playful, rising voice.",
-      "practice": ["parachute", "helicopter", "round and round", "faraway beaches", "Are any seeds hitching a ride?"],
+      "practice": [
+        "parachute",
+        "helicopter",
+        "round and round",
+        "faraway beaches",
+        "Are any seeds hitching a ride?"
+      ],
       "events": []
     },
     "4": {
@@ -135,29 +300,96 @@
         "*Tonight*, | I *hung* my *star* *map* | on my *new* *wall*.",
         "My room *still* *smells* like *paint*, | but it's *starting* to *feel* like *home*. ↘"
       ],
-      "targets": ["stomach", "carried", "empty", "echoed", "measured", "creaky", "crooked", "unpacked", "skipped"],
+      "targets": [
+        "stomach",
+        "carried",
+        "empty",
+        "echoed",
+        "measured",
+        "creaky",
+        "crooked",
+        "unpacked",
+        "skipped"
+      ],
       "vocab": [
-        ["diary", "일기장"],
-        ["stomach felt like a knot", "배가 꼬이는 것처럼 긴장됐다"],
-        ["movers", "이삿짐센터 직원들"],
-        ["echoed", "(소리가) 울렸다"],
-        ["pressed", "꾹 눌렀다, 갖다 댔다"],
-        ["measured", "(키를) 쟀다"],
-        ["creaky", "삐걱거리는"],
-        ["porch", "현관 앞 테라스"],
-        ["crooked", "삐뚤어진"],
-        ["unpacked", "(짐을) 풀었다"],
-        ["next door", "옆집에"],
-        ["creek", "개울, 시냇물"],
-        ["skipped stones", "물수제비를 떴다"]
+        [
+          "diary",
+          "일기장"
+        ],
+        [
+          "stomach felt like a knot",
+          "배가 꼬이는 것처럼 긴장됐다"
+        ],
+        [
+          "movers",
+          "이삿짐센터 직원들"
+        ],
+        [
+          "echoed",
+          "(소리가) 울렸다"
+        ],
+        [
+          "pressed",
+          "꾹 눌렀다, 갖다 댔다"
+        ],
+        [
+          "measured",
+          "(키를) 쟀다"
+        ],
+        [
+          "creaky",
+          "삐걱거리는"
+        ],
+        [
+          "porch",
+          "현관 앞 테라스"
+        ],
+        [
+          "crooked",
+          "삐뚤어진"
+        ],
+        [
+          "unpacked",
+          "(짐을) 풀었다"
+        ],
+        [
+          "next door",
+          "옆집에"
+        ],
+        [
+          "creek",
+          "개울, 시냇물"
+        ],
+        [
+          "skipped stones",
+          "물수제비를 떴다"
+        ]
       ],
       "sounds": [
-        ["Word stress", "STOM-ach, EMP-ty, MEAS-ured, CROOK-ed, OR-ange", "첫 음절에 힘! crooked(삐뚤어진)는 형용사라서 'CROOK-id' 두 박자로 읽어요."],
-        ["Silent letters", "knot, knock, stomach", "kn-의 k는 소리 내지 않아요: knot '낱', knock '낙'. stomach의 ch는 'k' 소리 '스터멐'."],
-        ["-ed endings", "pressed, unpacked, skipped / carried, echoed / started", "s·k·p 뒤는 t(skipped '스킵트'), 모음·r 뒤는 d(echoed '에코드'), t 뒤는 '이드'."]
+        [
+          "Word stress",
+          "STOM-ach, EMP-ty, MEAS-ured, CROOK-ed, OR-ange",
+          "첫 음절에 힘! crooked(삐뚤어진)는 형용사라서 'CROOK-id' 두 박자로 읽어요."
+        ],
+        [
+          "Silent letters",
+          "knot, knock, stomach",
+          "kn-의 k는 소리 내지 않아요: knot '낱', knock '낙'. stomach의 ch는 'k' 소리 '스터멐'."
+        ],
+        [
+          "-ed endings",
+          "pressed, unpacked, skipped / carried, echoed / started",
+          "s·k·p 뒤는 t(skipped '스킵트'), 모음·r 뒤는 d(echoed '에코드'), t 뒤는 '이드'."
+        ]
       ],
       "expression": "Read it like a real diary, softly and honestly: nervous on the knot, sad and quiet in the empty room, a little lonely on “nothing felt like mine,” then brighter and surprised at the knock, cheerful in Rosa's voice, peaceful at the orange sky, and warm and hopeful on the last line.",
-      "practice": ["my stomach felt like a knot", "echoed", "creaky porch", "crooked mailbox", "it's starting to feel like home"],
+      "practice": [
+        "my stomach felt like a knot",
+        "echoed",
+        "creaky porch",
+        "crooked mailbox",
+        "it's starting to feel like home"
+      ],
       "events": []
     }
   }
