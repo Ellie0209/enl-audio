@@ -284,5 +284,31 @@
         "genre": "Realistic fiction"
       }
     }
+  },
+  {
+    "day": 12,
+    "date": "2026-11-13",
+    "levels": {
+      "1": {
+        "title": "Kit Can Fix It!",
+        "topic": "a girl and her dad fix the wheel of her toy van with a box of tools (family, helping, tools)",
+        "genre": "Story"
+      },
+      "2": {
+        "title": "The Paper Plane",
+        "topic": "a boy's paper plane flies over the fence, the neighbor brings it back and they fold planes together (neighbors, community, play)",
+        "genre": "Story"
+      },
+      "3": {
+        "title": "Seeds on the Move",
+        "topic": "how seeds travel by wind, by spinning wings, on animal fur and socks, by floating on the ocean and with birds (plants, science, nature)",
+        "genre": "Nonfiction"
+      },
+      "4": {
+        "title": "Dear Diary: Moving Day",
+        "topic": "a girl writes in her diary about moving to a new city, saying goodbye to her old room and meeting a friendly neighbor (family, change, feelings, friendship)",
+        "genre": "Diary"
+      }
+    }
   }
 ]
