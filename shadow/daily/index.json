@@ -310,5 +310,31 @@
         "genre": "Diary"
       }
     }
+  },
+  {
+    "day": 13,
+    "date": "2026-11-14",
+    "levels": {
+      "1": {
+        "title": "Hop, Skip, Jump!",
+        "topic": "hopping, skipping, jumping and spinning in gym class, then resting on the mat (school, exercise, play)",
+        "genre": "Pattern text"
+      },
+      "2": {
+        "title": "Oops, Blue Paint!",
+        "topic": "a boy spills blue paint on his boat picture in art class and turns the mess into an ocean (school, art, mistakes, feelings)",
+        "genre": "Story"
+      },
+      "3": {
+        "title": "What Am I? Animal Riddles",
+        "topic": "three animal riddles with clues about a giraffe, a sloth and a hummingbird (animals, science, guessing game)",
+        "genre": "Riddles"
+      },
+      "4": {
+        "title": "The Case of the Vanishing Puddle",
+        "topic": "a girl detective investigates why a driveway puddle disappeared and Grandma explains evaporation and the water cycle (science, weather, family, mystery)",
+        "genre": "Science mystery"
+      }
+    }
   }
 ]

@@ -1,0 +1,401 @@
+{
+  "day": 13,
+  "date": "2026-11-14",
+  "scripts": {
+    "1": {
+      "title": "Hop, Skip, Jump!",
+      "title_kr": "깡충, 총총, 폴짝!",
+      "genre": "Pattern text",
+      "topic": "hopping, skipping, jumping and spinning in gym class, then resting on the mat (school, exercise, play)",
+      "lines": [
+        "*Hop*, *hop*, *hop*! | I can *hop* on *one* *leg*.",
+        "*Skip*, *skip*, *skip*! | I can *skip* to the *mat*.",
+        "*Jump*, *jump*, *jump*! | I can *jump* *up* *high*.",
+        "*Spin*, *spin*, *spin*! | I can *spin* like a *top*.",
+        "*Can* you *hop* and *spin*? ↗ | *Yes*, I *can*! ↘",
+        "*Stop*! | I *sit* on the *mat*. | *That* was *fun*! ↘"
+      ],
+      "targets": [
+        "hop",
+        "leg",
+        "skip",
+        "mat",
+        "jump",
+        "spin",
+        "top",
+        "stop"
+      ],
+      "vocab": [
+        [
+          "hop",
+          "한 발로 깡충 뛰다"
+        ],
+        [
+          "leg",
+          "다리"
+        ],
+        [
+          "skip",
+          "총총 뛰어가다 (스킵하다)"
+        ],
+        [
+          "mat",
+          "매트"
+        ],
+        [
+          "jump",
+          "점프하다, 뛰어오르다"
+        ],
+        [
+          "spin",
+          "빙글빙글 돌다"
+        ],
+        [
+          "top",
+          "팽이"
+        ],
+        [
+          "stop",
+          "멈추다"
+        ]
+      ],
+      "sounds": [
+        [
+          "Short o",
+          "hop, top, stop",
+          "입을 동그랗고 크게 벌려 짧게 '아': hop '합', top '탑'."
+        ],
+        [
+          "Short i",
+          "skip, spin, sit",
+          "'이'를 짧고 힘 빼서: skip '스킵', sit '씻'. 길게 '이-' 하지 않아요."
+        ],
+        [
+          "S-blends",
+          "skip, spin, stop",
+          "s와 다음 소리를 붙여 한 번에: 'sk', 'sp', 'st'. '스'를 따로 크게 내지 않아요."
+        ]
+      ],
+      "expression": "Bounce your voice on “Hop, hop, hop!” and “Jump, jump, jump!”, ask “Can you hop and spin?” with your voice going up, answer a proud “Yes, I can!”, and finish slow and happy: “That was fun!”",
+      "practice": [
+        "hop",
+        "skip",
+        "jump",
+        "spin",
+        "stop"
+      ],
+      "events": []
+    },
+    "2": {
+      "title": "Oops, Blue Paint!",
+      "title_kr": "앗, 파란 물감!",
+      "genre": "Story",
+      "topic": "a boy spills blue paint on his boat picture in art class and turns the mess into an ocean (school, art, mistakes, feelings)",
+      "lines": [
+        "*Owen* *painted* a *red* *boat* | in *art* *class*.",
+        "He *reached* for his *brush* | and *tipped* the *paint* *cup*.",
+        "*Oops*! ↘ | *Blue* paint *spilled* | *all* over his *paper*.",
+        "“My *picture* is *ruined*!” | Owen *cried*. ↘",
+        "Ms. *Kim* *looked* *closely*. | “*What* *else* could it *be*?” ↘",
+        "Owen *thought*. | “It can be the *sea*!” | he *shouted*.",
+        "He *added* *white* *waves* | and a *little* *orange* *fish*.",
+        "*Now* his *boat* *sailed* | on a *bright* *blue* *ocean*. ↘"
+      ],
+      "targets": [
+        "painted",
+        "reached",
+        "tipped",
+        "spilled",
+        "ruined",
+        "looked",
+        "shouted",
+        "added",
+        "sailed"
+      ],
+      "vocab": [
+        [
+          "painted",
+          "(물감으로) 그렸다"
+        ],
+        [
+          "reached for",
+          "~을 잡으려고 손을 뻗었다"
+        ],
+        [
+          "tipped",
+          "넘어뜨렸다, 엎었다"
+        ],
+        [
+          "spilled",
+          "쏟아졌다"
+        ],
+        [
+          "ruined",
+          "망쳐졌다"
+        ],
+        [
+          "closely",
+          "자세히"
+        ],
+        [
+          "shouted",
+          "외쳤다"
+        ],
+        [
+          "sailed",
+          "(배가) 항해했다"
+        ]
+      ],
+      "sounds": [
+        [
+          "-ed as /id/",
+          "painted, shouted, added",
+          "t, d 뒤의 -ed는 '이드': painted '페인티드'."
+        ],
+        [
+          "-ed as /t/",
+          "reached, tipped, looked",
+          "ch, p, k 뒤는 짧은 t: tipped '팁트', looked '룩트'."
+        ],
+        [
+          "-ed as /d/",
+          "spilled, ruined, sailed",
+          "l, n 뒤는 약한 d: spilled '스필드', sailed '세일드'."
+        ]
+      ],
+      "expression": "Start calm and happy while Owen paints, drop your voice on a surprised “oops!”, sound upset on “My picture is ruined!”, give Ms. Kim a kind, thinking voice, get excited on “It can be the sea!”, and end proud and bright on the blue ocean.",
+      "practice": [
+        "painted",
+        "tipped the paint cup",
+        "Oops!",
+        "What else could it be?",
+        "a bright blue ocean"
+      ],
+      "events": []
+    },
+    "3": {
+      "title": "What Am I? Animal Riddles",
+      "title_kr": "나는 누구일까요? 동물 수수께끼",
+      "genre": "Riddles",
+      "topic": "three animal riddles with clues about a giraffe, a sloth and a hummingbird (animals, science, guessing game)",
+      "lines": [
+        "*Listen* to my *clues*, | and *guess* *who* I *am*!",
+        "I have a *very* *long* *neck* | and *spots* *all* over my *body*.",
+        "I *eat* *leaves* from the *tops* of *tall* *trees*. | *What* am I? ↘",
+        "I'm a *giraffe*! ↘ | My *tongue* is *dark* *purple* | and *almost* as *long* as your *arm*.",
+        "I *live* in the *rainforest* | and *move* *very*, *very* *slowly*.",
+        "I *hang* from *branches* | and *sleep* for *many* *hours* a *day*. | *What* am I? ↘",
+        "I'm a *sloth*! ↘ | I'm *so* *slow* | that *tiny* *green* *plants* can *grow* on my *fur*.",
+        "I'm a *tiny* *bird*, | *about* as *long* as your *finger*.",
+        "My *wings* *flap* so *fast* | that they make a *humming* *sound*. | *What* am I? ↘",
+        "I'm a *hummingbird*! ↘ | I can *even* *fly* *backward*!",
+        "*Now* it's *your* *turn*. | Can *you* make a *riddle* | about your *favorite* *animal*? ↗"
+      ],
+      "targets": [
+        "clues",
+        "guess",
+        "neck",
+        "giraffe",
+        "tongue",
+        "rainforest",
+        "branches",
+        "sloth",
+        "hummingbird"
+      ],
+      "vocab": [
+        [
+          "riddle",
+          "수수께끼"
+        ],
+        [
+          "clue",
+          "단서, 힌트"
+        ],
+        [
+          "guess",
+          "추측하다, 맞혀 보다"
+        ],
+        [
+          "neck",
+          "목"
+        ],
+        [
+          "spots",
+          "점, 얼룩무늬"
+        ],
+        [
+          "tongue",
+          "혀"
+        ],
+        [
+          "rainforest",
+          "열대 우림"
+        ],
+        [
+          "branch",
+          "나뭇가지"
+        ],
+        [
+          "sloth",
+          "나무늘보"
+        ],
+        [
+          "fur",
+          "(동물의) 털"
+        ],
+        [
+          "hummingbird",
+          "벌새"
+        ],
+        [
+          "backward",
+          "뒤로"
+        ]
+      ],
+      "sounds": [
+        [
+          "Word stress",
+          "gi-RAFFE, RAIN-for-est, HUM-ming-bird, BRANCH-es",
+          "giraffe는 뒤 음절 'RAFFE'에 힘! 나머지는 첫 음절을 크게 읽어요: 'RAIN-포레스트'."
+        ],
+        [
+          "th sound",
+          "sloth, the, that, they",
+          "혀끝을 윗니 아래로 살짝 내밀고 바람을 내보내요. sloth는 '슬로스'가 아니라 끝에 혀를 물어 'θ'."
+        ],
+        [
+          "Silent letters & -ue",
+          "tongue, guess",
+          "tongue의 -ue는 소리 없음 '텅', guess의 u도 소리 없음 '게스'."
+        ]
+      ],
+      "expression": "Read like a quiz-show host: lively on “Listen to my clues,” clear and slow on each clue so friends can think, drop your voice on every “What am I?”, then reveal each answer with a big, happy “I'm a giraffe!” Make the sloth part sleepy and slow, the hummingbird part quick and light, and ask the last question with a friendly, rising voice.",
+      "practice": [
+        "Listen to my clues",
+        "almost as long as your arm",
+        "very, very slowly",
+        "a humming sound",
+        "What am I?"
+      ],
+      "events": []
+    },
+    "4": {
+      "title": "The Case of the Vanishing Puddle",
+      "title_kr": "사라진 물웅덩이 사건",
+      "genre": "Science mystery",
+      "topic": "a girl detective investigates why a driveway puddle disappeared and Grandma explains evaporation and the water cycle (science, weather, family, mystery)",
+      "lines": [
+        "On *Saturday* *morning*, | a *huge* *puddle* *sat* | in the *middle* of our *driveway*.",
+        "My *little* *brother*, *Eli*, | *sailed* a *leaf* *boat* across it | *until* *lunchtime*.",
+        "But by *three* o'*clock*, | the puddle had *shrunk* | to the *size* of a *pizza*.",
+        "By *dinner*, | it had *vanished* *completely*! ↘",
+        "“*Someone* *stole* our *puddle*!” | Eli *shouted*. ↘",
+        "I *grabbed* my *notebook* | and *became* *Detective* *Jada*.",
+        "*First*, I *checked* for *footprints*. | There were *none*. ↘",
+        "*Next*, I *looked* for a *drain* *nearby*, | but the driveway was *flat* and *solid*.",
+        "*Finally*, I *asked* the *smartest* *scientist* I *know*: | my *grandma*.",
+        "“The *sun* was the *thief*,” | she said with a *wink*.",
+        "“Its *heat* *turned* the *water* | into an *invisible* *gas* | called *water* *vapor*.",
+        "That's called *evaporation*. | The *vapor* *floated* *up* | into the *air*.”",
+        "“Will it *ever* come *back*?” ↗ | Eli *asked*, | looking *worried*.",
+        "Grandma *pointed* at the *clouds*. | “*Someday* it will *fall* *again* | as *rain*.” ↘",
+        "I *wrote* in my *notebook*: | *Case* *closed*. | The puddle is *just* on *vacation*! ↘"
+      ],
+      "targets": [
+        "puddle",
+        "driveway",
+        "shrunk",
+        "vanished",
+        "completely",
+        "detective",
+        "footprints",
+        "invisible",
+        "evaporation"
+      ],
+      "vocab": [
+        [
+          "case",
+          "사건"
+        ],
+        [
+          "vanish",
+          "사라지다"
+        ],
+        [
+          "puddle",
+          "물웅덩이"
+        ],
+        [
+          "driveway",
+          "(집 앞) 차고 진입로"
+        ],
+        [
+          "shrunk",
+          "줄어들었다 (shrink의 과거분사)"
+        ],
+        [
+          "completely",
+          "완전히"
+        ],
+        [
+          "detective",
+          "탐정"
+        ],
+        [
+          "footprints",
+          "발자국"
+        ],
+        [
+          "drain",
+          "배수구"
+        ],
+        [
+          "thief",
+          "도둑"
+        ],
+        [
+          "invisible",
+          "눈에 보이지 않는"
+        ],
+        [
+          "water vapor",
+          "수증기"
+        ],
+        [
+          "evaporation",
+          "증발"
+        ],
+        [
+          "case closed",
+          "사건 종결"
+        ]
+      ],
+      "sounds": [
+        [
+          "Word stress",
+          "PUD-dle, de-TEC-tive, in-VIS-i-ble, e-vap-o-RA-tion",
+          "강세 위치가 달라요! detective는 둘째 'TEC', invisible은 'VIS', evaporation은 '-RA-'를 크고 길게."
+        ],
+        [
+          "Dark L & -dle",
+          "puddle, middle, little",
+          "끝의 -dle은 '들'처럼 혀끝을 윗잇몸에 붙인 채 끝내요: puddle '퍼들', middle '미들'."
+        ],
+        [
+          "th sound",
+          "three, thief, that's",
+          "혀끝을 이 사이에 살짝: three는 '쓰리'가 아니라 'θree', thief도 'θief'."
+        ]
+      ],
+      "expression": "Tell it like a detective story: calm and ordinary at the start, puzzled as the puddle shrinks, surprised on “it had vanished completely!”, loud and silly in Eli's voice, serious and step-by-step for First, Next and Finally, slow and wise in Grandma's voice, worried on Eli's rising question, and proud and funny on “Case closed.”",
+      "practice": [
+        "the size of a pizza",
+        "vanished completely",
+        "Detective Jada",
+        "invisible gas called water vapor",
+        "The puddle is just on vacation!"
+      ],
+      "events": []
+    }
+  }
+}
