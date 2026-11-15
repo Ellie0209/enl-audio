@@ -1,0 +1,169 @@
+{
+  "day": 14,
+  "date": "2026-11-15",
+  "scripts": {
+    "1": {
+      "title": "Dig, Dig, Dig!",
+      "title_kr": "파고, 파고, 또 파요!",
+      "genre": "Pattern text",
+      "topic": "digging a pit in the sandbox at the park and finding a red lid and a bug (play, outdoors, nature)",
+      "lines": [
+        "*Dig*, *dig*, *dig*! | I *dig* in the *sand*.",
+        "I *dig* a *big* *pit*. | *What* is in it? ↘",
+        "It is a *red* *lid*! | I *put* it in my *bag*.",
+        "*Dig*, *dig*, *dig*! | Is it a *rock*? ↗",
+        "*No*, it is a *bug*! | The *bug* can *run*. ↘",
+        "*Bye*, *bug*! | I *fill* the *pit* | and *pat* the *sand*. ↘"
+      ],
+      "targets": ["dig", "sand", "big", "pit", "lid", "bag", "rock", "bug", "pat"],
+      "vocab": [
+        ["dig", "(땅을) 파다"],
+        ["sand", "모래"],
+        ["big", "큰"],
+        ["pit", "구덩이"],
+        ["lid", "뚜껑"],
+        ["bag", "가방"],
+        ["rock", "돌"],
+        ["bug", "벌레"],
+        ["fill", "채우다, 메우다"],
+        ["pat", "토닥토닥 두드리다"]
+      ],
+      "sounds": [
+        ["Short i", "dig, big, pit, lid, fill", "'이'를 짧고 힘 빼서: dig '딕', pit '핏'. 길게 '이-' 하지 않아요."],
+        ["Short a", "sand, bag, pat", "입을 옆으로 크게 벌리고 '애': bag '백', pat '팻'."],
+        ["Short u", "bug, run", "입에 힘을 빼고 짧게 '어': bug '벅', run '런'."]
+      ],
+      "expression": "Say “Dig, dig, dig!” with a strong, bouncy beat like you are digging, sound curious on “What is in it?”, lift your voice on “Is it a rock?”, act surprised on “No, it is a bug!”, wave on “Bye, bug!” and finish slow and calm as you pat the sand.",
+      "practice": ["dig", "sand", "pit", "lid", "bug"],
+      "events": []
+    },
+    "2": {
+      "title": "Mia Learns to Whistle",
+      "title_kr": "휘파람을 배우는 미아",
+      "genre": "Story",
+      "topic": "a girl practices all week to whistle like her grandpa and finally whistles a song with him (family, perseverance, feelings)",
+      "lines": [
+        "*Grandpa* *whistled* a *happy* *song* | on the *porch*.",
+        "*Mia* *wanted* to *whistle* *too*. | “*Teach* me, *please*!” | she *begged*.",
+        "Mia *puckered* her *lips* and *puffed*. | But *only* *air* *rushed* *out*. ↘",
+        "She *tried* *again* and *again*. | “It's *too* *hard*!” | she *groaned*. ↘",
+        "Grandpa *nodded*. | “*Keep* *trying*. | *Wet* your *lips* | and *blow* *softly*.”",
+        "Mia *practiced* | *after* *school* | *every* *day*.",
+        "On *Saturday*, | a *tiny* *tweet* *popped* *out*! ↘",
+        "Grandpa *clapped*, | and they *whistled* the *song* *together*. ↘"
+      ],
+      "targets": ["whistled", "wanted", "begged", "puffed", "tried", "groaned", "nodded", "practiced", "clapped"],
+      "vocab": [
+        ["whistle", "휘파람(을 불다)"],
+        ["porch", "현관 앞 마루, 베란다"],
+        ["begged", "졸랐다, 간절히 부탁했다"],
+        ["puckered", "(입술을) 오므렸다"],
+        ["puffed", "후 하고 불었다"],
+        ["rushed out", "확 빠져나왔다"],
+        ["groaned", "끙 하고 신음했다"],
+        ["nodded", "고개를 끄덕였다"],
+        ["practiced", "연습했다"],
+        ["tweet", "(새소리 같은) 짹 소리"]
+      ],
+      "sounds": [
+        ["-ed as /id/", "wanted, nodded", "t, d 뒤의 -ed는 '이드': wanted '원티드', nodded '나디드'."],
+        ["-ed as /t/", "puffed, rushed, practiced, popped, clapped", "f, sh, s, p 뒤는 짧은 t: puffed '퍼프트', clapped '클랩트'."],
+        ["-ed as /d/", "whistled, begged, tried, groaned", "l, g, 모음, n 뒤는 약한 d: begged '베그드', tried '트라이드'."]
+      ],
+      "expression": "Start cheerful with Grandpa's happy song, sound eager on “Teach me, please!”, let your voice drop and feel disappointed when only air rushes out, groan for real on “It's too hard!”, give Grandpa a calm, kind voice, get excited on “a tiny tweet popped out!” and end warm and proud as they whistle together.",
+      "practice": ["Teach me, please!", "only air rushed out", "It's too hard!", "Keep trying.", "a tiny tweet popped out"],
+      "events": []
+    },
+    "3": {
+      "title": "How a Letter Travels",
+      "title_kr": "편지는 어떻게 여행할까요?",
+      "genre": "Nonfiction",
+      "topic": "the journey of a mailed letter from envelope and stamp to mailbox, post office sorting machines, truck or plane, and the cousin's door (community, how things work)",
+      "lines": [
+        "*Have* you *ever* *mailed* a *letter*? ↗ | Let's *follow* *one* | on its *trip*!",
+        "*First*, | *Ana* *writes* a *letter* | to her *cousin* in *Texas*.",
+        "She *puts* it in an *envelope* | and *adds* an *address* and a *stamp*.",
+        "*Next*, | she *drops* it into a *blue* *mailbox*. ↘",
+        "A *mail* *carrier* *picks* it *up* | and *takes* it to the *post* *office*.",
+        "*There*, | *big* *machines* *sort* *thousands* of *letters* | *every* *hour*.",
+        "The *machines* *read* the *address* | and *send* each letter | the *right* *way*.",
+        "*Then* the letter *rides* on a *truck* | or *even* an *airplane*! ↘",
+        "*At* *last*, | *another* *mail* *carrier* | *brings* it to her *cousin's* *door*.",
+        "In *just* a *few* *days*, | Ana's *words* *traveled* | *hundreds* of *miles*. ↘",
+        "*Who* would *you* *like* to *write* to? ↘"
+      ],
+      "targets": ["letter", "envelope", "address", "stamp", "mailbox", "carrier", "machines", "sort", "airplane"],
+      "vocab": [
+        ["mail", "(우편으로) 보내다; 우편물"],
+        ["cousin", "사촌"],
+        ["envelope", "봉투"],
+        ["address", "주소"],
+        ["stamp", "우표"],
+        ["mailbox", "우체통"],
+        ["mail carrier", "집배원"],
+        ["post office", "우체국"],
+        ["machine", "기계"],
+        ["sort", "분류하다"],
+        ["thousands", "수천"],
+        ["hundreds of miles", "수백 마일"]
+      ],
+      "sounds": [
+        ["Word stress", "EN-ve-lope, MAIL-box, ma-CHINES, AIR-plane", "machines만 뒤 음절 'CHINES'에 힘! 나머지는 첫 음절을 크게: 'EN-벨롭', 'MAIL-박스'."],
+        ["Long a", "mail, way, days, takes", "'에이'로 끝까지 미끄러지듯: mail '메일', way '웨이'. '멜'처럼 짧게 끊지 않아요."],
+        ["-er ending", "letter, carrier, another", "끝의 -er은 혀를 살짝 말아 약하게 'ㄹ': letter '레러r', carrier '캐리어r'."]
+      ],
+      "expression": "Read like a friendly tour guide: invite listeners with a rising “Have you ever mailed a letter?”, pause after First, Next, There, Then and At last so each step is clear, sound amazed on “thousands of letters every hour” and “an airplane!”, and ask the last question warmly with your voice going down.",
+      "practice": ["Let's follow one on its trip!", "an address and a stamp", "a mail carrier", "thousands of letters every hour", "hundreds of miles"],
+      "events": []
+    },
+    "4": {
+      "title": "The Great Kimchi Day",
+      "title_kr": "온 가족 김장하는 날",
+      "genre": "Family story",
+      "topic": "a family's November gimjang (kimchi-making day) at Halmeoni's house; a child learns Grandma's leaf-by-leaf trick and that many hands make light work (family, culture, seasons, teamwork)",
+      "lines": [
+        "*Every* *November*, | my *whole* *family* *gathers* at *Halmeoni's* *house* | for *gimjang*, | our *big* *kimchi*-making *day*.",
+        "When we *arrived*, | *fifty* *heads* of *cabbage* | were *already* *soaking* in *salty* *water*.",
+        "“*Fifty*?” ↗ | I *gasped*. | “We'll *never* *finish*!” ↘",
+        "*Halmeoni* *laughed*. | “*Many* *hands* make *light* *work*,” | she *said*.",
+        "*Uncle* *Min* *rinsed* the *cabbage*, | and *Mom* *mixed* the *spicy* *red* *paste* | with *garlic*, *ginger* and *pepper* *flakes*.",
+        "My *job* was to *spread* the *paste* | *between* *every* *leaf*.",
+        "I *wore* *pink* *rubber* *gloves* | that were *much* *too* *big* for my *hands*.",
+        "At *first*, | I *smeared* *paste* on my *apron*, | my *sleeve*, | and *even* my *nose*! ↘",
+        "*Everyone* *giggled*, | but *Halmeoni* *showed* me a *trick*: | *start* at the *bottom* | and *work* *up*, | *one* *leaf* at a *time*.",
+        "*Soon*, | my *cabbages* *looked* *neat* and *bright* *red*.",
+        "*All* *afternoon*, | we *talked*, *sang* | and *filled* *jar* after *jar*.",
+        "By *sunset*, | the *mountain* of *cabbage* | was *gone*. ↘",
+        "*Halmeoni* *wrapped* *warm* *pork* | in a *fresh* *kimchi* *leaf* | and *popped* it into my *mouth*.",
+        "It was *spicy*, *salty*, | and *perfect*. ↘",
+        "*Now* I *understand* | that *gimjang* isn't *really* about the *kimchi*. | It's about the *hands* that *make* it *together*. ↘"
+      ],
+      "targets": ["November", "cabbage", "soaking", "paste", "garlic", "ginger", "gloves", "smeared", "together"],
+      "vocab": [
+        ["gimjang", "김장"],
+        ["Halmeoni", "할머니"],
+        ["gather", "모이다"],
+        ["cabbage", "배추"],
+        ["soak", "(물에) 담가 두다, 절이다"],
+        ["gasp", "(놀라서) 헉 하고 숨을 들이쉬다"],
+        ["Many hands make light work.", "여럿이 함께하면 일이 쉬워진다."],
+        ["rinse", "헹구다"],
+        ["paste", "양념 (속)"],
+        ["garlic", "마늘"],
+        ["ginger", "생강"],
+        ["pepper flakes", "고춧가루"],
+        ["rubber gloves", "고무장갑"],
+        ["smear", "(여기저기) 묻히다"],
+        ["apron", "앞치마"]
+      ],
+      "sounds": [
+        ["Word stress", "No-VEM-ber, CAB-bage, GAR-lic, GIN-ger, af-ter-NOON", "November는 둘째 'VEM', afternoon은 끝 'NOON'에 힘! cabbage, garlic, ginger는 첫 음절을 크게."],
+        ["Hard g vs. soft g", "garlic, gloves, giggled / ginger, cabbage", "hard g는 목 안쪽 'ㄱ': garlic '갈릭'. soft g는 'ㅈ'에 가까운 /dʒ/: ginger '진저', cabbage '캐비지'."],
+        ["Linking", "heads of, jar after jar, popped it into", "자음+모음은 이어서: heads of '헤즈어브', jar after jar '자래프터 자', popped it '팝팃'."]
+      ],
+      "expression": "Tell it like a warm family memory: proud and cozy at the start, shocked on “Fifty?” with your voice going up, worried on “We'll never finish!”, wise and gentle in Halmeoni's voice, list the ingredients smoothly, laugh at the paste on your nose, slow down for Halmeoni's step-by-step trick, sound satisfied as the cabbage disappears, and end thoughtful and slow on the last line.",
+      "practice": ["fifty heads of cabbage", "Many hands make light work", "much too big for my hands", "one leaf at a time", "jar after jar"],
+      "events": []
+    }
+  }
+}

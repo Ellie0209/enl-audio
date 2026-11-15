@@ -336,5 +336,31 @@
         "genre": "Science mystery"
       }
     }
+  },
+  {
+    "day": 14,
+    "date": "2026-11-15",
+    "levels": {
+      "1": {
+        "title": "Dig, Dig, Dig!",
+        "topic": "digging a pit in the sandbox at the park and finding a red lid and a bug (play, outdoors, nature)",
+        "genre": "Pattern text"
+      },
+      "2": {
+        "title": "Mia Learns to Whistle",
+        "topic": "a girl practices all week to whistle like her grandpa and finally whistles a song with him (family, perseverance, feelings)",
+        "genre": "Story"
+      },
+      "3": {
+        "title": "How a Letter Travels",
+        "topic": "the journey of a mailed letter from envelope and stamp to mailbox, post office sorting machines, truck or plane, and the cousin's door (community, how things work)",
+        "genre": "Nonfiction"
+      },
+      "4": {
+        "title": "The Great Kimchi Day",
+        "topic": "a family's November gimjang (kimchi-making day) at Halmeoni's house; a child learns Grandma's leaf-by-leaf trick and that many hands make light work (family, culture, seasons, teamwork)",
+        "genre": "Family story"
+      }
+    }
   }
 ]
