@@ -362,5 +362,31 @@
         "genre": "Family story"
       }
     }
+  },
+  {
+    "day": 15,
+    "date": "2026-11-16",
+    "levels": {
+      "1": {
+        "title": "Off to the Vet!",
+        "topic": "taking a pet dog with a hurt leg to the vet, who puts a pad on the cut (pets, community helpers, caring)",
+        "genre": "Story"
+      },
+      "2": {
+        "title": "Taking Turns on the Swing",
+        "topic": "a boy grabs the swing at recess, feels bad, says sorry and the two friends take turns pushing each other (school, friendship, feelings)",
+        "genre": "Story"
+      },
+      "3": {
+        "title": "Magnets: Push and Pull",
+        "topic": "what magnets attract (iron and steel, not wood, plastic or paper), north and south poles that pull or push, and magnets in everyday life (science, how things work)",
+        "genre": "Nonfiction"
+      },
+      "4": {
+        "title": "The Lantern Walk",
+        "topic": "a child makes a paper lantern for a neighborhood November lantern walk, feels nervous in the dark park, and learns from a neighbor that many small lights together light the path (community, seasons, feelings, courage)",
+        "genre": "Realistic fiction"
+      }
+    }
   }
 ]

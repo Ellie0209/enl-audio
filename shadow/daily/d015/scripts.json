@@ -1,0 +1,172 @@
+{
+  "day": 15,
+  "date": "2026-11-16",
+  "scripts": {
+    "1": {
+      "title": "Off to the Vet!",
+      "title_kr": "동물병원에 가요!",
+      "genre": "Story",
+      "topic": "taking a pet dog with a hurt leg to the vet, who puts a pad on the cut (pets, community helpers, caring)",
+      "lines": [
+        "*Gus* is my *dog*. | His *leg* is *bad*. ↘",
+        "We *get* in the *van*. | We *go* to the *vet*.",
+        "The *vet* *pets* *Gus*. | Is it a *cut*? ↗",
+        "*Yes*, it is a *cut*. | She *puts* on a *red* *pad*. ↘",
+        "*Gus* *sits* and *sits*. | *Good* *dog*, *Gus*!",
+        "*Gus* can *run* *again*! | I *hug* my *dog*. ↘"
+      ],
+      "targets": ["dog", "leg", "bad", "van", "vet", "cut", "red", "pad", "hug"],
+      "vocab": [
+        ["dog", "개, 강아지"],
+        ["leg", "다리"],
+        ["bad", "나쁜, 아픈"],
+        ["van", "승합차, 밴"],
+        ["vet", "수의사, 동물병원"],
+        ["pet", "쓰다듬다"],
+        ["cut", "베인 상처"],
+        ["pad", "(상처에 대는) 패드, 거즈"],
+        ["sit", "앉다, 가만히 있다"],
+        ["hug", "꼭 안아 주다"]
+      ],
+      "sounds": [
+        ["Short e", "leg, get, vet, pets, red", "입을 반쯤 벌리고 짧게 '에': leg '렉', vet '벳'. '에-이'처럼 늘이지 않아요."],
+        ["Short u", "Gus, cut, run, hug", "입에 힘을 빼고 짧게 '어': cut '컷', hug '허그'."],
+        ["v vs. b", "van, vet / bad", "v는 윗니로 아랫입술을 살짝 물고 '브으': van, vet. b는 두 입술을 붙였다 떼요: bad."]
+      ],
+      "expression": "Sound worried and slow on “His leg is bad.”, get moving on “We get in the van.”, lift your voice on the question “Is it a cut?”, sound gentle and calm while the vet helps, praise Gus warmly on “Good dog, Gus!” and finish happy and cozy on “I hug my dog.”",
+      "practice": ["dog", "leg", "vet", "cut", "hug"],
+      "events": []
+    },
+    "2": {
+      "title": "Taking Turns on the Swing",
+      "title_kr": "그네는 번갈아 타요",
+      "genre": "Story",
+      "topic": "a boy grabs the swing at recess, feels bad, says sorry and the two friends take turns pushing each other (school, friendship, feelings)",
+      "lines": [
+        "At *recess*, | *Noah* *raced* to the *red* *swing*.",
+        "But *Ava* *reached* it *first*. ↘ | Noah *grabbed* the *chain* | and *pulled*.",
+        "“*Hey*! | I was *here* *first*!” | Ava *shouted*.",
+        "Noah *frowned* | and *stomped* *away*. ↘",
+        "Ava *swung* *alone*. | She *looked* *lonely*, | and *so* did *Noah*.",
+        "Noah *walked* *back* *slowly*. | “I'm *sorry* I *grabbed* it,” | he *said*.",
+        "Ava *smiled*. | “Do you *want* to *take* *turns*?” ↗",
+        "Noah *pushed* Ava *high*, | and *then* Ava *pushed* *Noah*! ↘"
+      ],
+      "targets": ["raced", "reached", "grabbed", "pulled", "shouted", "frowned", "stomped", "walked", "pushed"],
+      "vocab": [
+        ["recess", "쉬는 시간"],
+        ["swing", "그네; 그네를 타다"],
+        ["raced", "달려갔다"],
+        ["reached", "~에 닿았다, 도착했다"],
+        ["grabbed", "움켜잡았다"],
+        ["chain", "(그네) 쇠줄"],
+        ["shouted", "소리쳤다"],
+        ["frowned", "얼굴을 찌푸렸다"],
+        ["stomped away", "쿵쿵거리며 가 버렸다"],
+        ["lonely", "외로운"],
+        ["take turns", "번갈아 하다"]
+      ],
+      "sounds": [
+        ["-ed as /t/", "raced, reached, stomped, looked, walked, pushed", "s, ch, p, k, sh 뒤의 -ed는 짧은 t: raced '레이스트', pushed '푸쉬트'."],
+        ["-ed as /d/", "grabbed, pulled, frowned, smiled", "b, l, n 같은 소리 뒤는 약한 d: grabbed '그랩드', smiled '스마일드'."],
+        ["-ed as /id/", "shouted", "t, d 뒤의 -ed는 '이드'를 붙여요: shouted '샤우티드'."]
+      ],
+      "expression": "Start fast and excited as Noah races to the swing, sound sharp and upset on “Hey! I was here first!”, make “stomped away” heavy and grumpy, slow down and sound quiet and lonely in the middle, say “I'm sorry I grabbed it” softly and honestly, let Ava's question go up kindly, and end bright and happy as they push each other.",
+      "practice": ["raced to the red swing", "I was here first!", "stomped away", "I'm sorry I grabbed it", "take turns"],
+      "events": []
+    },
+    "3": {
+      "title": "Magnets: Push and Pull",
+      "title_kr": "자석: 밀고 당기는 힘",
+      "genre": "Nonfiction",
+      "topic": "what magnets attract (iron and steel, not wood, plastic or paper), north and south poles that pull or push, and magnets in everyday life (science, how things work)",
+      "lines": [
+        "A *magnet* is a *special* *object* | with an *invisible* *power*. ↘",
+        "It can *pull* *some* *things* *toward* it | *without* *touching* them!",
+        "Magnets *pull* on *things* made of *iron* or *steel*, | like *paper* *clips* and *nails*.",
+        "But they do *not* *pull* on *wood*, | *plastic*, | or *paper*. ↘",
+        "*Every* magnet has *two* *ends* | *called* *poles*: | a *north* pole and a *south* pole.",
+        "If you *put* a *north* pole *near* a *south* pole, | they *snap* *together*! ↘",
+        "But *two* *north* poles, | or *two* *south* poles, | *push* *each* *other* *away*. ↘",
+        "Magnets *help* us *every* *day*. ↘",
+        "They *hold* *notes* on the *fridge* | and *keep* *cabinet* *doors* *closed*.",
+        "They are *even* *hidden* *inside* | *speakers* and *headphones*!",
+        "*Find* a *magnet* at *home*. | *What* can *your* magnet *pick* *up*? ↘"
+      ],
+      "targets": ["magnet", "invisible", "iron", "steel", "plastic", "poles", "north", "south", "together"],
+      "vocab": [
+        ["magnet", "자석"],
+        ["object", "물체, 물건"],
+        ["invisible", "눈에 보이지 않는"],
+        ["power", "힘"],
+        ["toward", "~쪽으로"],
+        ["iron", "철"],
+        ["steel", "강철"],
+        ["paper clip", "클립"],
+        ["plastic", "플라스틱"],
+        ["pole", "(자석의) 극"],
+        ["north / south", "북쪽(N극) / 남쪽(S극)"],
+        ["snap together", "딱 붙다"],
+        ["cabinet", "찬장, 수납장"],
+        ["headphones", "헤드폰"]
+      ],
+      "sounds": [
+        ["Word stress", "MAG-net, in-VIS-i-ble, PLAS-tic, to-GETH-er", "invisible은 둘째 'VIS', together는 둘째 'GETH'에 힘! magnet, plastic은 첫 음절을 크게."],
+        ["Silent r in iron", "iron", "iron은 '아이언'처럼 읽어요. 'r' 소리를 따로 내지 않아요: '아이런' (X)."],
+        ["th sounds", "things, north, south, without, together", "혀끝을 윗니 사이로 살짝 내밀고 바람: north '노r쓰', south '사우쓰'. 'ㅅ'나 'ㄷ'로 바꾸지 않아요."]
+      ],
+      "expression": "Read like a curious science presenter: sound amazed on “invisible power” and “without touching them!”, list iron, steel, paper clips and nails clearly, pause on each comma in “wood, plastic, or paper”, make “they snap together!” quick and surprising, make “push each other away” firm, and end with an inviting, friendly question.",
+      "practice": ["an invisible power", "without touching them", "iron or steel", "north pole and south pole", "push each other away"],
+      "events": []
+    },
+    "4": {
+      "title": "The Lantern Walk",
+      "title_kr": "등불 들고 걷는 밤",
+      "genre": "Realistic fiction",
+      "topic": "a child makes a paper lantern for a neighborhood November lantern walk, feels nervous in the dark park, and learns from a neighbor that many small lights together light the path (community, seasons, feelings, courage)",
+      "lines": [
+        "When the *nights* *grow* *long* in *November*, | the *families* on *Maple* *Street* | *hold* a *Lantern* *Walk*.",
+        "*This* *year*, | I *finally* got to *make* my *own* *lantern*. ↘",
+        "I *glued* *orange* and *yellow* *tissue* *paper* | onto an *old* *oatmeal* *box* | and *cut* *tiny* *stars* into the *sides*.",
+        "*Dad* *hung* it from a *long* *stick* | and *placed* a *little* *battery* *candle* *inside*.",
+        "But when the *sun* *went* *down*, | my *stomach* *felt* *fluttery*. ↘",
+        "The *park* *looked* *so* *different* in the *dark*, | and the *trees* *cast* *long*, *spooky* *shadows*.",
+        "“*What* if my *light* *goes* *out*?” ↗ | I *whispered*.",
+        "*Mrs.* *Okafor*, | our *neighbor*, | *knelt* *down* *beside* me.",
+        "“*That's* *why* we *walk* *together*,” | she *said*. | “*Each* *lantern* is *small*, | but *together* we *light* the *whole* *path*.”",
+        "We *lined* *up* and *started* to *walk*, | *singing* a *simple* *lantern* *song*.",
+        "*Halfway* *around* the *pond*, | a *gust* of *wind* *tipped* my *candle* *over*, | and my *lantern* *went* *dark*. ↘",
+        "*Before* I could *panic*, | *Leo* *held* his *lantern* *close* to *mine*, | and *Dad* *set* my *candle* *upright* *again*.",
+        "When I *looked* *back*, | I *saw* a *long* *river* of *tiny* *lights* | *winding* through the *park*.",
+        "*Each* one was *small*, | but *together*, | they *pushed* the *darkness* *away*. ↘",
+        "*Now* I *know* | the *dark* isn't *so* *scary* | when you *walk* it with *friends*. ↘"
+      ],
+      "targets": ["lantern", "tissue", "oatmeal", "candle", "battery", "shadows", "whispered", "neighbor", "darkness"],
+      "vocab": [
+        ["lantern", "등불, 랜턴"],
+        ["tissue paper", "얇은 색 습자지"],
+        ["oatmeal box", "오트밀 통"],
+        ["battery candle", "건전지 촛불 (LED 초)"],
+        ["fluttery", "(긴장해서) 속이 울렁거리는"],
+        ["cast shadows", "그림자를 드리우다"],
+        ["spooky", "으스스한"],
+        ["whisper", "속삭이다"],
+        ["neighbor", "이웃"],
+        ["knelt down", "무릎을 꿇고 앉았다"],
+        ["path", "길"],
+        ["gust of wind", "한 줄기 돌풍"],
+        ["panic", "당황하다, 겁에 질리다"],
+        ["upright", "똑바로 선"],
+        ["winding", "구불구불 이어지는"]
+      ],
+      "sounds": [
+        ["Word stress", "LAN-tern, BAT-ter-y, NEIGH-bor, to-GETH-er, up-RIGHT", "대부분 첫 음절에 힘: LAN-tern '랜턴', NEIGH-bor '네이버'. together는 'GETH', upright는 'RIGHT'에 힘!"],
+        ["-ed endings", "glued, whispered / placed, looked, tipped / started", "모음·r 뒤는 약한 d(glued '글루드'), s·k·p 뒤는 짧은 t(placed '플레이스트'), t 뒤는 '이드'(started '스타r티드')."],
+        ["Linking", "lined up, gust of wind, walk it with", "자음+모음은 이어서: lined up '라인덥', gust of '거스터브', walk it '워킷'."]
+      ],
+      "expression": "Tell it like a quiet evening memory: cozy and proud while you make the lantern, slow and nervous as the sun goes down, make “spooky shadows” sound a little scary, whisper the worried question with your voice going up, give Mrs. Okafor a calm, warm voice, speed up a little when the lantern goes dark, sound amazed at the river of lights, and end slow and peaceful on the last line.",
+      "practice": ["tissue paper", "battery candle", "my stomach felt fluttery", "a gust of wind", "a long river of tiny lights"],
+      "events": []
+    }
+  }
+}
