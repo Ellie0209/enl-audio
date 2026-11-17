@@ -388,5 +388,31 @@
         "genre": "Realistic fiction"
       }
     }
+  },
+  {
+    "day": 16,
+    "date": "2026-11-17",
+    "levels": {
+      "1": {
+        "title": "Time for Bed, Ted!",
+        "topic": "a boy's bedtime routine: a sip from his cup, his red top with a pup, hugs from Mom and Dad, and hopping into bed (family, routine, feelings)",
+        "genre": "Rhyme"
+      },
+      "2": {
+        "title": "Where Are Nana's Glasses?",
+        "topic": "a girl helps her grandma search the house for her lost glasses, which turn out to be on top of Nana's head (family, humor, helping)",
+        "genre": "Story"
+      },
+      "3": {
+        "title": "The Great Cookie Mix-Up",
+        "topic": "baking cookies with a big brother for the school bake sale, using salt instead of sugar by mistake, then labeling the jars and baking a new batch (family, school, mistakes, cooking)",
+        "genre": "Story"
+      },
+      "4": {
+        "title": "Living Lights: Animals That Glow",
+        "topic": "bioluminescence: fireflies flashing coded patterns, deep-sea anglerfish lures, jellyfish and squid that glow to stay safe, and New Zealand cave glowworms that catch insects (animals, science, nature)",
+        "genre": "Nonfiction"
+      }
+    }
   }
 ]
