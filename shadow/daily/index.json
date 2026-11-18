@@ -414,5 +414,31 @@
         "genre": "Nonfiction"
       }
     }
+  },
+  {
+    "day": 17,
+    "date": "2026-11-18",
+    "levels": {
+      "1": {
+        "title": "Pack the Bag!",
+        "topic": "packing a bag for a trip to Gran's house while the family cat keeps jumping into the bag (family, travel, humor)",
+        "genre": "Story"
+      },
+      "2": {
+        "title": "Catch That Hat!",
+        "topic": "on a windy walk the wind blows Grandpa's hat down a hill, a boy chases it and a little dog catches it and brings it back (family, weather, animals, humor)",
+        "genre": "Story"
+      },
+      "3": {
+        "title": "Ants Work as a Team",
+        "topic": "how ants live in colonies with a queen and worker ants, follow scent trails, lift heavy loads and work together (animals, insects, science, teamwork)",
+        "genre": "Nonfiction"
+      },
+      "4": {
+        "title": "Hana's Big Idea",
+        "topic": "a nervous girl runs in her class council election, listens to classmates at recess, proposes a Buddy Bench for lonely kids, gives her speech and wins (school, community, leadership, courage)",
+        "genre": "Realistic fiction"
+      }
+    }
   }
 ]
