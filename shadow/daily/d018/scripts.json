@@ -1,0 +1,200 @@
+{
+  "day": 18,
+  "date": "2026-11-19",
+  "scripts": {
+    "1": {
+      "title": "Sled, Sled, Go!",
+      "title_kr": "썰매야, 달려라!",
+      "genre": "Story",
+      "topic": "sledding down a snowy hill with Mom and big sister Meg, hitting a bump, falling in the snow and laughing (family, winter, play)",
+      "lines": [
+        "*Get* the *red* *sled*! | *Up* the *hill* we *go*. ↘",
+        "*Sit*, *Meg*, *sit*! | *Mom* will *push* us. ↘",
+        "*Go*, *sled*, *go*! | *Fast*, *fast*, *fast*! ↘",
+        "*Bump*! | The *sled* *hit* a *bump*. | We *fell* in the *snow*! ↘",
+        "Is *Meg* *sad*? ↗ | *No*! | *Meg* has a *big* *grin*. ↘",
+        "*Get* *up*! | *Run* *up* the *hill*. | Let's *go* *again*! ↘"
+      ],
+      "targets": ["sled", "red", "hill", "sit", "hit", "bump", "sad", "big", "run"],
+      "vocab": [
+        ["sled", "썰매"],
+        ["hill", "언덕"],
+        ["sit", "앉다"],
+        ["push", "밀다"],
+        ["fast", "빠르게"],
+        ["bump", "쿵! / 툭 튀어나온 곳"],
+        ["hit", "부딪쳤다 (hit의 과거도 hit)"],
+        ["fell", "넘어졌다 (fall의 과거)"],
+        ["snow", "눈"],
+        ["sad", "슬픈"],
+        ["grin", "활짝 웃는 얼굴"],
+        ["Let's go again!", "또 타자!"]
+      ],
+      "sounds": [
+        ["Short e", "red, sled, get, Meg, fell", "입을 반쯤 벌리고 짧게 '에': red '레드', sled '슬레드'. '레-이드'처럼 늘이지 않아요."],
+        ["Short u", "up, bump, run, us", "입에 힘을 빼고 짧게 '어': up '업', run '런', bump '범프'."],
+        ["sl blend", "sled", "s와 l을 붙여서 한 번에: sled '슬레드'. '스-레드'처럼 '스'를 따로 세게 말하지 않아요."]
+      ],
+      "expression": "Say “Get the red sled!” with excitement, make “Sit, Meg, sit!” a quick little order, read “Go, sled, go! Fast, fast, fast!” faster and faster, say “Bump!” loud and sudden, let “Is Meg sad?” go up like a real question, answer “No!” with a laugh, and end happily on “Let's go again!”",
+      "practice": [
+        "Get the red sled!",
+        "Up the hill we go.",
+        "Fast, fast, fast!",
+        "We fell in the snow!",
+        "Let's go again!"
+      ],
+      "events": []
+    },
+    "2": {
+      "title": "Car Wash Splash!",
+      "title_kr": "세차하다가 첨벙!",
+      "genre": "Story",
+      "topic": "a girl helps Dad wash the muddy family car with a sponge and a hose, and the dog runs through the spray (family, helping, humor)",
+      "lines": [
+        "On *Saturday* *morning*, | *Dad's* *car* was *covered* in *mud*. ↘",
+        "“*Let's* *wash* it *together*!” *Dad* *said*. | *Lily* *cheered* | and *picked* *up* a *big* *sponge*. ↘",
+        "They *filled* a *bucket* with *warm* *water* | and *lots* of *soap* *bubbles*. ↘",
+        "*Lily* *scrubbed* the *doors*, | and *Dad* *washed* the *windows*. ↘",
+        "*Then* *Dad* *turned* *on* the *hose*. | *Splash*! | *Water* *sprayed* *everywhere*! ↘",
+        "*Biscuit* the *dog* *barked* | and *darted* *through* the *spray*. ↘",
+        "“*Oops*!” *Dad* *laughed*. | “*Now* *Biscuit* *needs* a *bath*, *too*!” ↘",
+        "*Lily* *looked* at the *shiny* *car*. | “*Can* we *wash* *Biscuit* *next*?” she *asked*. ↗"
+      ],
+      "targets": ["covered", "cheered", "filled", "scrubbed", "washed", "turned", "sprayed", "darted", "laughed"],
+      "vocab": [
+        ["Saturday", "토요일"],
+        ["covered in mud", "진흙으로 뒤덮인"],
+        ["together", "함께"],
+        ["cheered", "환호했다"],
+        ["sponge", "스펀지"],
+        ["filled", "가득 채웠다"],
+        ["bucket", "양동이"],
+        ["soap bubbles", "비누 거품"],
+        ["scrubbed", "문질러 닦았다"],
+        ["hose", "호스"],
+        ["sprayed", "뿜어져 나왔다"],
+        ["darted", "쏜살같이 달려갔다"],
+        ["shiny", "반짝반짝 빛나는"]
+      ],
+      "sounds": [
+        ["-ed as /t/", "washed, laughed, looked, barked, picked, asked", "sh, f, k 소리 뒤의 -ed는 짧은 t: washed '와쉬트', looked '룩트'. '워시드'처럼 '드'를 붙이지 않아요."],
+        ["-ed as /d/", "covered, cheered, filled, scrubbed, turned, sprayed", "울리는 소리 뒤는 약한 d: filled '필드', sprayed '스프레이드'."],
+        ["-ed as /id/", "darted", "t 뒤의 -ed는 '이드'를 붙여요: darted '다-티드'. '다트드'처럼 줄이지 않아요."]
+      ],
+      "expression": "Start like a calm Saturday, make Dad's “Let's wash it together!” bright and friendly, read the scrubbing lines like busy helpers, make “Splash!” big and wet, sound surprised when Biscuit darts through the spray, let Dad laugh on “Oops!”, and make Lily's last question go up playfully.",
+      "practice": [
+        "covered in mud",
+        "“Let's wash it together!”",
+        "lots of soap bubbles",
+        "Water sprayed everywhere!",
+        "Now Biscuit needs a bath, too!"
+      ],
+      "events": []
+    },
+    "3": {
+      "title": "The Moon's Changing Shape",
+      "title_kr": "달의 모양이 바뀌어요",
+      "genre": "Nonfiction",
+      "topic": "moon phases: the moon reflects sunlight, half of it is always lit, and as it travels around Earth about once a month we see full, crescent and new moons (science, space)",
+      "lines": [
+        "Have you *ever* *noticed* | that the *moon* *looks* *different* | from *night* to *night*? ↗",
+        "*Sometimes* it is a *round*, *bright* *circle*. | *Other* *times* it is a *thin* *curve*, | like a *smile* in the *sky*. ↘",
+        "But the *moon* does *not* *really* *change* its *shape*. ↘",
+        "The *moon* does not *make* its *own* *light*. | It *shines* because the *sun* *lights* it *up*. ↘",
+        "The *sun* *always* *lights* *half* of the *moon*, | just as it *lights* *half* of the *Earth*.",
+        "The *moon* *travels* *around* the *Earth* | about *once* a *month*. ↘",
+        "As it *moves*, | we *see* *different* *amounts* | of its *sunny* *side*. ↘",
+        "When we *see* the *whole* *sunny* *side*, | we *call* it a *full* *moon*. ↘",
+        "When we *see* *only* a *thin* *sliver*, | we *call* it a *crescent* *moon*. ↘",
+        "On *some* *nights*, | the *sunny* *side* *faces* *away* from us. | That is a *new* *moon*, | and it is *hard* to *see*. ↘",
+        "*Try* *drawing* the *moon* *every* *night* for a *month*. | You will *see* the *pattern* *repeat*! ↘"
+      ],
+      "targets": ["noticed", "circle", "curve", "shape", "travels", "month", "whole", "crescent", "pattern"],
+      "vocab": [
+        ["notice", "알아차리다"],
+        ["different", "다른"],
+        ["circle", "원, 동그라미"],
+        ["curve", "곡선"],
+        ["shape", "모양"],
+        ["shine", "빛나다"],
+        ["half", "절반"],
+        ["travel around", "~의 둘레를 돌다"],
+        ["once a month", "한 달에 한 번"],
+        ["amount", "양"],
+        ["whole", "전체의"],
+        ["sliver", "가느다란 조각"],
+        ["crescent moon", "초승달 (가는 달)"],
+        ["pattern", "규칙, 반복되는 모양"]
+      ],
+      "sounds": [
+        ["Word stress", "NO-ticed, CIR-cle, CRES-cent, PAT-tern, a-ROUND, a-WAY", "noticed, circle, crescent, pattern은 첫 음절에 힘! around와 away는 뒤 음절 'ROUND', 'WAY'에 힘을 줘요."],
+        ["Silent w", "whole (= hole)", "whole의 w는 소리 나지 않아요: '호울'. '훌'이나 '워울'이 아니에요."],
+        ["Two sounds of c", "circle, crescent, once", "e·i 앞의 c는 'ㅆ' (circle의 첫 c, once), 나머지는 'ㅋ' (circle의 두 번째 c, crescent의 첫 c): circle '써클', crescent '크레슨트'."]
+      ],
+      "expression": "Open with a curious question that goes up at the end, describe the round circle and the thin curve like you are pointing at the sky, make “But the moon does not really change its shape.” sound like a surprising secret, explain the sunlight lines clearly like a teacher, slow down on the names full moon and crescent moon, and finish with an inviting, excited challenge.",
+      "practice": [
+        "from night to night",
+        "like a smile in the sky",
+        "about once a month",
+        "a thin sliver",
+        "You will see the pattern repeat!"
+      ],
+      "events": []
+    },
+    "4": {
+      "title": "Twenty-Four Pictures",
+      "title_kr": "스물네 장의 사진",
+      "genre": "Realistic fiction",
+      "topic": "a boy borrows his grandpa's old film camera that takes only 24 pictures, waits for the right moments all week, and learns that careful photos become treasured memories (family, patience, technology then and now)",
+      "lines": [
+        "On a *rainy* *Sunday*, | *Grandpa* *pulled* a *dusty* *box* | *down* from the *closet* *shelf*. ↘",
+        "*Inside* was an *old* *camera* | with a *leather* *strap* | and a *silver* *button* on *top*. ↘",
+        "“*This* was my *very* *first* *camera*,” he *said*. | “It *uses* *film*, | not a *memory* *card*.” ↘",
+        "*Grandpa* *explained* that *one* *roll* of *film* | could *take* *only* *twenty-four* *pictures*. ↘",
+        "And you *couldn't* *see* them *right* *away*. | The *film* had to be *developed* *first*. ↘",
+        "*Noah* *stared* at the *camera*. | On his *tablet*, | he could *snap* a *hundred* *photos* in a *minute*!",
+        "“*Only* *twenty-four*?” he *asked*. | “*Then* *every* *picture* has to be *special*.” ↘",
+        "*All* *week*, | Noah *carried* the *camera* *everywhere*, | but he *didn't* *press* the *button* *often*. ↘",
+        "He *waited* for the *right* *moments*: | his *sister* *blowing* *out* her *birthday* *candles*, | the *first* *snow* on the *porch* *steps*, | and *Mom* *laughing* at the *kitchen* *table*. ↘",
+        "On *Saturday*, | they *took* the *film* to a *small* *shop* | that could *still* *develop* it. ↘",
+        "*Noah* *waited* *three* *long* *days*. | It *felt* like *forever*!",
+        "At *last*, | Grandpa *handed* him a *thick* *envelope* of *prints*. ↘",
+        "*Some* *pictures* were *blurry*, | and *one* *showed* *only* Noah's *thumb*. ↘",
+        "But the *birthday* *candles* *glowed*, | the *snow* *sparkled*, | and Mom's *laugh* *seemed* to *jump* *off* the *paper*. ↘",
+        "Noah *smiled*. | “*Twenty-four* *pictures* *isn't* *many*,” he *said*, | “but I *remember* *every* *one*.” ↘"
+      ],
+      "targets": ["dusty", "leather", "explained", "developed", "special", "carried", "moments", "envelope", "blurry"],
+      "vocab": [
+        ["dusty", "먼지투성이의"],
+        ["closet shelf", "벽장 선반"],
+        ["leather strap", "가죽 끈"],
+        ["film", "필름"],
+        ["memory card", "메모리 카드"],
+        ["explained", "설명했다"],
+        ["roll of film", "필름 한 통"],
+        ["developed", "(필름을) 현상했다"],
+        ["stared at", "~을 빤히 쳐다봤다"],
+        ["special", "특별한"],
+        ["moment", "순간"],
+        ["porch steps", "현관 계단"],
+        ["envelope of prints", "인화된 사진이 든 봉투"],
+        ["blurry", "흐릿한"],
+        ["sparkled", "반짝였다"]
+      ],
+      "sounds": [
+        ["Word stress", "ex-PLAINED, de-VEL-oped, SPE-cial, MO-ments, EN-ve-lope", "developed는 'VEL'에 힘 (디벨럽트), envelope는 첫 'EN'에 힘 (엔벌로웁)! 나머지 음절은 작고 짧게."],
+        ["Short e with ea", "leather (= le-ther)", "leather의 ea는 짧은 '에': '레더'. '리더'처럼 길게 '이'로 읽지 않아요. th는 혀를 살짝 내밀고 울리는 소리."],
+        ["One-syllable film", "film, roll, shelf, old", "film은 한 음절! '필름'처럼 두 번 끊지 말고 l에서 혀끝을 윗잇몸에 댄 채 바로 m으로 이어요. roll, shelf, old의 l도 같은 어두운 l."]
+      ],
+      "expression": "Tell it like a warm family memory: sound curious when the dusty box comes down, give Grandpa a slow, proud voice, sound shocked on “Only twenty-four?”, read the list of special moments gently with a small pause at each comma, stretch “It felt like forever!”, smile on the blurry thumb picture, and end softly and thoughtfully on “but I remember every one.”",
+      "practice": [
+        "a dusty box down from the closet shelf",
+        "not a memory card",
+        "Then every picture has to be special.",
+        "It felt like forever!",
+        "but I remember every one"
+      ],
+      "events": []
+    }
+  }
+}

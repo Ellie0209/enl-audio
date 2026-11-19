@@ -440,5 +440,31 @@
         "genre": "Realistic fiction"
       }
     }
+  },
+  {
+    "day": 18,
+    "date": "2026-11-19",
+    "levels": {
+      "1": {
+        "title": "Sled, Sled, Go!",
+        "topic": "sledding down a snowy hill with Mom and big sister Meg, hitting a bump, falling in the snow and laughing (family, winter, play)",
+        "genre": "Story"
+      },
+      "2": {
+        "title": "Car Wash Splash!",
+        "topic": "a girl helps Dad wash the muddy family car with a sponge and a hose, and the dog runs through the spray (family, helping, humor)",
+        "genre": "Story"
+      },
+      "3": {
+        "title": "The Moon's Changing Shape",
+        "topic": "moon phases: the moon reflects sunlight, half of it is always lit, and as it travels around Earth about once a month we see full, crescent and new moons (science, space)",
+        "genre": "Nonfiction"
+      },
+      "4": {
+        "title": "Twenty-Four Pictures",
+        "topic": "a boy borrows his grandpa's old film camera that takes only 24 pictures, waits for the right moments all week, and learns that careful photos become treasured memories (family, patience, technology then and now)",
+        "genre": "Realistic fiction"
+      }
+    }
   }
 ]
