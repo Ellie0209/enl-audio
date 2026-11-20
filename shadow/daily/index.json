@@ -466,5 +466,31 @@
         "genre": "Realistic fiction"
       }
     }
+  },
+  {
+    "day": 19,
+    "date": "2026-11-20",
+    "levels": {
+      "1": {
+        "title": "Hot Soup, Yum!",
+        "topic": "on a cold day Dad makes soup in a big red pot with a yam and ham, and the child blows on the hot cup before sipping (family, food, winter)",
+        "genre": "Story"
+      },
+      "2": {
+        "title": "Owen's Hiccups",
+        "topic": "a boy gets hiccups at dinner, his family tries sipping water and holding his breath, and his sister's surprise “Boo!” finally stops them (family, human body, humor)",
+        "genre": "Story"
+      },
+      "3": {
+        "title": "How Polar Bears Stay Warm",
+        "topic": "how polar bears survive the Arctic cold: two layers of fur with clear hollow hairs, black skin, a thick layer of blubber, small ears and tail, and wide furry paws with bumps for gripping ice (animals, science, winter)",
+        "genre": "Nonfiction"
+      },
+      "4": {
+        "title": "The Accidental Ice Pop",
+        "topic": "the true story of eleven-year-old Frank Epperson, who left a soda drink with a stirring stick outside on a freezing night and invented the frozen pop his children later named the Popsicle (inventions, history, science of freezing)",
+        "genre": "True story"
+      }
+    }
   }
 ]

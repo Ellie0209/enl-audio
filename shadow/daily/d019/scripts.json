@@ -1,0 +1,446 @@
+{
+  "day": 19,
+  "date": "2026-11-20",
+  "scripts": {
+    "1": {
+      "title": "Hot Soup, Yum!",
+      "title_kr": "뜨거운 수프, 냠냠!",
+      "genre": "Story",
+      "topic": "on a cold day Dad makes soup in a big red pot with a yam and ham, and the child blows on the hot cup before sipping (family, food, winter)",
+      "lines": [
+        "It is *cold*. | *Dad* gets the *big* *red* *pot*. ↘",
+        "*Pop* in a *yam*. | *Pop* in a *bit* of *ham*. ↘",
+        "*Mix*, *mix*, *mix*! | The *pot* is *hot*. ↘",
+        "*Dad* *fills* my *cup*. | *Can* I *sip* it? ↗",
+        "*Not* *yet*! | *Blow* on it. | *Puff*, *puff*, *puff*! ↘",
+        "*Sip*. | *Yum*, *yum*! | *Hot* *soup* on a *cold* *day*! ↘"
+      ],
+      "targets": [
+        "big",
+        "red",
+        "pot",
+        "yam",
+        "ham",
+        "mix",
+        "hot",
+        "cup",
+        "sip"
+      ],
+      "vocab": [
+        [
+          "cold",
+          "추운"
+        ],
+        [
+          "pot",
+          "냄비"
+        ],
+        [
+          "yam",
+          "고구마 (얌)"
+        ],
+        [
+          "a bit of",
+          "조금"
+        ],
+        [
+          "mix",
+          "섞다"
+        ],
+        [
+          "fill",
+          "가득 채우다"
+        ],
+        [
+          "sip",
+          "홀짝 마시다"
+        ],
+        [
+          "Not yet!",
+          "아직 안 돼!"
+        ],
+        [
+          "blow",
+          "후 불다"
+        ],
+        [
+          "soup",
+          "수프, 국"
+        ]
+      ],
+      "sounds": [
+        [
+          "Short o",
+          "pot, hot, not, pop",
+          "입을 크게 벌리고 짧게 '아': pot '팟', hot '핫'. '포트', '호트'처럼 '오'로 읽지 않아요."
+        ],
+        [
+          "Short i",
+          "big, mix, bit, sip, fills",
+          "힘을 빼고 짧게 '이': sip '씹', big '빅'. '시-입'처럼 길게 늘이지 않아요."
+        ],
+        [
+          "x = ks",
+          "mix",
+          "x는 'ㅋ+ㅅ' 두 소리를 한 번에: mix '믹스'. 끝의 '스'는 아주 작고 짧게."
+        ]
+      ],
+      "expression": "Say “It is cold.” with a little shiver, read “Mix, mix, mix!” like you are stirring, make “Can I sip it?” go up like a real question, say “Not yet!” like a careful dad, blow softly on “Puff, puff, puff!”, and end with a happy, warm “Hot soup on a cold day!”",
+      "practice": [
+        "the big red pot",
+        "Pop in a yam.",
+        "The pot is hot.",
+        "Can I sip it?",
+        "Hot soup on a cold day!"
+      ],
+      "events": []
+    },
+    "2": {
+      "title": "Owen's Hiccups",
+      "title_kr": "오언의 딸꾹질",
+      "genre": "Story",
+      "topic": "a boy gets hiccups at dinner, his family tries sipping water and holding his breath, and his sister's surprise “Boo!” finally stops them (family, human body, humor)",
+      "lines": [
+        "At *dinner*, | *Owen* *started* to *hiccup*. | *Hic*! ↘",
+        "“*Drink* some *water*,” *Mom* *said*. | Owen *sipped* *slowly*. | *Hic*! *Hic*! ↘",
+        "*Dad* *wanted* to *help*. | “*Hold* your *breath* | and *count* to *ten*.” ↘",
+        "Owen *puffed* *up* his *cheeks* | and *counted*. | *One*, *two*, *three*… *Hic*! ↘",
+        "Owen *sighed*. | “Will they *ever* *stop*?” he *asked*. ↗",
+        "*Then* his *sister* *Ava* *tiptoed* *behind* him. | “*Boo*!” she *shouted*. ↘",
+        "Owen *jumped* in his *chair*. | *Everyone* *waited*… | *No* *more* *hiccups*! ↘",
+        "“*Thanks*, *Ava*!” Owen *laughed*. | “But *next* *time*, | *please* *don't* *scare* me *so* *much*!” ↘"
+      ],
+      "targets": [
+        "started",
+        "sipped",
+        "wanted",
+        "breath",
+        "counted",
+        "sighed",
+        "tiptoed",
+        "shouted",
+        "jumped"
+      ],
+      "vocab": [
+        [
+          "dinner",
+          "저녁 식사"
+        ],
+        [
+          "hiccup",
+          "딸꾹질 (하다)"
+        ],
+        [
+          "sipped",
+          "홀짝홀짝 마셨다"
+        ],
+        [
+          "slowly",
+          "천천히"
+        ],
+        [
+          "hold your breath",
+          "숨을 참다"
+        ],
+        [
+          "count to ten",
+          "열까지 세다"
+        ],
+        [
+          "puffed up his cheeks",
+          "볼을 빵빵하게 부풀렸다"
+        ],
+        [
+          "sighed",
+          "한숨을 쉬었다"
+        ],
+        [
+          "tiptoed",
+          "살금살금 걸어갔다"
+        ],
+        [
+          "behind",
+          "~뒤에"
+        ],
+        [
+          "shouted",
+          "소리쳤다"
+        ],
+        [
+          "scare",
+          "깜짝 놀라게 하다"
+        ]
+      ],
+      "sounds": [
+        [
+          "-ed as /id/",
+          "started, wanted, counted, shouted, waited",
+          "t·d 뒤의 -ed는 '이드'를 붙여 한 음절 더: started '스타-티드', counted '카운티드'."
+        ],
+        [
+          "-ed as /t/",
+          "sipped, puffed, jumped, laughed, asked",
+          "p, f, k 소리 뒤의 -ed는 짧은 t: jumped '점프트', laughed '래프트'. '점프드'처럼 '드'를 붙이지 않아요."
+        ],
+        [
+          "Silent gh",
+          "sighed, laughed",
+          "sighed의 gh는 소리 없음 '싸이드', laughed의 gh는 f 소리 '래프트'. 같은 gh라도 소리가 달라요!"
+        ]
+      ],
+      "expression": "Make every “Hic!” short and bouncy, give Mom a calm voice and Dad a helpful one, count “One, two, three…” slowly and hopefully, sigh on “Will they ever stop?” and let it go up, whisper the tiptoe line, shout “Boo!” loud and sudden, pause on “Everyone waited…”, then cheer “No more hiccups!” and laugh on the last line.",
+      "practice": [
+        "Owen started to hiccup.",
+        "Hold your breath and count to ten.",
+        "Will they ever stop?",
+        "“Boo!” she shouted.",
+        "No more hiccups!"
+      ],
+      "events": []
+    },
+    "3": {
+      "title": "How Polar Bears Stay Warm",
+      "title_kr": "북극곰은 어떻게 따뜻하게 지낼까?",
+      "genre": "Nonfiction",
+      "topic": "how polar bears survive the Arctic cold: two layers of fur with clear hollow hairs, black skin, a thick layer of blubber, small ears and tail, and wide furry paws with bumps for gripping ice (animals, science, winter)",
+      "lines": [
+        "*Imagine* *living* in a *place* | where *snow* and *ice* *cover* the *ground* | for *most* of the *year*. ↘",
+        "*Polar* *bears* *live* in the *Arctic*, | one of the *coldest* *places* on *Earth*. ↘",
+        "*How* do they *stay* *warm*? ↘ | Their *bodies* *work* | like a *winter* *coat*. ↘",
+        "*First*, | a *polar* *bear* has *two* *layers* of *thick* *fur*. ↘",
+        "Its *fur* *looks* *white*, | but *each* *hair* is *really* *clear* and *hollow*, | like a *tiny* *straw*. ↘",
+        "*Under* the *fur*, | its *skin* is *black*. | *Dark* *skin* *helps* *soak* *up* *heat* from the *sun*. ↘",
+        "Under the *skin* | is a *thick* *layer* of *fat* called *blubber*. | It *keeps* the *heat* *inside*. ↘",
+        "A polar bear's *ears* and *tail* are *small*, | so *less* *heat* *escapes*. ↘",
+        "Its *big*, *wide* *paws* | have *fur* and *little* *bumps* on the *bottom*. | They *help* the *bear* *walk* on *slippery* *ice* | *without* *falling*. ↘",
+        "In *fact*, | polar bears are *so* *good* at *staying* *warm* | that they can get *too* *hot* | when they *run*! ↘",
+        "*Next* *time* you *zip* *up* your *coat*, | *think* of the *polar* *bear*. | It *wears* its *coat* *all* *year* *long*! ↘"
+      ],
+      "targets": [
+        "Arctic",
+        "coldest",
+        "layers",
+        "hollow",
+        "skin",
+        "blubber",
+        "escapes",
+        "slippery",
+        "without"
+      ],
+      "vocab": [
+        [
+          "imagine",
+          "상상하다"
+        ],
+        [
+          "cover the ground",
+          "땅을 덮다"
+        ],
+        [
+          "the Arctic",
+          "북극 지방"
+        ],
+        [
+          "coldest",
+          "가장 추운"
+        ],
+        [
+          "layer",
+          "층, 겹"
+        ],
+        [
+          "thick",
+          "두꺼운"
+        ],
+        [
+          "clear",
+          "투명한"
+        ],
+        [
+          "hollow",
+          "속이 빈"
+        ],
+        [
+          "straw",
+          "빨대"
+        ],
+        [
+          "soak up",
+          "흡수하다"
+        ],
+        [
+          "blubber",
+          "(북극곰·고래의) 두꺼운 지방층"
+        ],
+        [
+          "escape",
+          "빠져나가다"
+        ],
+        [
+          "paw",
+          "(동물의) 발"
+        ],
+        [
+          "slippery",
+          "미끄러운"
+        ],
+        [
+          "without falling",
+          "넘어지지 않고"
+        ]
+      ],
+      "sounds": [
+        [
+          "Word stress",
+          "AR-ctic, BLUB-ber, SLIP-per-y, HOL-low, es-CAPES, with-OUT",
+          "Arctic, blubber, slippery, hollow는 첫 음절에 힘! escapes와 without은 뒤 음절 'CAPES', 'OUT'에 힘을 줘요."
+        ],
+        [
+          "r-controlled er/ur/or/ear",
+          "fur, work, Earth, first",
+          "혀를 뒤로 살짝 말고 '어r': fur '퍼r', work '워r크', Earth '어r쓰'. '퍼', '워크'처럼 r을 빼지 않아요."
+        ],
+        [
+          "Two th sounds",
+          "think, thick, Earth / the, their",
+          "think, thick, Earth는 혀를 살짝 내밀고 바람만 'θ'. the, their는 같은 자리에서 목을 울리는 'ð'. 'ㅆ'나 'ㄷ'로 바꾸지 않아요."
+        ]
+      ],
+      "expression": "Begin slowly and dreamily on “Imagine…”, read the Arctic line like a nature-show host, ask “How do they stay warm?” clearly and let it fall, count off First / Under the fur / Under the skin like steps in a list, sound amazed on “clear and hollow, like a tiny straw”, add a surprised smile to “they can get too hot when they run!”, and end with a friendly, cozy finish.",
+      "practice": [
+        "one of the coldest places on Earth",
+        "two layers of thick fur",
+        "like a tiny straw",
+        "a thick layer of fat called blubber",
+        "It wears its coat all year long!"
+      ],
+      "events": []
+    },
+    "4": {
+      "title": "The Accidental Ice Pop",
+      "title_kr": "우연히 태어난 아이스바",
+      "genre": "True story",
+      "topic": "the true story of eleven-year-old Frank Epperson, who left a soda drink with a stirring stick outside on a freezing night and invented the frozen pop his children later named the Popsicle (inventions, history, science of freezing)",
+      "lines": [
+        "*More* than a *hundred* *years* *ago*, | on a *chilly* *evening* in *California*, | an *eleven-year-old* *boy* named *Frank* was *mixing* a *drink*. ↘",
+        "He *stirred* *flavored* *soda* *powder* | into a *cup* of *water* | with a *wooden* *stick*. ↘",
+        "*Then* *something* *distracted* him. | He *ran* *off* to *play*, | *leaving* the *cup* *outside* on the *porch*. ↘",
+        "That *night*, the *story* *goes*, | the *temperature* *dropped* *below* *freezing*. ↘",
+        "The *next* *morning*, | Frank *found* that his *drink* had *frozen* *solid*, | with the *stick* *standing* *straight* *up* in the *middle*. ↘",
+        "He *pulled* on the *stick*, | and *out* *slid* a *sweet*, *icy* *treat*. ↘",
+        "Frank *licked* it | and *grinned*. | It was *delicious*! ↘",
+        "He *named* his *invention* the *Epsicle*, | a *mix* of his *last* *name*, *Epperson*, | and the *word* *icicle*. ↘",
+        "For *years*, | Frank *made* the *frozen* *treats* | just for *fun*. ↘",
+        "*Later*, | he *grew* *up* and had *children* of his *own*. | They *called* him *Pop*, | and they *loved* his *treats*. ↘",
+        "*Soon* the *kids* were *asking* for “*Pop's* *sicles*,” | and the *name* *stuck*! ↘",
+        "As a *grown-up*, | Frank *decided* to *share* his *idea* with the *world*, | and the *treat* was *sold* as the *Popsicle*. ↘",
+        "*Today*, | *people* *everywhere* *enjoy* *frozen* *pops* | on *hot* *summer* *days*. ↘",
+        "*Not* *bad* for a *drink* | that a *forgetful* *kid* *left* *outside*! ↘",
+        "*Sometimes*, | *great* *ideas* *begin* | with a *happy* *accident*. ↘"
+      ],
+      "targets": [
+        "chilly",
+        "stirred",
+        "wooden",
+        "distracted",
+        "temperature",
+        "frozen",
+        "invention",
+        "decided",
+        "accident"
+      ],
+      "vocab": [
+        [
+          "hundred years ago",
+          "100년 전"
+        ],
+        [
+          "chilly",
+          "쌀쌀한"
+        ],
+        [
+          "stirred",
+          "휘저었다"
+        ],
+        [
+          "soda powder",
+          "탄산음료 가루"
+        ],
+        [
+          "wooden stick",
+          "나무 막대"
+        ],
+        [
+          "distracted",
+          "정신을 딴 데로 돌렸다"
+        ],
+        [
+          "porch",
+          "현관 앞 (포치)"
+        ],
+        [
+          "temperature",
+          "기온, 온도"
+        ],
+        [
+          "below freezing",
+          "영하로"
+        ],
+        [
+          "frozen solid",
+          "꽁꽁 얼어붙은"
+        ],
+        [
+          "delicious",
+          "아주 맛있는"
+        ],
+        [
+          "invention",
+          "발명품"
+        ],
+        [
+          "icicle",
+          "고드름"
+        ],
+        [
+          "the name stuck",
+          "그 이름이 굳어졌다"
+        ],
+        [
+          "forgetful",
+          "잘 잊어버리는"
+        ],
+        [
+          "accident",
+          "(우연한) 사고, 우연"
+        ]
+      ],
+      "sounds": [
+        [
+          "Word stress",
+          "dis-TRACT-ed, TEM-per-a-ture, in-VEN-tion, de-LI-cious",
+          "temperature는 'TEM'에 힘, 나머지는 짧게 '템퍼러처'."
+        ],
+        [
+          "Three sounds of c",
+          "cup / ice, icicle / delicious",
+          "c는 보통 'ㅋ', e·i 앞은 'ㅅ', -cious는 '쉬': delicious '딜리셔스'. accident는 '액시던트'."
+        ],
+        [
+          "-ed as /id/",
+          "distracted, decided",
+          "t·d 뒤 -ed는 '이드': decided '디싸이디드'."
+        ]
+      ],
+      "expression": "Start slowly like a storyteller, give “Then something distracted him.” a quick turn, lower your voice on “the story goes”, sound amazed when the stick stands straight up, smile on “It was delicious!”, make “and the name stuck!” a little joke, and end thoughtfully on “a happy accident.”",
+      "practice": [
+        "more than a hundred years ago",
+        "the temperature dropped below freezing",
+        "had frozen solid",
+        "and the name stuck!",
+        "with a happy accident"
+      ],
+      "events": []
+    }
+  }
+}
