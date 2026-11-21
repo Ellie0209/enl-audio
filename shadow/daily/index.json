@@ -492,5 +492,31 @@
         "genre": "True story"
       }
     }
+  },
+  {
+    "day": 20,
+    "date": "2026-11-21",
+    "levels": {
+      "1": {
+        "title": "Is It a Dog?",
+        "topic": "a child on a foggy walk guesses shapes in the fog (a log, a van) until the last shape turns out to be Mom (weather, family, guessing game)",
+        "genre": "Pattern text"
+      },
+      "2": {
+        "title": "Bubbles at Swim Class",
+        "topic": "a girl is afraid to put her face in the water at her first swim class, and the coach's bubble-blowing game helps her go under step by step (sports, feelings, courage)",
+        "genre": "Story"
+      },
+      "3": {
+        "title": "Grandpa's First Text Message",
+        "topic": "a girl patiently teaches her grandpa to use his new phone and send his first text message with a smiley face to her aunt (family, technology, patience, helping)",
+        "genre": "Story"
+      },
+      "4": {
+        "title": "The Big Winter Sleep",
+        "topic": "hibernation: animals fatten up in fall, rest in burrows, logs or pond mud, and slow their bodies down; a woodchuck's heart drops from about 80 to 5 beats a minute, the wood frog freezes almost solid, and black bears sleep for months but wake more easily (animals, science, seasons)",
+        "genre": "Nonfiction"
+      }
+    }
   }
 ]

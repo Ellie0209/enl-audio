@@ -1,0 +1,174 @@
+{
+  "day": 20,
+  "date": "2026-11-21",
+  "scripts": {
+    "1": {
+      "title": "Is It a Dog?",
+      "title_kr": "강아지일까?",
+      "genre": "Pattern text",
+      "topic": "a child on a foggy walk guesses shapes in the fog (a log, a van) until the last shape turns out to be Mom (weather, family, guessing game)",
+      "lines": [
+        "*Fog*, *fog*! | I *can* *not* *see*. ↘",
+        "Is it a *dog*? ↗ | *No*! It is a *big*, *wet* *log*. ↘",
+        "Is it a *man*? ↗ | *No*! It is a *tan* *van*. ↘",
+        "*Who* is *that*? ↘ | It can *run*. | It *has* a *hat*. ↘",
+        "Is it a *big* *bug*? ↗ | *No*! It is *Mom*! ↘",
+        "*Hug*, *hug*! | *Fun* in the *fog*! ↘"
+      ],
+      "targets": ["fog", "dog", "big", "wet", "log", "man", "tan", "van", "run"],
+      "vocab": [
+        ["fog", "안개"],
+        ["can not see", "볼 수 없어요"],
+        ["wet", "젖은"],
+        ["log", "통나무"],
+        ["tan", "황갈색의, 베이지색의"],
+        ["van", "승합차, 밴"],
+        ["Who is that?", "저건 누구지?"],
+        ["hat", "모자"],
+        ["bug", "벌레"],
+        ["hug", "안아 주다, 포옹"]
+      ],
+      "sounds": [
+        ["Short o", "fog, dog, log, not, Mom", "입을 크게 벌리고 짧게 '아': dog '닥', log '락'. '도그', '로그'처럼 '오'로 읽지 않아요."],
+        ["Short a", "man, tan, van, hat, can", "입을 옆으로 벌리고 '애': man '맨', van '밴', hat '햇'. '만', '반'이 되지 않게!"],
+        ["v vs. b", "van / big, bug", "v는 윗니를 아랫입술에 살짝 대고 '브-' 떨리게: van. b는 두 입술을 붙였다 터뜨려요: big, bug."]
+      ],
+      "expression": "Say “Fog, fog!” slowly and softly like you are peeking, make every “Is it a…?” go up like a real guess, shout “No!” with a funny surprise, sound curious on “Who is that?”, be very surprised on “It is Mom!”, and end with a big, happy “Fun in the fog!”",
+      "practice": ["I can not see.", "Is it a dog?", "a big, wet log", "It is a tan van.", "Fun in the fog!"],
+      "events": []
+    },
+    "2": {
+      "title": "Bubbles at Swim Class",
+      "title_kr": "수영 교실의 보글보글 방울",
+      "genre": "Story",
+      "topic": "a girl is afraid to put her face in the water at her first swim class, and the coach's bubble-blowing game helps her go under step by step (sports, feelings, courage)",
+      "lines": [
+        "On *Saturday*, | *Lily* *went* to her *first* *swim* *class*. ↘",
+        "She *looked* at the *big* *blue* *pool* | and *held* *Mom's* *hand* *tight*. ↘",
+        "“I *don't* *want* to *put* my *face* *in*,” | she *whispered*. ↘",
+        "*Coach* *Kim* *smiled*. | “*Let's* *play* a *game*. | *Can* you *blow* *bubbles*?” ↗",
+        "*Lily* *dipped* her *chin* | and *blew*. | *Blub*, *blub*, *blub*! ↘",
+        "*Then* she *dipped* her *nose*. | *Blub*, *blub*! | It *tickled*! ↘",
+        "At *last*, | she *pushed* her *whole* *face* *under* | and *popped* *up* *laughing*. ↘",
+        "“I *did* it!” Lily *shouted*. | “*Next* *week*, | I *want* to *kick* *too*!” ↘"
+      ],
+      "targets": ["looked", "whispered", "smiled", "dipped", "tickled", "pushed", "popped", "laughing", "shouted"],
+      "vocab": [
+        ["swim class", "수영 교실"],
+        ["pool", "수영장"],
+        ["held ... tight", "꼭 잡았다"],
+        ["whispered", "속삭였다"],
+        ["coach", "코치, 선생님"],
+        ["blow bubbles", "물방울을 불다 (보글보글)"],
+        ["dipped", "살짝 담갔다"],
+        ["chin", "턱"],
+        ["tickled", "간지러웠다"],
+        ["at last", "마침내"],
+        ["whole", "전체의"],
+        ["popped up", "쏙 올라왔다"]
+      ],
+      "sounds": [
+        ["-ed as /t/", "looked, dipped, pushed, popped", "k·p·sh 뒤 -ed는 짧은 't': looked '룩트', dipped '딥트'. '룩키드'처럼 늘이지 않아요."],
+        ["-ed as /d/", "smiled, whispered, tickled", "소리가 울리는 음 뒤 -ed는 'd': smiled '스마일드', tickled '티클드'."],
+        ["-ed as /id/", "shouted", "t·d 뒤 -ed는 '이드': shouted '샤우티드'."]
+      ],
+      "expression": "Sound a little scared on “held Mom's hand tight,” whisper “I don't want to put my face in,” use a warm, cheerful coach voice for “Let's play a game,” make bubbly sounds on “Blub, blub, blub!”, giggle on “It tickled!”, and shout “I did it!” with real pride.",
+      "practice": ["her first swim class", "held Mom's hand tight", "Can you blow bubbles?", "popped up laughing", "I did it!"],
+      "events": []
+    },
+    "3": {
+      "title": "Grandpa's First Text Message",
+      "title_kr": "할아버지의 첫 문자 메시지",
+      "genre": "Story",
+      "topic": "a girl patiently teaches her grandpa to use his new phone and send his first text message with a smiley face to her aunt (family, technology, patience, helping)",
+      "lines": [
+        "*Grandpa* *Joe* has a *brand-new* *phone*, | but he *doesn't* *know* how to *use* it *yet*. ↘",
+        "“*Can* you *help* me, *Rosa*?” he *asks*. | “I *want* to *send* a *message* | to your *Aunt* *Lucy*.” ↘",
+        "*Rosa* *sits* *next* to him on the *couch*. | “*First*, | *tap* the *green* *bubble*,” she *says*. ↘",
+        "Grandpa *taps* *so* *hard* | that the *phone* *slides* *off* his *knee*! ↘",
+        "“*Gently*, *Grandpa*!” Rosa *giggles*. | “*Just* a *light* *touch*, | like *petting* a *kitten*.” ↘",
+        "*Next*, | he *types* *very* *slowly*, | *one* *letter* at a *time*, | with *one* *finger*. ↘",
+        "“*Now* *add* a *little* *picture*,” Rosa *says*. | Grandpa *picks* a *smiling* *face* | and a *slice* of *pie*. ↘",
+        "He *presses* *send*. | *Whoosh*! | The *message* *flies* *away*. ↘",
+        "A *minute* *later*, | the *phone* *buzzes*. | Aunt Lucy *wrote* *back*: | “*Hi*, *Dad*! *Love* you!” ↘",
+        "Grandpa *grins* from *ear* to *ear*. | “*You're* a *great* *teacher*, *Rosa*.” ↘",
+        "“*Tomorrow*, | will you *show* me | how to *take* a *picture*?” ↗"
+      ],
+      "targets": ["message", "couch", "gently", "giggles", "slowly", "letter", "presses", "buzzes", "teacher"],
+      "vocab": [
+        ["brand-new", "아주 새것인"],
+        ["send a message", "메시지를 보내다"],
+        ["couch", "소파"],
+        ["tap", "톡 누르다"],
+        ["slides off", "미끄러져 떨어지다"],
+        ["knee", "무릎"],
+        ["gently", "살살, 부드럽게"],
+        ["giggles", "킥킥 웃다"],
+        ["a light touch", "가벼운 터치"],
+        ["one letter at a time", "한 글자씩"],
+        ["presses", "누르다"],
+        ["buzzes", "(진동이) 부르르 울리다"],
+        ["wrote back", "답장했다"],
+        ["grins from ear to ear", "입이 귀에 걸리게 웃다"]
+      ],
+      "sounds": [
+        ["Soft g (j sound)", "message, gently", "e·i 앞의 g는 'ㅈ' 소리가 나요: message '메시지', gently '젠틀리'. '메세게'가 아니에요."],
+        ["-es as /iz/", "presses, buzzes", "s·z 소리로 끝나는 말에 -es가 붙으면 '이즈'가 한 음절 더: presses '프레시즈', buzzes '버지즈'."],
+        ["ou as in couch", "couch, now, how, flies away", "couch는 '아우'를 미끄러지듯 한 번에: '카우치'. '코치'(coach)와 헷갈리지 않게!"]
+      ],
+      "expression": "Use a slow, friendly old-man voice for Grandpa and a patient, cheerful voice for Rosa, sound surprised on “that the phone slides off his knee!”, giggle on “Gently, Grandpa!”, read “one letter at a time” very slowly, make “Whoosh!” fly away, sound happy on “Hi, Dad! Love you!”, and let Grandpa's last question rise hopefully.",
+      "practice": ["a brand-new phone", "Just a light touch", "one letter at a time", "the phone buzzes", "You're a great teacher, Rosa."],
+      "events": []
+    },
+    "4": {
+      "title": "The Big Winter Sleep",
+      "title_kr": "길고 깊은 겨울잠",
+      "genre": "Nonfiction",
+      "topic": "hibernation: animals fatten up in fall, rest in burrows, logs or pond mud, and slow their bodies down; a woodchuck's heart drops from about 80 to 5 beats a minute, the wood frog freezes almost solid, and black bears sleep for months but wake more easily (animals, science, seasons)",
+      "lines": [
+        "*When* *winter* *comes*, | *food* *becomes* *hard* to *find*, | and the *days* *grow* *short* and *cold*. ↘",
+        "*Some* *animals* *fly* *south*. | *Others* *grow* *thick* *coats*. | But some animals *solve* the *problem* | in a *surprising* *way*: | they *sleep* *through* it! ↘",
+        "This *long*, *deep* *rest* | is called *hibernation*. ↘",
+        "*Before* they *hibernate*, | many animals *eat* and *eat* | to *build* *up* a *layer* of *fat*. ↘",
+        "This *fat* *works* like a *packed* *lunch* | that their *bodies* will *use* | *all* *winter* *long*. ↘",
+        "*Then* they *find* a *safe* *place* to *rest*, | such as a *burrow*, | a *hollow* *log*, | or the *mud* at the *bottom* of a *pond*. ↘",
+        "*During* hibernation, | an animal's *body* *slows* *way* *down*. ↘",
+        "A *woodchuck's* *heart* | *usually* *beats* about *eighty* *times* a *minute*. | In hibernation, | it may *beat* *only* *five* times! ↘",
+        "Its *body* *temperature* *drops*, *too*, | *sometimes* to *just* a *few* *degrees* | *above* *freezing*. ↘",
+        "The *wood* *frog* goes *even* *further*. | It *freezes* *almost* *solid*, | and its *heart* *stops* *beating*! ↘",
+        "In *spring*, | the *frog* *thaws* *out*, | and its *heart* *starts* *again*. ↘",
+        "*What* about *bears*? ↗ | *Black* *bears* *sleep* for *months* in their *dens* | *without* *eating* or *drinking*, | but they can *wake* *up* *quickly* | if *something* *disturbs* them. ↘",
+        "When *spring* *returns*, | the *sleepers* *slowly* *wake* *up* | and *crawl* *out*, | *thin* and *hungry*. ↘",
+        "*Hibernation* is *nature's* *clever* *way* | of *saving* *energy* | until *better* *days* *arrive*. ↘"
+      ],
+      "targets": ["surprising", "hibernation", "burrow", "during", "usually", "degrees", "freezes", "disturbs", "energy"],
+      "vocab": [
+        ["solve the problem", "문제를 해결하다"],
+        ["surprising", "놀라운"],
+        ["hibernation", "겨울잠, 동면"],
+        ["hibernate", "겨울잠을 자다"],
+        ["a layer of fat", "지방층"],
+        ["packed lunch", "싸 온 도시락"],
+        ["burrow", "(동물이 판) 굴"],
+        ["hollow log", "속이 빈 통나무"],
+        ["woodchuck", "우드척 (마멋의 한 종류)"],
+        ["beats a minute", "1분에 뛰는 횟수"],
+        ["temperature", "온도"],
+        ["degrees above freezing", "영상 몇 도"],
+        ["freezes almost solid", "거의 꽁꽁 얼다"],
+        ["thaws out", "녹다"],
+        ["den", "(곰 등의) 굴, 보금자리"],
+        ["disturbs", "방해하다, 건드리다"],
+        ["saving energy", "에너지를 아끼다"]
+      ],
+      "sounds": [
+        ["Word stress", "hi-ber-NA-tion, sur-PRIS-ing, BUR-row, EN-er-gy, dis-TURBS", "hibernation은 'NA'에, surprising은 'PRIS'에 힘! burrow와 energy는 첫 음절, disturbs는 뒤 음절 'TURBS'에 힘을 줘요."],
+        ["-tion = shun", "hibernation", "-tion은 '션'으로 짧게: hibernation '하이버네이션'. '티온'으로 읽지 않아요."],
+        ["Linking sounds", "wake up, crawl out, thaws out, build up", "앞 단어 끝소리를 뒤 모음에 이어서: wake up → '웨이컵', crawl out → '크롤라웃'. 끊지 말고 한 덩어리로!"]
+      ],
+      "expression": "Open slowly and calmly like a nature narrator, pause before “they sleep through it!” and say it with a smile, slow your voice down on “an animal's body slows way down,” stress the big difference between “eighty times” and “only five times,” sound amazed on the wood frog's heart stopping, ask “What about bears?” with rising curiosity, and end warmly and thoughtfully.",
+      "practice": ["in a surprising way", "This long, deep rest is called hibernation.", "like a packed lunch", "a few degrees above freezing", "nature's clever way of saving energy"],
+      "events": []
+    }
+  }
+}
