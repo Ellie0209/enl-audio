@@ -107,3 +107,4 @@ details[open] summary{border-bottom:1px solid var(--line);margin-bottom:8px}
 .foot{max-width:720px;margin:0 auto;padding:16px 16px calc(env(safe-area-inset-bottom) + 20px);font-size:11px;color:var(--mut);border-top:1px solid var(--line)}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 @media (max-width:420px){.head h1{font-size:21px}.seg button{font-size:13px}}
+.pdf span{min-width:0;overflow-wrap:anywhere}

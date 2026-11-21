@@ -1,8 +1,8 @@
 /* Shadow & Shine Daily service worker: app shell cache-first, data network-first.
    Audio and PDFs are not intercepted (range requests, size). */
-const SHELL = "ssd-shell-v1";
+const SHELL = "ssd-shell-v2";
 const DATA = "ssd-data-v1";
-const FILES = ["./", "index.html", "app.css?v=1", "app.js?v=1", "manifest.webmanifest", "icon.svg", "icon-192.png", "icon-512.png"];
+const FILES = ["./", "index.html", "app.css?v=2", "app.js?v=1", "manifest.webmanifest", "icon.svg", "icon-192.png", "icon-512.png"];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(SHELL).then((c) => c.addAll(FILES)).then(() => self.skipWaiting()));
