@@ -96,12 +96,14 @@ def main():
             for lv, sc in sorted(d["scripts"].items())) + '</div>'
     page = (HEAD.format(title="Shadow &amp; Shine Daily") + '<div class="brand"><a href="../../">📖 E&amp;Languages Audio</a></div>'
             f'<h1>Shadow &amp; Shine Daily</h1><p class="sub">A new text every day for each level · {len(days)} day(s) · American &amp; British audio</p>'
+            '<div class="list"><a href="../app/">📱 Open the Shadow &amp; Shine Daily app<span>녹음 · 읽기 체크 · 워크시트 PDF</span></a></div>'
             + items + "\n" + TAIL.format(script=""))
     open(os.path.join(DAILY, "index.html"), "w", encoding="utf-8").write(page)
 
     root = os.path.join(ROOT, "index.html")
     s = open(root, encoding="utf-8").read()
-    block = (f'<!--daily--><h3>Shadow &amp; Shine Daily</h3><div class="list"><a href="shadow/daily/">Daily texts · all levels'
+    block = (f'<!--daily--><h3>Shadow &amp; Shine Daily</h3><div class="list"><a href="shadow/app/">📱 Shadow &amp; Shine Daily App'
+             f'<span>앱 · 듣기 · 녹음 · 읽기 체크 · 워크시트</span></a><a href="shadow/daily/">Daily texts · all levels'
              f'<span>{len(days)} day(s) · latest Day {days[-1]["day"]}</span></a></div><!--/daily-->') if days else ""
     if "<!--daily-->" in s:
         s = re.sub(r"<!--daily-->.*?<!--/daily-->", block, s, flags=re.S)
