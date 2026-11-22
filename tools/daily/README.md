@@ -10,14 +10,15 @@ One new original text per level (1 Sprout · 2 Seedling · 3 Sapling · 4 Tree) 
 | `shadow/daily/l{lv}/dNNN/` | `us-1.mp3` normal · `us-slow.mp3` slow · `us-2.mp3` echo/repeat · `uk-*` British · `index.html` player |
 | `shadow/daily/index.html` | List of all days (linked from the root Audio Library page) |
 | `shadow/daily/l{lv}/dNNN/ShadowShine_Daily_DNNN_L{lv}_{Level}.pdf` | That day's worksheet PDF (built locally with `build_worksheets.py`, then copied here and committed) — the app links to it |
-| `shadow/app/` | **Shadow & Shine Daily app** (PWA, no login): https://ellie0209.github.io/enl-audio/shadow/app/ |
+| `shadow/app/` | Retired public app: now a notice page pointing to the member app https://e-languages.vercel.app/shadow-daily (since 2026-11-22) |
 
 ## Tools
 - `build_audio.py` — Kokoro TTS, runs in GitHub Actions (`.github/workflows/shadow-daily.yml`), triggered by pushing `shadow/daily/d*/scripts.json`. Rebuilds a level only if a file is missing or its lines changed (`.lines.sha1`). Commits with `[skip ci]`; if two runs overlap, the later run's audio wins (`git pull --rebase -X theirs`).
 - `build_pages.py` — player pages, `index.json`, daily list and the root-index block. Pure Python; run locally before pushing (the workflow also runs it).
 - `build_worksheets.py` — A4 PDFs (shadowing worksheet, dictation worksheet, answer key & teacher script) via HTML → Chromium (Playwright). Needs `segno` and the Noto Sans CJK KR font. Output: `ShadowShine_Daily_DNNN_L{lv}_{Level}.pdf`.
 
-## The app (`shadow/app/`)
+## The app (`shadow/app/`) — retired 2026-11-22
+Shadow & Shine Daily now runs only in the E&Languages member app (https://e-languages.vercel.app/shadow-daily, e-languages `app/shadow-daily/route.js`), which reads the same index.json, scripts.json, mp3 and PDFs from here. `shadow/app/index.html` is a notice page and `sw.js` unregisters itself and deletes its caches. The notes below describe the old public app (`app.js`, `app.css` are kept for reference).
 Static PWA: `index.html`, `app.css`, `app.js`, `sw.js`, `manifest.webmanifest`, icons. No build step, no server, no login.
 - Reads `shadow/daily/index.json` and `dNNN/scripts.json` at run time, so a new day appears automatically once its scripts, audio and PDFs are pushed — the app itself does not need to change.
 - Per level/day: text with phrase bars / bold stress / ↗↘, US/UK × Normal · Slow · Repeat audio, hide-text toggle, 4-step checklist, stars, record-and-compare (MediaRecorder, kept in memory only), reading check (browser Web Speech API → green/red words, accuracy %, WPM vs. level band, sound tips), vocab with 🔊 (speechSynthesis), sound/expression tips, worksheet PDF.
