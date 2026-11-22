@@ -518,5 +518,31 @@
         "genre": "Nonfiction"
       }
     }
+  },
+  {
+    "day": 21,
+    "date": "2026-11-22",
+    "levels": {
+      "1": {
+        "title": "Hit It, Pat!",
+        "topic": "a child plays tee-ball at the park with Dad, misses the first swing, then hits the ball and runs to the base (sports, play, family, trying again)",
+        "genre": "Story"
+      },
+      "2": {
+        "title": "What Was That Noise?",
+        "topic": "a boy hears a tapping noise at his window late at night, calls Dad, and they discover it is only a little branch blowing in the wind (feelings, family, night, humor)",
+        "genre": "Story"
+      },
+      "3": {
+        "title": "Spiders: Amazing Web Builders",
+        "topic": "how spiders (eight legs, not insects) spin orb webs from silk: a bridge thread on the wind, spokes, a sticky spiral, catching insects, and walking on the non-sticky lines (animals, science, nature)",
+        "genre": "Nonfiction"
+      },
+      "4": {
+        "title": "Saturday at the Food Bank",
+        "topic": "a boy who would rather play video games volunteers with his mom at a community food bank the Saturday before Thanksgiving, turns sorting cans into a race, hands a bag to a little girl and her grandpa, and asks to come back (community, holidays, helping, feelings)",
+        "genre": "Realistic fiction"
+      }
+    }
   }
 ]

@@ -1,0 +1,172 @@
+{
+  "day": 21,
+  "date": "2026-11-22",
+  "scripts": {
+    "1": {
+      "title": "Hit It, Pat!",
+      "title_kr": "쳐라, 팻!",
+      "genre": "Story",
+      "topic": "a child plays tee-ball at the park with Dad, misses the first swing, then hits the ball and runs to the base (sports, play, family, trying again)",
+      "lines": [
+        "*Pat* has a *red* *bat*. | Pat has a *red* *cap*. ↘",
+        "*Dad* *sets* the *ball* | on the *tee*. ↘",
+        "*Swish*! | *Miss*! | “*Not* *yet*!” says *Dad*. ↘",
+        "Pat *gets* *set*. | *Bam*! | Pat *hits* it! | The *ball* *zips* *off*! ↘",
+        "“*Run*, *Pat*, *run*!” | Pat *runs* to the *base*. ↘",
+        "Dad *claps*. | *Clap*, *clap*! | *Yes*, *Pat*! | You *did* it! ↘"
+      ],
+      "targets": ["bat", "red", "cap", "Dad", "set", "yet", "hits", "zips", "run"],
+      "vocab": [
+        ["bat", "야구 방망이"],
+        ["cap", "야구 모자"],
+        ["tee", "공 받침대 (티볼)"],
+        ["swish", "휙! (헛스윙 소리)"],
+        ["miss", "놓치다, 헛치다"],
+        ["Not yet!", "아직이야! (다시 해 봐)"],
+        ["gets set", "준비 자세를 잡다"],
+        ["zips off", "쌩 날아가다"],
+        ["base", "베이스, 루"],
+        ["claps", "손뼉을 치다"]
+      ],
+      "sounds": [
+        ["Short a", "Pat, bat, cap, Dad, bam, clap", "입을 옆으로 크게 벌리고 '애': bat '뱃', cap '캡'. '밧', '캅'처럼 '아'가 되지 않게!"],
+        ["Short e", "red, set, yet, gets, yes", "입을 살짝만 벌리고 짧게 '에': red '렛(드)', yet '옛'."],
+        ["Short i", "hits, zips, miss, did", "짧고 가볍게 '이': hits '힛츠', zips '집스'. '이-'로 길게 늘이지 않아요."]
+      ],
+      "expression": "Sound proud on “Pat has a red bat,” say “Swish! Miss!” quickly like a fast swing, use a kind, cheering voice for “Not yet!”, say “Bam!” with a big pop, shout “Run, Pat, run!” like a coach, and finish with a happy, clapping “You did it!”",
+      "practice": ["Pat has a red bat.", "on the tee", "Not yet!", "The ball zips off!", "Run, Pat, run!"],
+      "events": []
+    },
+    "2": {
+      "title": "What Was That Noise?",
+      "title_kr": "저게 무슨 소리지?",
+      "genre": "Story",
+      "topic": "a boy hears a tapping noise at his window late at night, calls Dad, and they discover it is only a little branch blowing in the wind (feelings, family, night, humor)",
+      "lines": [
+        "*Late* at *night*, | *Noah* *heard* a *noise*: | *tap*, *tap*, *tap*. ↘",
+        "He *pulled* his *blanket* *up* | to his *nose*. ↘",
+        "“*Dad*!” he *called*. | “*Something* is at my *window*!” ↘",
+        "*Dad* *walked* in | and *turned* on the *lamp*. ↘",
+        "*Noah* *pointed*. | They *peeked* *outside* *together*. ↘",
+        "A *little* *branch* | *tapped* on the *glass* | in the *wind*. ↘",
+        "“Is *that* *all*?” ↗ | Noah *asked*, | and they *laughed*. ↘",
+        "Dad *tucked* him in *again*. | “*Good* *night*, *branch*!” | Noah *yawned*. ↘"
+      ],
+      "targets": ["pulled", "called", "walked", "turned", "pointed", "peeked", "tapped", "laughed", "yawned"],
+      "vocab": [
+        ["late at night", "밤늦게"],
+        ["heard", "들었다 (hear의 과거)"],
+        ["noise", "소리, 소음"],
+        ["pulled ... up", "끌어올렸다"],
+        ["blanket", "담요, 이불"],
+        ["window", "창문"],
+        ["lamp", "스탠드, 등"],
+        ["pointed", "손가락으로 가리켰다"],
+        ["peeked", "살짝 내다봤다"],
+        ["branch", "나뭇가지"],
+        ["tucked ... in", "이불을 덮어 재워 주었다"],
+        ["yawned", "하품했다"]
+      ],
+      "sounds": [
+        ["-ed as /t/", "walked, peeked, tapped, asked, laughed, tucked", "k·p·f·s 소리 뒤 -ed는 짧은 't': walked '웍트', laughed '래프트'. '워키드'처럼 늘이지 않아요."],
+        ["-ed as /d/", "pulled, called, turned, yawned", "울리는 소리 뒤 -ed는 'd': called '콜드', yawned '얀드'."],
+        ["-ed as /id/", "pointed", "t·d 뒤 -ed는 '이드': pointed '포인티드'."]
+      ],
+      "expression": "Whisper “tap, tap, tap” slowly and spookily, sound scared and quick on “Dad! Something is at my window!”, slow down and get quiet on “They peeked outside together,” sound surprised and relieved on “Is that all?”, laugh a little, and say “Good night, branch!” in a sleepy, yawning voice.",
+      "practice": ["Late at night", "pulled his blanket up", "Something is at my window!", "Is that all?", "Good night, branch!"],
+      "events": []
+    },
+    "3": {
+      "title": "Spiders: Amazing Web Builders",
+      "title_kr": "거미: 놀라운 거미줄 건축가",
+      "genre": "Nonfiction",
+      "topic": "how spiders (eight legs, not insects) spin orb webs from silk: a bridge thread on the wind, spokes, a sticky spiral, catching insects, and walking on the non-sticky lines (animals, science, nature)",
+      "lines": [
+        "*Spiders* are *not* *insects*. | *Insects* have *six* *legs*, | but *spiders* have *eight*. ↘",
+        "*Many* spiders *spin* *webs* | out of *silk* | that *comes* from their *bodies*. ↘",
+        "Spider *silk* is *thin*, | but it is *very* *strong* | and *stretchy*. ↘",
+        "*First*, | a spider *lets* a *long* *thread* | *float* on the *wind*. ↘",
+        "When the *thread* *sticks* to a *branch*, | the spider has a *bridge*. ↘",
+        "*Next*, | it *adds* *lines* | like the *spokes* of a *wheel*. ↘",
+        "*Then* it *spins* a *sticky* *spiral* | *around* and *around*. ↘",
+        "When a *fly* *bumps* into the web, | it gets *stuck*! ↘",
+        "The spider *feels* the web *shake* | and *hurries* over for *dinner*. ↘",
+        "*Why* *doesn't* the spider get *stuck* *too*? ↘ | It *walks* *carefully* | on the lines that are *not* *sticky*. ↘",
+        "*Next* *time* you *see* a web, | *look* *closely*, | but *please* *don't* *break* it! ↘"
+      ],
+      "targets": ["spiders", "insects", "silk", "strong", "stretchy", "thread", "bridge", "spiral", "sticky"],
+      "vocab": [
+        ["spider", "거미"],
+        ["insect", "곤충"],
+        ["spin", "(실을) 뽑아 짜다"],
+        ["web", "거미줄"],
+        ["silk", "명주실, (거미) 실"],
+        ["stretchy", "잘 늘어나는"],
+        ["thread", "실, 가닥"],
+        ["float", "(바람에) 떠다니다"],
+        ["bridge", "다리"],
+        ["spokes of a wheel", "바퀴살"],
+        ["spiral", "나선, 소용돌이 모양"],
+        ["sticky", "끈적끈적한"],
+        ["hurries", "서두르다"],
+        ["carefully", "조심스럽게"]
+      ],
+      "sounds": [
+        ["sp- blend", "spiders, spin, spokes, spiral", "s와 p를 모음 없이 바로 붙여요: spin '스핀'이 아니라 's-pin' 한 박자로. '스'를 길게 내지 않아요."],
+        ["str- blend", "strong, stretchy", "s-t-r 세 소리를 한 번에: strong. '스트롱'처럼 '으'를 넣지 않고 빠르게 이어요."],
+        ["th (voiceless)", "thin, thread", "혀끝을 윗니 사이로 살짝 내밀고 바람만 '쓰-': thin. '씬'이나 '틴'이 되지 않게!"]
+      ],
+      "expression": "Read like a nature guide: sound sure on “Spiders are not insects,” stress the numbers “six” and “eight,” slow down on the steps “First … Next … Then,” sound excited on “it gets stuck!”, make “Why doesn't the spider get stuck too?” a curious question, and end gently but firmly on “please don't break it!”",
+      "practice": ["Spiders are not insects.", "very strong and stretchy", "a sticky spiral", "around and around", "please don't break it!"],
+      "events": []
+    },
+    "4": {
+      "title": "Saturday at the Food Bank",
+      "title_kr": "푸드뱅크에서의 토요일",
+      "genre": "Realistic fiction",
+      "topic": "a boy who would rather play video games volunteers with his mom at a community food bank the Saturday before Thanksgiving, turns sorting cans into a race, hands a bag to a little girl and her grandpa, and asks to come back (community, holidays, helping, feelings)",
+      "lines": [
+        "On the *Saturday* *before* *Thanksgiving*, | *Marcus* *wanted* to *sleep* *late* | and *play* *video* *games*. ↘",
+        "*Instead*, | his *mom* *drove* him | to the *community* *food* *bank* *downtown*. ↘",
+        "The *warehouse* was *huge*, | with *shelves* that *reached* *almost* to the *ceiling*. ↘",
+        "A *volunteer* named Ms. *Ortiz* | *handed* Marcus a *pair* of *gloves* | and *pointed* to a *mountain* of *boxes*. ↘",
+        "“Our *job* is to *sort* these *cans*,” she *explained*. | “*Soup* *here*, | *beans* *there*, | *vegetables* on this *table*.” ↘",
+        "At *first*, | the work felt *slow* and *boring*. | Marcus *kept* *checking* the *clock*. ↘",
+        "*Then* Ms. Ortiz *turned* it into a *race*. | “Let's *see* if your *table* can *beat* *mine*!” ↘",
+        "*Soon*, | Marcus was *sorting* *faster* than *ever*, | *calling* out “*Corn*!” and “*Peas*!” | as he *worked*. ↘",
+        "After *lunch*, | they *packed* the *cans* into *bags* | for *families* to *pick* *up*. ↘",
+        "A *little* *girl* *waited* in *line*, | *holding* her *grandpa's* *hand*. ↘",
+        "When Marcus *gave* them a *bag*, | she *peeked* *inside* | and *whispered*, “*Thank* *you*.” ↘",
+        "*Suddenly*, | Marcus *understood* | *why* *every* *can* *mattered*. ↘",
+        "On the *drive* *home*, | he *asked*, | “*Mom*, can we *come* *back* *next* *month*?” ↗",
+        "His mom *smiled*. | “I was *hoping* you would *say* *that*.” ↘"
+      ],
+      "targets": ["community", "warehouse", "volunteer", "explained", "vegetables", "boring", "families", "whispered", "understood"],
+      "vocab": [
+        ["Thanksgiving", "추수감사절"],
+        ["instead", "그 대신에"],
+        ["community food bank", "지역 푸드뱅크 (음식을 모아 나눠 주는 곳)"],
+        ["downtown", "시내에, 도심에"],
+        ["warehouse", "창고"],
+        ["shelves", "선반들 (shelf의 복수)"],
+        ["ceiling", "천장"],
+        ["volunteer", "자원봉사자"],
+        ["sort", "분류하다, 나누다"],
+        ["explained", "설명했다"],
+        ["boring", "지루한"],
+        ["beat", "이기다"],
+        ["pick up", "가져가다, 찾아가다"],
+        ["mattered", "중요했다"],
+        ["I was hoping ...", "…하기를 바라고 있었어"]
+      ],
+      "sounds": [
+        ["Schwa in long words", "community, volunteer, vegetables, families", "강세 없는 모음은 약하게 '어': com-MU-ni-ty '커뮤너티', VEG-ta-bles '베쥐터블스'. 모든 글자를 또박또박 읽지 않아요."],
+        ["-ed endings", "handed /id/, reached /t/, explained /d/", "t·d 뒤는 '이드'(handed, waited), 무성음 뒤는 't'(reached, packed), 유성음 뒤는 'd'(explained, smiled)."],
+        ["Linking", "turned it into, pick up, kept checking", "단어를 끊지 말고 이어 말해요: turned it into → '턴디린투', pick up → '피껍'."]
+      ],
+      "expression": "Sound grumpy and sleepy in the first line, sound amazed describing the huge warehouse, use a friendly, bossy-but-kind voice for Ms. Ortiz, sound bored on “kept checking the clock,” speed up and get excited during the race, slow down and soften for the little girl's quiet “Thank you,” pause after “Suddenly,” ask “can we come back next month?” with real hope, and make Mom's last line warm and proud.",
+      "practice": ["the Saturday before Thanksgiving", "a mountain of boxes", "Let's see if your table can beat mine!", "why every can mattered", "I was hoping you would say that."],
+      "events": []
+    }
+  }
+}
