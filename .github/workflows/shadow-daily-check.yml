@@ -1,0 +1,38 @@
+name: Shadow & Shine Daily publication check
+on:
+  schedule:
+    - cron: '50 14 * * *' # 23:50 Asia/Seoul; GitHub may delay scheduled runs.
+  workflow_dispatch:
+    inputs:
+      date:
+        description: Expected KST publication date (YYYY-MM-DD); blank checks today
+        required: false
+        type: string
+permissions:
+  contents: read
+concurrency:
+  group: shadow-daily-check
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check the expected date without generating or publishing anything
+        env:
+          TARGET_DATE: ${{ inputs.date }}
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          args=()
+          if [ -n "$TARGET_DATE" ]; then
+            args+=(--date "$TARGET_DATE")
+          elif [ "$EVENT_NAME" = "schedule" ]; then
+            args+=(--scheduled)
+          fi
+          python tools/daily/check_daily.py "${args[@]}"

@@ -1,0 +1,33 @@
+name: Shadow & Shine Daily tests
+on:
+  pull_request:
+    paths: ['tools/daily/**', '.github/workflows/shadow-daily*.yml', 'tests/daily/**']
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install -q pypdf==6.21.4
+      - run: python -m unittest discover -s tests/daily -v
+  pdf-render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install PDF renderer and Korean fonts
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-noto-cjk fonts-dejavu-core
+          python -m pip install -q segno==1.6.6 playwright==1.62.0 pypdf==6.21.4
+          python -m playwright install --with-deps chromium
+      - name: Render and validate four levels without publishing
+        run: python tests/daily/render_pdf_smoke.py --day 20 --out "$RUNNER_TEMP/daily-pdf-smoke"

@@ -5,7 +5,9 @@ Usage: python tools/daily/build_worksheets.py DAY [OUT_DIR]
 Each PDF: 1) Shadowing worksheet  2) Dictation worksheet  3) Answer key & teacher script.
 HTML → PDF with Chromium (Playwright). Needs: pip install segno playwright; font "Noto Sans CJK KR".
 """
-import html, json, os, re, sys
+import argparse, html, json, os, re, sys, tempfile
+from pathlib import Path
+from publication import read_days, level_dir, pdf_name, worksheet_digest, has_signature, check_pdf
 
 import segno
 from playwright.sync_api import sync_playwright
@@ -276,6 +278,7 @@ def build(day, out_dir):
                    + page_teacher(lv, d["day"], d["date"], sc, urls) + "</body></html>")
             open(os.path.join(out_dir, f"L{lv}.html"), "w", encoding="utf-8").write(doc)
             pg.set_content(doc, wait_until="load")
+            pg.evaluate("document.fonts.ready")
             fn = os.path.join(out_dir, f"ShadowShine_Daily_D{day:03d}_L{lv}_{L['name']}.pdf")
             foot = ('<div style="width:100%;font-family:\'Noto Sans CJK KR\',sans-serif;font-size:8pt;color:#666;text-align:center;'
                     f'padding:0 13mm">{e(FOOTER)}</div>')
@@ -286,7 +289,44 @@ def build(day, out_dir):
         br.close()
     for f in paths:
         print(f)
+    return paths
+
+
+def build_pending(force=False):
+    """Generate all changed days, then install only validated PDFs and source stamps."""
+    count = 0
+    for d in read_days(ROOT):
+        if not force and all(
+            (level_dir(ROOT, d, lv) / pdf_name(d, lv)).is_file()
+            and has_signature(level_dir(ROOT, d, lv) / ".worksheet.sha256", worksheet_digest(d, lv))
+            for lv in d["scripts"]
+        ):
+            print(f"skip worksheets d{d['day']:03d}")
+            continue
+        # Keep temporary PDFs on the destination filesystem for atomic replace().
+        with tempfile.TemporaryDirectory(prefix=".shadow-pdf-", dir=os.path.join(ROOT, "shadow/daily")) as tmp:
+            paths = build(d["day"], tmp)
+            for path in paths:
+                check_pdf(path)
+            for lv in d["scripts"]:
+                out = level_dir(ROOT, d, lv)
+                out.mkdir(parents=True, exist_ok=True)
+                os.replace(Path(tmp) / pdf_name(d, lv), out / pdf_name(d, lv))
+                (out / ".worksheet.sha256").write_text(worksheet_digest(d, lv) + "\n")
+        count += 1
+    print(f"built worksheets for {count} day(s)")
 
 
 if __name__ == "__main__":
-    build(int(sys.argv[1]), sys.argv[2] if len(sys.argv) > 2 else os.path.join(ROOT, "out"))
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("day", nargs="?", type=int)
+    parser.add_argument("out_dir", nargs="?", default=os.path.join(ROOT, "out"))
+    parser.add_argument("--all", action="store_true", help="install missing/changed PDFs in the public directories")
+    parser.add_argument("--force", action="store_true")
+    args = parser.parse_args()
+    if args.all:
+        build_pending(args.force)
+    elif args.day is not None:
+        build(args.day, args.out_dir)
+    else:
+        parser.error("provide DAY [OUT_DIR] or --all")
