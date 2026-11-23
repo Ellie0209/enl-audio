@@ -544,5 +544,31 @@
         "genre": "Realistic fiction"
       }
     }
+  },
+  {
+    "day": 22,
+    "date": "2026-11-23",
+    "levels": {
+      "1": {
+        "title": "A Gift for Mom",
+        "topic": "a boy wraps a surprise gift (a red hat) for Mom in a big box, rips the paper, fixes it with tape, and Mom loves it (family, giving, feelings)",
+        "genre": "Story"
+      },
+      "2": {
+        "title": "Rest, Little Bird",
+        "topic": "a small bird bumps into the kitchen window, a girl and her mom watch quietly without touching it until it rests, fluffs its feathers and flies away (animals, nature, kindness, patience)",
+        "genre": "Story"
+      },
+      "3": {
+        "title": "My Very Own Library Card",
+        "topic": "a child gets a first library card from the librarian, learns to borrow up to five books and how shelf numbers help find a topic, and picks shark books, a joke book and a dragon story (community, reading, growing up)",
+        "genre": "Personal narrative"
+      },
+      "4": {
+        "title": "When Thunder Roars",
+        "topic": "thunderstorms: ice bits in storm clouds build up electric charge, lightning is a giant spark about five times hotter than the sun's surface, the heated air booms as thunder, counting seconds between flash and boom (about five seconds per mile), and the safety rule “When thunder roars, go indoors” and waiting 30 minutes (weather, science, safety)",
+        "genre": "Nonfiction"
+      }
+    }
   }
 ]

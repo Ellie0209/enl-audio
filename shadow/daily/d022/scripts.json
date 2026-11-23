@@ -1,0 +1,446 @@
+{
+  "day": 22,
+  "date": "2026-11-23",
+  "scripts": {
+    "1": {
+      "title": "A Gift for Mom",
+      "title_kr": "엄마를 위한 선물",
+      "genre": "Story",
+      "topic": "a boy wraps a surprise gift (a red hat) for Mom in a big box, rips the paper, fixes it with tape, and Mom loves it (family, giving, feelings)",
+      "lines": [
+        "*Ben* has a *big* *box*. | It is a *gift* for *Mom*. ↘",
+        "He *sets* a *red* *hat* | in the *box*. ↘",
+        "*Snip*, *snip*! | Ben *cuts* the *paper*. ↘",
+        "*Rip*! | Oh, *no*! | Ben *gets* *more* *tape*. ↘",
+        "*Mom* *gets* *home*. | “A *gift* for *me*?” ↗",
+        "Mom *puts* on the *hat*. | “I *love* it, *Ben*!” | *Hug*! ↘"
+      ],
+      "targets": [
+        "big",
+        "box",
+        "gift",
+        "red",
+        "hat",
+        "snip",
+        "cuts",
+        "rip",
+        "hug"
+      ],
+      "vocab": [
+        [
+          "gift",
+          "선물"
+        ],
+        [
+          "box",
+          "상자"
+        ],
+        [
+          "sets",
+          "놓다, 넣다"
+        ],
+        [
+          "snip",
+          "싹둑 (가위 소리)"
+        ],
+        [
+          "cuts",
+          "자르다"
+        ],
+        [
+          "paper",
+          "포장지, 종이"
+        ],
+        [
+          "rip",
+          "찌익! (찢어지는 소리)"
+        ],
+        [
+          "Oh, no!",
+          "이런! 어떡해!"
+        ],
+        [
+          "tape",
+          "테이프"
+        ],
+        [
+          "puts on",
+          "(모자를) 쓰다"
+        ],
+        [
+          "hug",
+          "안아 주기"
+        ]
+      ],
+      "sounds": [
+        [
+          "Short i",
+          "big, gift, snip, rip, it, is",
+          "짧고 가볍게 '이': big '빅', rip '립'. '이-'로 길게 늘이지 않아요."
+        ],
+        [
+          "Short o",
+          "box, Mom, on",
+          "입을 동그랗고 크게 벌려 '아'에 가깝게: box '박스', Mom '맘'. '복스'가 되지 않게!"
+        ],
+        [
+          "Short u",
+          "cuts, hug",
+          "입을 살짝 벌리고 짧게 '어': cuts '컷츠', hug '헉'. '우'가 아니에요."
+        ]
+      ],
+      "expression": "Sound excited and secret on “It is a gift for Mom,” say “Snip, snip!” quick and crisp like scissors, make “Rip! Oh, no!” sound surprised, ask “A gift for me?” with a happy rising voice, and finish warm and loving on “I love it, Ben!” and a big “Hug!”",
+      "practice": [
+        "a big box",
+        "a gift for Mom",
+        "Snip, snip!",
+        "Oh, no!",
+        "I love it, Ben!"
+      ],
+      "events": []
+    },
+    "2": {
+      "title": "Rest, Little Bird",
+      "title_kr": "쉬렴, 작은 새야",
+      "genre": "Story",
+      "topic": "a small bird bumps into the kitchen window, a girl and her mom watch quietly without touching it until it rests, fluffs its feathers and flies away (animals, nature, kindness, patience)",
+      "lines": [
+        "*Thump*! | *Something* *bumped* | into the *kitchen* *window*. ↘",
+        "*Lily* *rushed* *outside* | and *looked* *down*. ↘",
+        "A *tiny* *bird* *sat* | *still* on the *grass*. ↘",
+        "“*Mom*! | Is it *hurt*?” ↗ | Lily *asked*. ↘",
+        "“*Shh*. | Let it *rest*,” | Mom *said* *softly*. | “*Don't* *touch* it.” ↘",
+        "They *waited* | and *watched* | from the *steps*. ↘",
+        "*Soon* the bird *blinked*. | It *hopped* and *fluffed* its *feathers*. ↘",
+        "*Then* it *flapped* its *wings* | and *flew* *away*! | Lily *cheered*. ↘"
+      ],
+      "targets": [
+        "bumped",
+        "rushed",
+        "looked",
+        "waited",
+        "watched",
+        "blinked",
+        "hopped",
+        "flapped",
+        "cheered"
+      ],
+      "vocab": [
+        [
+          "thump",
+          "쿵! (부딪히는 소리)"
+        ],
+        [
+          "bumped into",
+          "~에 부딪혔다"
+        ],
+        [
+          "kitchen",
+          "부엌"
+        ],
+        [
+          "rushed",
+          "급히 달려갔다"
+        ],
+        [
+          "tiny",
+          "아주 작은"
+        ],
+        [
+          "still",
+          "가만히"
+        ],
+        [
+          "hurt",
+          "다친"
+        ],
+        [
+          "softly",
+          "부드럽게, 조용히"
+        ],
+        [
+          "touch",
+          "만지다"
+        ],
+        [
+          "blinked",
+          "눈을 깜빡였다"
+        ],
+        [
+          "fluffed",
+          "(깃털을) 부풀렸다"
+        ],
+        [
+          "feathers",
+          "깃털"
+        ],
+        [
+          "flapped",
+          "(날개를) 퍼덕였다"
+        ],
+        [
+          "cheered",
+          "환호했다"
+        ]
+      ],
+      "sounds": [
+        [
+          "-ed as /t/",
+          "bumped, rushed, looked, asked, watched, blinked, hopped, flapped",
+          "p·k·sh·ch·f 소리 뒤 -ed는 짧은 't': looked '룩트', hopped '합트'. '루키드'처럼 늘이지 않아요."
+        ],
+        [
+          "-ed as /d/",
+          "cheered",
+          "울리는 소리 뒤 -ed는 'd': cheered '치어드'."
+        ],
+        [
+          "-ed as /id/",
+          "waited",
+          "t·d 뒤 -ed는 '이드': waited '웨이티드'."
+        ]
+      ],
+      "expression": "Say “Thump!” with a sudden, loud pop, sound worried and quick on “Is it hurt?”, whisper Mom's “Shh. Let it rest” slowly and gently, read “They waited and watched” quietly with pauses, then speed up and sound joyful on “and flew away!” and “Lily cheered.”",
+      "practice": [
+        "into the kitchen window",
+        "Is it hurt?",
+        "Let it rest.",
+        "They waited and watched",
+        "and flew away!"
+      ],
+      "events": []
+    },
+    "3": {
+      "title": "My Very Own Library Card",
+      "title_kr": "나만의 도서관 카드",
+      "genre": "Personal narrative",
+      "topic": "a child gets a first library card from the librarian, learns to borrow up to five books and how shelf numbers help find a topic, and picks shark books, a joke book and a dragon story (community, reading, growing up)",
+      "lines": [
+        "*Last* *Saturday*, | I *finally* *got* | my *very* *own* *library* *card*! ↘",
+        "*Mom* and I *walked* to the *library* | on *Maple* *Street*. ↘",
+        "At the *front* *desk*, | the *librarian*, Mr. *Diaz*, | *asked* me to *write* my *name*. ↘",
+        "I *wrote* it *slowly* | in my *best* *handwriting*. ↘",
+        "He *printed* my *card* | and *handed* it to me. | It was *bright* *blue*! ↘",
+        "“*Now* you can *borrow* | up to *five* *books* at a *time*,” | he *said*. ↘",
+        "*Five* *books*? ↗ | I *hurried* to the *shelves* | to *look* for *sharks*. ↘",
+        "Mr. Diaz *showed* me | how the *numbers* on the *books* | help you *find* a *topic*. ↘",
+        "I *picked* *three* *shark* *books*, | *one* *joke* *book*, | and a *story* about a *dragon*. ↘",
+        "At *home*, | I *read* on the *couch* | until it was *time* for *dinner*. ↘",
+        "*Next* *week*, | I will *bring* them *back* | and *choose* *five* *more*! ↘"
+      ],
+      "targets": [
+        "library",
+        "librarian",
+        "finally",
+        "handwriting",
+        "printed",
+        "borrow",
+        "shelves",
+        "sharks",
+        "choose"
+      ],
+      "vocab": [
+        [
+          "library card",
+          "도서관 카드"
+        ],
+        [
+          "finally",
+          "드디어"
+        ],
+        [
+          "librarian",
+          "사서"
+        ],
+        [
+          "front desk",
+          "안내 데스크"
+        ],
+        [
+          "handwriting",
+          "글씨"
+        ],
+        [
+          "printed",
+          "인쇄했다"
+        ],
+        [
+          "borrow",
+          "빌리다"
+        ],
+        [
+          "at a time",
+          "한 번에"
+        ],
+        [
+          "shelves",
+          "책장, 선반 (shelf의 복수)"
+        ],
+        [
+          "topic",
+          "주제"
+        ],
+        [
+          "joke book",
+          "유머 책"
+        ],
+        [
+          "couch",
+          "소파"
+        ],
+        [
+          "bring back",
+          "돌려주다, 반납하다"
+        ],
+        [
+          "choose",
+          "고르다"
+        ]
+      ],
+      "sounds": [
+        [
+          "sh digraph",
+          "shelves, sharks, showed, shark",
+          "입술을 앞으로 내밀고 '쉬': shelves '쉘브즈'. 's'처럼 '스'로 읽지 않아요."
+        ],
+        [
+          "ar sound",
+          "card, sharks, shark",
+          "입을 크게 벌려 '아'를 하고 혀를 뒤로 말아 'r': card '카r드'. '카드'처럼 r을 빼지 않게!"
+        ],
+        [
+          "Long i",
+          "library, finally, write, five, time, bright",
+          "알파벳 이름처럼 '아이': five '파이브', bright '브라잇'. '이'로 짧게 읽지 않아요."
+        ]
+      ],
+      "expression": "Sound proud and excited on “my very own library card!”, read Mr. Diaz's line in a calm, friendly voice, ask “Five books?” with a surprised, happy rise, list “three shark books, one joke book, and a dragon story” with a small pause after each, and end with big excitement on “choose five more!”",
+      "practice": [
+        "my very own library card",
+        "in my best handwriting",
+        "up to five books at a time",
+        "Five books?",
+        "choose five more!"
+      ],
+      "events": []
+    },
+    "4": {
+      "title": "When Thunder Roars",
+      "title_kr": "천둥이 울리면",
+      "genre": "Nonfiction",
+      "topic": "thunderstorms: ice bits in storm clouds build up electric charge, lightning is a giant spark about five times hotter than the sun's surface, the heated air booms as thunder, counting seconds between flash and boom (about five seconds per mile), and the safety rule “When thunder roars, go indoors” and waiting 30 minutes (weather, science, safety)",
+      "lines": [
+        "*Crack*! | *Boom*! | A *thunderstorm* can *rattle* the *windows* | and send the *dog* under the *bed*. ↘",
+        "But *what* is *really* *happening* | *up* in those *dark* *clouds*? ↘",
+        "Inside a *storm* *cloud*, | *tiny* *bits* of *ice* | *bump* and *rub* *together* in the *wind*. ↘",
+        "All that *bumping* | *builds* up a *huge* *charge* of *electricity*. ↘",
+        "It is *like* the *spark* you *feel* | when you *touch* a *doorknob* | after *walking* on a *rug*. ↘",
+        "*Lightning* is a *giant* *spark* | that *jumps* *between* *clouds* | or *down* to the *ground*. ↘",
+        "In *less* than a *second*, | it *heats* the *air* | to about *five* *times* *hotter* | than the *surface* of the *sun*! ↘",
+        "The hot *air* *pushes* *outward* so *fast* | that it makes a *loud* *boom*. | *That* *boom* is *thunder*. ↘",
+        "*Light* *travels* much *faster* than *sound*, | so we *see* the *flash* | *before* we *hear* the *rumble*. ↘",
+        "*Count* the *seconds* | *between* the *flash* and the *boom*. ↘",
+        "*Every* *five* *seconds* | means the storm is about *one* *mile* *away*. ↘",
+        "If you *count* *fewer* *seconds* *each* *time*, | the storm is getting *closer*. ↘",
+        "*Remember* this *rule*: | “When *thunder* *roars*, | *go* *indoors*!” ↘",
+        "*Stay* *inside* | until *thirty* *minutes* | after the *last* *boom*. ↘",
+        "*Then* you can *go* *back* *outside* | and *splash* in the *puddles*! ↘"
+      ],
+      "targets": [
+        "thunderstorm",
+        "electricity",
+        "lightning",
+        "spark",
+        "surface",
+        "travels",
+        "seconds",
+        "rumble",
+        "indoors"
+      ],
+      "vocab": [
+        [
+          "thunderstorm",
+          "뇌우, 천둥 번개 폭풍"
+        ],
+        [
+          "rattle",
+          "덜컹거리게 하다"
+        ],
+        [
+          "charge",
+          "전하, (쌓인) 전기"
+        ],
+        [
+          "electricity",
+          "전기"
+        ],
+        [
+          "spark",
+          "불꽃, 스파크"
+        ],
+        [
+          "doorknob",
+          "문손잡이"
+        ],
+        [
+          "lightning",
+          "번개"
+        ],
+        [
+          "surface",
+          "표면"
+        ],
+        [
+          "outward",
+          "바깥쪽으로"
+        ],
+        [
+          "thunder",
+          "천둥"
+        ],
+        [
+          "rumble",
+          "우르릉 소리"
+        ],
+        [
+          "mile",
+          "마일 (약 1.6km)"
+        ],
+        [
+          "fewer",
+          "더 적은"
+        ],
+        [
+          "indoors",
+          "실내로"
+        ]
+      ],
+      "sounds": [
+        [
+          "th (voiceless)",
+          "thunder, thunderstorm, thirty",
+          "혀끝을 윗니 사이로 살짝 내밀고 바람만 '쓰-': thunder. '썬더'나 '떤더'가 되지 않게!"
+        ],
+        [
+          "Final -er",
+          "thunder, faster, closer, fewer, after",
+          "끝의 -er은 약하게 '어r'로 혀를 말아요: faster '패스터r'. '패스터'처럼 r을 빼지 않아요."
+        ],
+        [
+          "Linking",
+          "bits of ice, pushes outward",
+          "단어를 끊지 말고 이어요: bits of ice → '빗처바이스', pushes outward → '푸쉬자웃워r드'."
+        ]
+      ],
+      "expression": "Start with a loud, sharp “Crack! Boom!”, ask “what is really happening up in those dark clouds?” with curiosity, sound amazed on “five times hotter than the surface of the sun!”, slow down and count clearly in the seconds part, read the safety rule “When thunder roars, go indoors!” strong and firm like a coach, and end bright and playful on “splash in the puddles!”",
+      "practice": [
+        "up in those dark clouds",
+        "a huge charge of electricity",
+        "five times hotter than the surface of the sun",
+        "When thunder roars, go indoors!",
+        "splash in the puddles"
+      ],
+      "events": []
+    }
+  }
+}
