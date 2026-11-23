@@ -21,9 +21,13 @@ Do **not** push a newly generated catalog ahead of the assets. `build_pages.py` 
 | `.lines.sha1` in each level/day | Current voice/speed/text signature; compatible with existing MP3 caches |
 | `.worksheet.sha256` in each level/day | Signature of the full level content, date and PDF template |
 | `ShadowShine_Daily_DNNN_L{lv}_{Level}.pdf` | Shadowing, dictation and teacher/answer sections |
-| `shadow/app/` | Existing no-login PWA; no app-shell or progress changes in this publication update |
+| `shadow/app/` | Retired public app (2026-11-22); notice page links to the E&Languages member app at https://e-languages.vercel.app/shadow-daily. Its service worker unregisters itself and deletes its caches. |
 
-The first production run after this change renders the existing 80 level PDFs to establish worksheet stamps. Existing audio is reused when its current signature and six files are present. Later runs render only missing/changed worksheet days. A metadata/teacher-tip change invalidates the PDF even when the spoken lines are unchanged. The `force` input rebuilds all existing audio and PDFs; it does not create a new day.
+The first production run after this change renders all registered level PDFs to establish worksheet stamps (currently 22 days × 4 levels = 88 PDFs). Existing PDF paths and names are retained, but the files are regenerated; byte-for-byte preservation is not guaranteed. Existing audio is reused when its current signature and six files are present. Later runs render only missing/changed worksheet days. A metadata/teacher-tip change invalidates the PDF even when the spoken lines are unchanged. The `force` input rebuilds all existing audio and PDFs; it does not create a new day.
+
+## Member app and retired public app
+
+Shadow & Shine Daily now runs in the E&Languages member app at https://e-languages.vercel.app/shadow-daily (`e-languages/app/shadow-daily/route.js`). It reads the same `index.json`, `scripts.json`, MP3s and PDFs from this repository. Preserve the retired public app notice and self-unregistering service worker; this publication update does not restore the old public PWA or change member-app progress.
 
 ## Tools and local use
 
