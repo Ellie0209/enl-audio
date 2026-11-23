@@ -13,7 +13,7 @@
         "*Snip*, *snip*! | Ben *cuts* the *paper*. ↘",
         "*Rip*! | Oh, *no*! | Ben *gets* *more* *tape*. ↘",
         "*Mom* *gets* *home*. | “A *gift* for *me*?” ↗",
-        "Mom *puts* on the *hat*. | “I *love* it, *Ben*!” | *Hug*! ↘"
+        "Mom *puts* on the *hat*. | “I *love* it!” | *Hug*! ↘"
       ],
       "targets": [
         "big",
@@ -34,10 +34,6 @@
         [
           "box",
           "상자"
-        ],
-        [
-          "sets",
-          "놓다, 넣다"
         ],
         [
           "snip",
@@ -75,27 +71,27 @@
       "sounds": [
         [
           "Short i",
-          "big, gift, snip, rip, it, is",
-          "짧고 가볍게 '이': big '빅', rip '립'. '이-'로 길게 늘이지 않아요."
+          "big, gift, snip, rip",
+          "짧게 '이': big '빅', rip '립'. 길게 늘이지 않아요."
         ],
         [
           "Short o",
           "box, Mom, on",
-          "입을 동그랗고 크게 벌려 '아'에 가깝게: box '박스', Mom '맘'. '복스'가 되지 않게!"
+          "입을 크게 벌려 '아': box '박스'. '복스'가 아니에요!"
         ],
         [
           "Short u",
           "cuts, hug",
-          "입을 살짝 벌리고 짧게 '어': cuts '컷츠', hug '헉'. '우'가 아니에요."
+          "짧게 '어': cuts '컷츠', hug '헉'."
         ]
       ],
-      "expression": "Sound excited and secret on “It is a gift for Mom,” say “Snip, snip!” quick and crisp like scissors, make “Rip! Oh, no!” sound surprised, ask “A gift for me?” with a happy rising voice, and finish warm and loving on “I love it, Ben!” and a big “Hug!”",
+      "expression": "Sound excited on “It is a gift for Mom,” say “Snip, snip!” quick like scissors, sound surprised on “Rip! Oh, no!”, ask “A gift for me?” with a rising voice, and end warm on “I love it!” and “Hug!”",
       "practice": [
         "a big box",
         "a gift for Mom",
         "Snip, snip!",
         "Oh, no!",
-        "I love it, Ben!"
+        "I love it!"
       ],
       "events": []
     },
@@ -285,12 +281,12 @@
           "유머 책"
         ],
         [
-          "couch",
-          "소파"
-        ],
-        [
           "bring back",
           "돌려주다, 반납하다"
+        ],
+        [
+          "couch",
+          "소파"
         ],
         [
           "choose",
