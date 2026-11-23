@@ -26,7 +26,7 @@ jobs:
       - name: Install PDF renderer and Korean fonts
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y -qq fonts-noto-cjk fonts-dejavu-core
+          sudo apt-get install -y -qq ffmpeg fonts-noto-cjk fonts-dejavu-core
           python -m pip install -q segno==1.6.6 playwright==1.62.0 pypdf==6.21.4
           python -m playwright install --with-deps chromium
       - name: Render Days 20, 21 and 22 without publishing
