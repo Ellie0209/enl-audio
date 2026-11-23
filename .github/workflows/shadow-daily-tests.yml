@@ -1,0 +1,71 @@
+name: Shadow & Shine Daily tests
+on:
+  pull_request:
+    paths: ['tools/daily/**', '.github/workflows/shadow-daily*.yml', 'tests/daily/**']
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install -q pypdf==6.21.4
+      - run: python -m unittest discover -s tests/daily -v
+  pdf-render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install PDF renderer and Korean fonts
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fonts-noto-cjk fonts-dejavu-core
+          python -m pip install -q segno==1.6.6 playwright==1.62.0 pypdf==6.21.4
+          python -m playwright install --with-deps chromium
+      - name: Render Days 20, 21 and 22 without publishing
+        run: |
+          for day in 20 21 22; do
+            python tests/daily/render_pdf_smoke.py --day "$day" --out "$RUNNER_TEMP/daily-pdf-smoke/d$day"
+          done
+      - name: Verify initial PDF migration and repeat-run reuse without TTS or publishing
+        run: |
+          python - <<'PY'
+          import hashlib
+          import json
+          import subprocess
+          import sys
+          from pathlib import Path
+          sys.path.insert(0, "tools/daily")
+          from publication import read_days, validate_all
+
+          def digest(path):
+              return hashlib.sha256(path.read_bytes()).hexdigest()
+
+          daily = Path("shadow/daily")
+          preserved = sorted({*daily.glob("d[0-9][0-9][0-9]/scripts.json"),
+                              *daily.glob("l[1-4]/d[0-9][0-9][0-9]/*.mp3"),
+                              *daily.glob("l[1-4]/d[0-9][0-9][0-9]/.lines.sha1"),
+                              Path("shadow/app/index.html"), Path("shadow/app/sw.js")})
+          before = {path: digest(path) for path in preserved}
+          catalog = json.loads((daily / "index.json").read_text())
+          days = read_days()
+          subprocess.run([sys.executable, "tools/daily/build_worksheets.py", "--all"], check=True)
+          assert validate_all(media=True) == days
+          subprocess.run([sys.executable, "tools/daily/build_pages.py", "--strict"], check=True)
+          assert json.loads((daily / "index.json").read_text()) == catalog, "Historical catalog changed"
+          assert {path: digest(path) for path in preserved} == before, "Existing content changed"
+          pdfs = sorted(daily.glob("l[1-4]/d[0-9][0-9][0-9]/*.pdf"))
+          assert len(pdfs) == len(days) * 4
+          first = {path: digest(path) for path in pdfs}
+          subprocess.run([sys.executable, "tools/daily/build_worksheets.py", "--all"], check=True)
+          assert {path: digest(path) for path in pdfs} == first, "Unchanged PDFs were rebuilt"
+          assert {path: digest(path) for path in preserved} == before, "Repeat run changed existing content"
+          print(f"Verified {len(days)} catalog days, {len(pdfs)} PDFs, preserved source/audio/app files and repeat-run reuse")
+          PY

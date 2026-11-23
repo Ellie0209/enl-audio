@@ -7,7 +7,8 @@ Reads shadow/daily/dNNN/scripts.json and writes:
   shadow/daily/index.html             list of all days
   index.html (root)                   adds/updates the "Shadow & Shine Daily" block between <!--daily--> markers
 """
-import glob, html, json, os, re
+import argparse, html, json, os, re, sys
+from publication import read_days, asset_errors
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 DAILY = os.path.join(ROOT, "shadow", "daily")
@@ -73,15 +74,31 @@ def player(day, date, lv, sc):
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--strict", action="store_true", help="fail if any day's assets are incomplete")
+    args = parser.parse_args()
+    candidates = read_days(ROOT)
+    if args.strict:
+        errors = [e for d in candidates for e in asset_errors(d, ROOT)]
+        if errors:
+            raise ValueError("\n".join(errors))
     days = []
-    for sp in sorted(glob.glob(os.path.join(DAILY, "d[0-9][0-9][0-9]", "scripts.json"))):
-        d = json.load(open(sp, encoding="utf-8"))
+    for d in candidates:
+        errors = asset_errors(d, ROOT)
+        if errors:
+            if args.strict:
+                raise ValueError("\n".join(errors))
+            print(f"Not publishing d{d['day']:03d}: " + "; ".join(errors), file=sys.stderr)
+            continue
         days.append(d)
         nnn = "d%03d" % d["day"]
         for lv, sc in d["scripts"].items():
             out = os.path.join(DAILY, "l" + lv, nnn)
             os.makedirs(out, exist_ok=True)
             open(os.path.join(out, "index.html"), "w", encoding="utf-8").write(player(d["day"], d["date"], lv, sc))
+    if not days:
+        print("No complete days; preserving the existing published catalog", file=sys.stderr)
+        return
     days.sort(key=lambda d: d["day"])
     state = [{"day": d["day"], "date": d["date"],
               "levels": {lv: {"title": sc["title"], "topic": sc.get("topic", ""), "genre": sc["genre"]} for lv, sc in sorted(d["scripts"].items())}}
