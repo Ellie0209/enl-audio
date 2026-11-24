@@ -1,0 +1,450 @@
+{
+  "day": 23,
+  "date": "2026-11-24",
+  "scripts": {
+    "1": {
+      "title": "Stop! Go!",
+      "title_kr": "멈춰! 가자!",
+      "genre": "Pattern text",
+      "topic": "a girl and her mom walk to the shop and cross the street safely: stop at the red light, wait as a cab and a van zip past, look left and right on green, hold hands and step up on the curb (community, safety, colors)",
+      "lines": [
+        "*Jen* and *Mom* | *walk* to the *shop*. ↘",
+        "The *light* is *red*. | *Stop*, Jen, *stop*! ↘",
+        "A *cab* *zips* *past*. | A *van* *zips* *past*. ↘",
+        "It is *green*. | “Is it *safe*?” ↗ | *Look* *left* and *right*. ↘",
+        "Jen *holds* Mom's *hand*. | *Step*, *step*, *step*! ↘",
+        "*Up* on the *curb*! | “We *did* it!” | Jen *grins*. ↘"
+      ],
+      "targets": [
+        "stop",
+        "red",
+        "cab",
+        "zips",
+        "past",
+        "van",
+        "step",
+        "hand",
+        "grins"
+      ],
+      "vocab": [
+        [
+          "shop",
+          "가게"
+        ],
+        [
+          "light",
+          "신호등 (불빛)"
+        ],
+        [
+          "stop",
+          "멈추다"
+        ],
+        [
+          "cab",
+          "택시"
+        ],
+        [
+          "zips past",
+          "휙 지나가다"
+        ],
+        [
+          "safe",
+          "안전한"
+        ],
+        [
+          "holds",
+          "(손을) 잡다"
+        ],
+        [
+          "step",
+          "한 걸음 (걷다)"
+        ],
+        [
+          "curb",
+          "인도 가장자리 (연석)"
+        ],
+        [
+          "grins",
+          "활짝 웃다"
+        ]
+      ],
+      "sounds": [
+        [
+          "Short a",
+          "cab, van, past, hand",
+          "짧게 '애': cab '캡', hand '핸드'."
+        ],
+        [
+          "Short o",
+          "stop, Mom, shop",
+          "입을 크게 '아': stop '스탑'. '스톱'이 아니에요!"
+        ],
+        [
+          "Short i",
+          "zips, big, did, grins",
+          "짧게 '이': zips '집스'. 늘이지 않아요."
+        ]
+      ],
+      "expression": "Say “Stop, Jen, stop!” firm and clear, make “zips past” quick, ask “Is it safe?” with a rising voice, and sound proud on “We did it!”",
+      "practice": [
+        "walk to the shop",
+        "Stop, Jen, stop!",
+        "A cab zips past.",
+        "Is it safe?",
+        "We did it!"
+      ],
+      "events": []
+    },
+    "2": {
+      "title": "Are We There Yet?",
+      "title_kr": "아직 멀었어요?",
+      "genre": "Story",
+      "topic": "a boy gets wiggly on the long Thanksgiving car ride to Grandma's house, so the family plays I Spy and counts cows until they pull into Grandma's driveway (family, holidays, travel, patience)",
+      "lines": [
+        "*Nate's* *family* *packed* the *car* | on *Thanksgiving* *morning*. ↘",
+        "*Grandma's* *house* was *far* *away*, | so the *trip* was *long*. ↘",
+        "*Soon* Nate *wiggled* | and *kicked* his *seat*. | “Are we *there* *yet*?” ↗",
+        "“*Not* *yet*,” | *Dad* *laughed*. | “*Let's* *play* I *Spy*!” ↘",
+        "Nate *looked* out the *window*. | “I *spy* something *red*!” ↘",
+        "“Is it a *truck*?” ↗ | Mom *guessed*. | “*No*! | It's a *barn*!” | Nate *yelled*. ↘",
+        "They *played* and *played* | and *counted* *cows* | *all* the *way*. ↘",
+        "At *last* they *pulled* into Grandma's *driveway*. | *Grandma* *waved* from the *door*! ↘"
+      ],
+      "targets": [
+        "packed",
+        "wiggled",
+        "kicked",
+        "laughed",
+        "looked",
+        "guessed",
+        "yelled",
+        "counted",
+        "waved"
+      ],
+      "vocab": [
+        [
+          "packed",
+          "(짐을) 쌌다, 실었다"
+        ],
+        [
+          "Thanksgiving",
+          "추수감사절"
+        ],
+        [
+          "far away",
+          "멀리"
+        ],
+        [
+          "trip",
+          "여행, 이동"
+        ],
+        [
+          "wiggled",
+          "꼼지락거렸다"
+        ],
+        [
+          "kicked",
+          "발로 찼다"
+        ],
+        [
+          "Are we there yet?",
+          "아직 멀었어요? (다 왔어요?)"
+        ],
+        [
+          "laughed",
+          "웃었다"
+        ],
+        [
+          "I Spy",
+          "아이 스파이 (보이는 것 알아맞히기 놀이)"
+        ],
+        [
+          "guessed",
+          "추측했다, 알아맞혀 보았다"
+        ],
+        [
+          "barn",
+          "헛간"
+        ],
+        [
+          "yelled",
+          "소리쳤다"
+        ],
+        [
+          "counted",
+          "셌다"
+        ],
+        [
+          "driveway",
+          "(집 앞) 진입로"
+        ]
+      ],
+      "sounds": [
+        [
+          "-ed as /t/",
+          "packed, kicked, laughed, looked, guessed",
+          "k·f·s 소리 뒤 -ed는 짧은 't': packed '팩트', laughed '래프트'. '팩키드'처럼 늘이지 않아요."
+        ],
+        [
+          "-ed as /d/",
+          "wiggled, yelled, played, pulled, waved",
+          "울리는 소리 뒤 -ed는 'd': yelled '옐드', waved '웨이브드'."
+        ],
+        [
+          "-ed as /id/",
+          "counted",
+          "t·d 뒤 -ed는 '이드': counted '카운티드'."
+        ]
+      ],
+      "expression": "Sound restless and whiny on “Are we there yet?” with a big rising voice, let Dad's “Not yet” sound cheerful and laughing, say “I spy something red!” like a fun secret, ask Mom's “Is it a truck?” with a rise, shout “No! It's a barn!” with excitement, and end warm and happy when Grandma waves from the door.",
+      "practice": [
+        "on Thanksgiving morning",
+        "Are we there yet?",
+        "Let's play I Spy!",
+        "I spy something red!",
+        "all the way"
+      ],
+      "events": []
+    },
+    "3": {
+      "title": "Wild Turkeys: Not So Slow!",
+      "title_kr": "야생 칠면조: 전혀 느리지 않아요!",
+      "genre": "Nonfiction",
+      "topic": "surprising facts about wild turkeys: they run about 25 miles an hour, fly in short bursts, sleep high in trees at night, scratch for acorns, seeds and bugs; a tom puffs his feathers, fans his tail and gobbles loud enough to hear a mile away, his bare head skin changes red, white and blue, and baby poults follow their mother the day they hatch (animals, science, nature)",
+      "lines": [
+        "When you *think* of a *turkey*, | do you *picture* a *slow*, *chubby* *bird*? ↗",
+        "*Wild* *turkeys* are *not* *slow* at *all*! ↘",
+        "They can *run* about *twenty-five* *miles* an *hour*, | as *fast* as a *car* on a *quiet* *street*. ↘",
+        "They can *fly*, *too*, | in *short*, *quick* *bursts* | over *fields* and *up* into *trees*. ↘",
+        "At *night*, | wild turkeys *sleep* | *high* in the *branches*, | *safe* from *foxes*. ↘",
+        "In the *daytime*, | they *scratch* the *ground* | for *acorns*, *seeds*, and *bugs*. ↘",
+        "A *male* turkey is *called* a *tom*. | He *puffs* up his *feathers* | and *spreads* his *tail* like a *fan*. ↘",
+        "*Then* he *calls*, | “*Gobble*, *gobble*!” | You can *hear* it | up to a *mile* *away*! ↘",
+        "The *bare* *skin* on his *head* | can *change* *colors*: | *red*, *white*, and *blue*! ↘",
+        "*Baby* turkeys are *called* *poults*. | They can *follow* their *mother* | the *day* they *hatch*. ↘",
+        "So the *next* *time* you *see* a *turkey*, | *remember*: | it's a *fast*, *amazing* *bird*! ↘"
+      ],
+      "targets": [
+        "wild",
+        "bursts",
+        "branches",
+        "scratch",
+        "acorns",
+        "feathers",
+        "spreads",
+        "gobble",
+        "poults"
+      ],
+      "vocab": [
+        [
+          "turkey",
+          "칠면조"
+        ],
+        [
+          "picture",
+          "떠올리다, 상상하다"
+        ],
+        [
+          "chubby",
+          "통통한"
+        ],
+        [
+          "wild",
+          "야생의"
+        ],
+        [
+          "quiet street",
+          "조용한 길"
+        ],
+        [
+          "bursts",
+          "(짧고 갑작스러운) 한바탕, 순간"
+        ],
+        [
+          "branches",
+          "나뭇가지"
+        ],
+        [
+          "scratch",
+          "(땅을) 긁다, 헤집다"
+        ],
+        [
+          "acorns",
+          "도토리"
+        ],
+        [
+          "male",
+          "수컷"
+        ],
+        [
+          "feathers",
+          "깃털"
+        ],
+        [
+          "spreads",
+          "펼치다"
+        ],
+        [
+          "gobble",
+          "골골 (칠면조 울음소리)"
+        ],
+        [
+          "bare skin",
+          "(털 없이) 드러난 피부"
+        ],
+        [
+          "poults",
+          "새끼 칠면조"
+        ],
+        [
+          "hatch",
+          "(알에서) 깨어나다"
+        ]
+      ],
+      "sounds": [
+        [
+          "r-controlled ur",
+          "turkey, turkeys, bursts",
+          "'어'를 하면서 혀를 뒤로 말아 'r': turkey '터r키'. '털키'나 '터키'처럼 r을 빼지 않아요."
+        ],
+        [
+          "Blends scr / spr",
+          "scratch, spreads",
+          "세 자음을 모음 없이 붙여요: scratch '스크래치'를 '스-크-래치'로 끊지 말고 한 번에!"
+        ],
+        [
+          "Long i",
+          "wild, fly, night, high, white, mile, time",
+          "알파벳 이름처럼 '아이': wild '와일드', night '나잇'. 짧은 '이'로 읽지 않아요."
+        ]
+      ],
+      "expression": "Ask the opening question with a teasing, curious rise, then sound surprised and firm on “Wild turkeys are not slow at all!”, read the speed and flying facts with energy, slow down and soften on the nighttime line, make “Gobble, gobble!” loud and funny, say “red, white, and blue!” with a small pause after each color, and end proudly on “a fast, amazing bird!”",
+      "practice": [
+        "a slow, chubby bird",
+        "twenty-five miles an hour",
+        "in short, quick bursts",
+        "up to a mile away",
+        "red, white, and blue"
+      ],
+      "events": []
+    },
+    "4": {
+      "title": "Found: One Muddy Dog",
+      "title_kr": "찾았어요: 진흙투성이 강아지",
+      "genre": "Realistic fiction",
+      "topic": "a boy finds a shivering lost dog with no tag on the way home from school; he and his mom dry him, check for a microchip at the vet, put up posters and post online, and the next morning a girl named Rosa comes to bring her dog Biscuit home and invites the boy to visit (animals, community, kindness, feelings)",
+      "lines": [
+        "On the *way* *home* from *school*, | *Ari* *heard* a *whimper* | *behind* the *mailboxes*. ↘",
+        "A *small* *brown* *dog* | was *shivering* in the *rain*, | his *fur* *caked* with *mud*. ↘",
+        "He *wore* a *red* *collar*, | but the *tag* was *gone*. ↘",
+        "“*Somebody* must be *missing* you,” | Ari *whispered*, | and the dog *licked* his *hand*. ↘",
+        "Ari *carried* him *home* | and *called* for his *mom* | *before* he even *took* off his *boots*. ↘",
+        "*Together* they *dried* the dog | with an *old* *towel* | and *gave* him a *bowl* of *water*. ↘",
+        "“We *can't* *keep* him,” | Mom *said* *gently*. | “*Let's* *help* him *find* his *way* *home*.” ↘",
+        "*First*, they *took* him to the *vet* | to *check* for a *microchip*, | but he *didn't* *have* one. ↘",
+        "*Next*, Ari *made* *posters* | with a *photo* and the *words* | “*Found*: *One* *Muddy* *Dog*.” ↘",
+        "They *taped* them to *lampposts*, | and Mom *posted* the *photo* | on the *neighborhood* *website*. ↘",
+        "*That* *night*, | the dog *slept* by Ari's *bed*, | and Ari *wondered* if *anyone* would *call*. ↘",
+        "*Early* the *next* *morning*, | a *voice* on the *phone* *said*, | “I *think* you *found* *Biscuit*! | He *slipped* out of our *yard* | *three* *days* *ago*!” ↘",
+        "When a girl named *Rosa* | *came* through the *door*, | Biscuit *raced* to her, | *wagging* his *whole* *body*. ↘",
+        "Ari *felt* a *little* *sad* to say *goodbye*, | but *mostly* he felt *proud*. ↘",
+        "Rosa *smiled*. | “*Will* you *come* and *visit* him?” ↗ | Ari *nodded* *hard*. ↘"
+      ],
+      "targets": [
+        "whimper",
+        "shivering",
+        "collar",
+        "whispered",
+        "microchip",
+        "posters",
+        "neighborhood",
+        "wondered",
+        "wagging"
+      ],
+      "vocab": [
+        [
+          "whimper",
+          "낑낑거리는 소리"
+        ],
+        [
+          "shivering",
+          "덜덜 떨고 있는"
+        ],
+        [
+          "caked with mud",
+          "진흙이 덕지덕지 묻은"
+        ],
+        [
+          "collar",
+          "(개의) 목걸이"
+        ],
+        [
+          "whispered",
+          "속삭였다"
+        ],
+        [
+          "vet",
+          "수의사, 동물 병원"
+        ],
+        [
+          "microchip",
+          "마이크로칩 (주인 정보가 담긴 작은 칩)"
+        ],
+        [
+          "posters",
+          "포스터, 전단지"
+        ],
+        [
+          "lampposts",
+          "가로등 기둥"
+        ],
+        [
+          "neighborhood",
+          "동네, 이웃"
+        ],
+        [
+          "wondered",
+          "궁금해했다"
+        ],
+        [
+          "slipped out",
+          "몰래 빠져나갔다"
+        ],
+        [
+          "wagging",
+          "(꼬리를) 흔드는"
+        ],
+        [
+          "proud",
+          "자랑스러운, 뿌듯한"
+        ]
+      ],
+      "sounds": [
+        [
+          "wh sound",
+          "whimper, whispered, when",
+          "입술을 동그랗게 모아 '우'로 시작해요: whimper '윔퍼r', whispered '위스퍼r드'. 'h' 소리는 거의 내지 않아요."
+        ],
+        [
+          "ow / ou sound",
+          "brown, towel, found, proud",
+          "'아'에서 '우'로 미끄러지듯: brown '브라운', proud '프라우드'. '오'로 읽지 않아요."
+        ],
+        [
+          "-ed endings",
+          "licked /t/, carried /d/, posted /id/",
+          "licked는 '릭트', carried는 '캐리드', posted는 '포스티드'. 앞 소리에 따라 -ed가 달라져요."
+        ]
+      ],
+      "expression": "Begin quietly and curiously on “heard a whimper,” whisper “Somebody must be missing you” softly and kindly, let Mom's “We can't keep him” sound gentle but sure, read the steps (first, next) clearly like a plan, sound hopeful and a little nervous on “wondered if anyone would call,” let the caller's voice on the phone sound thrilled, speed up with joy as Biscuit races to Rosa, and end warm on “Will you come and visit him?” with a rising voice.",
+      "practice": [
+        "heard a whimper behind the mailboxes",
+        "his fur caked with mud",
+        "Somebody must be missing you",
+        "on the neighborhood website",
+        "wagging his whole body"
+      ],
+      "events": []
+    }
+  }
+}
