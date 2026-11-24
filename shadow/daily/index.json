@@ -570,5 +570,31 @@
         "genre": "Nonfiction"
       }
     }
+  },
+  {
+    "day": 23,
+    "date": "2026-11-24",
+    "levels": {
+      "1": {
+        "title": "Stop! Go!",
+        "topic": "a girl and her mom walk to the shop and cross the street safely: stop at the red light, wait as a cab and a van zip past, look left and right on green, hold hands and step up on the curb (community, safety, colors)",
+        "genre": "Pattern text"
+      },
+      "2": {
+        "title": "Are We There Yet?",
+        "topic": "a boy gets wiggly on the long Thanksgiving car ride to Grandma's house, so the family plays I Spy and counts cows until they pull into Grandma's driveway (family, holidays, travel, patience)",
+        "genre": "Story"
+      },
+      "3": {
+        "title": "Wild Turkeys: Not So Slow!",
+        "topic": "surprising facts about wild turkeys: they run about 25 miles an hour, fly in short bursts, sleep high in trees at night, scratch for acorns, seeds and bugs; a tom puffs his feathers, fans his tail and gobbles loud enough to hear a mile away, his bare head skin changes red, white and blue, and baby poults follow their mother the day they hatch (animals, science, nature)",
+        "genre": "Nonfiction"
+      },
+      "4": {
+        "title": "Found: One Muddy Dog",
+        "topic": "a boy finds a shivering lost dog with no tag on the way home from school; he and his mom dry him, check for a microchip at the vet, put up posters and post online, and the next morning a girl named Rosa comes to bring her dog Biscuit home and invites the boy to visit (animals, community, kindness, feelings)",
+        "genre": "Realistic fiction"
+      }
+    }
   }
 ]
