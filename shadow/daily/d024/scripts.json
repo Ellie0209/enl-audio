@@ -1,0 +1,465 @@
+{
+  "day": 24,
+  "date": "2026-11-25",
+  "scripts": {
+    "1": {
+      "title": "Set the Table!",
+      "title_kr": "식탁을 차려요!",
+      "genre": "Pattern text",
+      "topic": "a boy helps set the table for a family dinner before Aunt Kim arrives: a mat, a cup, a fork and a dish for each person, the cat hops up on the table and has to get down, and Aunt Kim hugs him for his big help (family, holidays, helping)",
+      "lines": [
+        "*Aunt* *Kim* is *coming*! | *Sam* can *help*. ↘",
+        "*Set* a *mat*. | *Set* a *cup*. | *Set* a *fork*. ↘",
+        "*Set* a *big* *dish* | for *Aunt* *Kim*. ↘",
+        "*Hop*! | Is *that* the *cat*? ↗ | *Get* *down*, *Pip*! ↘",
+        "*Ding*, *dong*! | It is *Aunt* *Kim*! ↘",
+        "She *hugs* *Sam*. | “What a *big* *help*!” | Sam is *glad*. ↘"
+      ],
+      "targets": [
+        "set",
+        "mat",
+        "cup",
+        "fork",
+        "dish",
+        "hop",
+        "cat",
+        "hugs",
+        "glad"
+      ],
+      "vocab": [
+        [
+          "aunt",
+          "이모, 고모"
+        ],
+        [
+          "coming",
+          "오고 있다"
+        ],
+        [
+          "help",
+          "돕다; 도움"
+        ],
+        [
+          "set",
+          "(식탁에) 놓다, 차리다"
+        ],
+        [
+          "mat",
+          "식탁 매트"
+        ],
+        [
+          "cup",
+          "컵"
+        ],
+        [
+          "fork",
+          "포크"
+        ],
+        [
+          "dish",
+          "접시"
+        ],
+        [
+          "get down",
+          "내려와"
+        ],
+        [
+          "Ding, dong!",
+          "딩동! (초인종 소리)"
+        ],
+        [
+          "hugs",
+          "안아 주다"
+        ],
+        [
+          "glad",
+          "기쁜"
+        ]
+      ],
+      "sounds": [
+        [
+          "Short a",
+          "mat, cat, Sam, glad",
+          "짧게 '애': mat '맷', cat '캣'. '매트'처럼 끝에 '으'를 붙이지 않아요."
+        ],
+        [
+          "Short u",
+          "cup, hugs",
+          "입을 살짝 벌리고 짧게 '어': cup '컵', hugs '헉즈'."
+        ],
+        [
+          "Short i",
+          "big, dish, is, Pip",
+          "짧게 '이': dish '디쉬'. '디-이쉬'처럼 늘이지 않아요."
+        ]
+      ],
+      "expression": "Sound excited on “Aunt Kim is coming!”, read the “Set a…” lines with a steady, even beat, ask “Is that the cat?” with a rising, surprised voice, say “Get down, Pip!” firmly, sing “Ding, dong!” brightly, and sound warm and proud on “What a big help!”",
+      "practice": [
+        "Sam can help.",
+        "Set a cup.",
+        "Set a big dish",
+        "Get down, Pip!",
+        "What a big help!"
+      ],
+      "events": []
+    },
+    "2": {
+      "title": "The Wrong Backpack",
+      "title_kr": "바뀐 책가방",
+      "genre": "Story",
+      "topic": "a girl grabs a blue backpack after school, finds a dinosaur lunchbox inside at home, realizes it belongs to Marco, the new boy, trades backpacks with him the next morning, and they laugh and become lunch friends (school, friendship, feelings)",
+      "lines": [
+        "After *school*, | *Ivy* *grabbed* her *blue* *backpack* | and *hurried* *home*. ↘",
+        "At *home*, | she *opened* it | to get her *snack*. ↘",
+        "*Inside* was a *dinosaur* *lunchbox*! | “This *isn't* *mine*!” | Ivy *gasped*. ↘",
+        "She *looked* at the *name* *tag*. | It *said* *Marco*. ↘",
+        "“*Marco* is the *new* *boy*,” | Ivy *remembered*. | “He must have *mine*!” ↘",
+        "The *next* *morning*, | Ivy *walked* up to *Marco*. | “Is this *yours*?” ↗",
+        "Marco *laughed* | and *pulled* out *Ivy's* *backpack*. | “I *wondered* *where* it *went*!” ↘",
+        "They *traded* *backpacks* | and *giggled* *together*. | Now they *sit* *side* by *side* at *lunch*. ↘"
+      ],
+      "targets": [
+        "grabbed",
+        "hurried",
+        "opened",
+        "gasped",
+        "looked",
+        "remembered",
+        "walked",
+        "laughed",
+        "traded"
+      ],
+      "vocab": [
+        [
+          "grabbed",
+          "움켜잡았다, 집어 들었다"
+        ],
+        [
+          "backpack",
+          "책가방"
+        ],
+        [
+          "hurried",
+          "서둘러 갔다"
+        ],
+        [
+          "opened",
+          "열었다"
+        ],
+        [
+          "snack",
+          "간식"
+        ],
+        [
+          "dinosaur",
+          "공룡"
+        ],
+        [
+          "lunchbox",
+          "도시락통"
+        ],
+        [
+          "gasped",
+          "(놀라서) 헉 하고 숨을 들이쉬었다"
+        ],
+        [
+          "name tag",
+          "이름표"
+        ],
+        [
+          "remembered",
+          "기억해 냈다"
+        ],
+        [
+          "wondered",
+          "궁금했다"
+        ],
+        [
+          "traded",
+          "서로 바꿨다"
+        ],
+        [
+          "giggled",
+          "킥킥 웃었다"
+        ],
+        [
+          "side by side",
+          "나란히"
+        ]
+      ],
+      "sounds": [
+        [
+          "-ed as /t/",
+          "gasped, looked, walked, laughed",
+          "p·k·f 소리 뒤 -ed는 짧은 't': looked '룩트', laughed '래프트'. '룩-키드'가 아니에요!"
+        ],
+        [
+          "-ed as /d/",
+          "grabbed, hurried, opened, remembered, pulled",
+          "'d'로 가볍게 붙여요: opened '오픈드', pulled '풀드'. 한 박자로 읽어요."
+        ],
+        [
+          "-ed as /id/",
+          "traded",
+          "t·d 소리 뒤에서만 '이드'가 한 박자 더 생겨요: traded '트레이디드'."
+        ]
+      ],
+      "expression": "Read the first lines in a quick, everyday voice, gasp and sound shocked on “This isn't mine!”, let “He must have mine!” sound like an idea popping up, ask “Is this yours?” with a hopeful rising voice, make Marco's “I wondered where it went!” cheerful and relieved, and end with a happy, friendly tone.",
+      "practice": [
+        "grabbed her blue backpack",
+        "This isn't mine!",
+        "He must have mine!",
+        "Is this yours?",
+        "side by side at lunch"
+      ],
+      "events": []
+    },
+    "3": {
+      "title": "Earthworms: Little Diggers",
+      "title_kr": "지렁이: 작은 땅파기 선수",
+      "genre": "Nonfiction",
+      "topic": "earthworms: no bones, eyes or legs; a body made of rings with tiny bristles that grip the soil; stretching and squeezing to move underground; breathing through damp skin; sensing light; eating dead leaves and soil and leaving castings that feed plants; tunnels that bring air and water to roots; gently moving a sidewalk worm back to the grass (animals, science, nature)",
+      "lines": [
+        "After a *rain*, | you might *see* *earthworms* | on the *sidewalk*. ↘",
+        "Earthworms have no *bones*, | no *eyes*, | and no *legs*. ↘",
+        "*How* do they *move*? ↗",
+        "Their *bodies* are *made* of *rings*, | and *tiny* *bristles* | help them *grip* the *soil*. ↘",
+        "They *stretch* *long*, | then *squeeze* *short*, | *inching* along *underground*. ↘",
+        "Earthworms *breathe* | through their *damp* *skin*. | That is *why* they *need* to *stay* *wet*. ↘",
+        "They *can't* *see*, | but they can *sense* *light*, | so they *hide* from the *sun*. ↘",
+        "Earthworms *eat* *dead* *leaves* | and *bits* of *soil*. ↘",
+        "What *comes* *out* | is *called* *castings*, | a *rich* *food* for *plants*. ↘",
+        "Their *tunnels* let *air* and *water* | *reach* plant *roots*. ↘",
+        "So the *next* *time* you *see* a *worm* on the *sidewalk*, | *gently* *move* it to the *grass*. | It's a *garden* *helper*! ↘"
+      ],
+      "targets": [
+        "earthworms",
+        "bones",
+        "bristles",
+        "soil",
+        "breathe",
+        "damp",
+        "sense",
+        "castings",
+        "tunnels"
+      ],
+      "vocab": [
+        [
+          "earthworm",
+          "지렁이"
+        ],
+        [
+          "sidewalk",
+          "인도, 보도"
+        ],
+        [
+          "bones",
+          "뼈"
+        ],
+        [
+          "rings",
+          "고리 (몸의 마디)"
+        ],
+        [
+          "bristles",
+          "뻣뻣한 작은 털"
+        ],
+        [
+          "grip",
+          "꽉 붙잡다"
+        ],
+        [
+          "soil",
+          "흙"
+        ],
+        [
+          "squeeze",
+          "오므리다, 꽉 조이다"
+        ],
+        [
+          "underground",
+          "땅속에서"
+        ],
+        [
+          "breathe",
+          "숨 쉬다"
+        ],
+        [
+          "damp",
+          "축축한"
+        ],
+        [
+          "sense",
+          "느끼다, 감지하다"
+        ],
+        [
+          "castings",
+          "지렁이 똥 (분변토)"
+        ],
+        [
+          "tunnels",
+          "굴, 터널"
+        ],
+        [
+          "roots",
+          "뿌리"
+        ],
+        [
+          "gently",
+          "부드럽게, 살살"
+        ]
+      ],
+      "sounds": [
+        [
+          "r-controlled ear / or",
+          "earthworms, worm",
+          "'어'를 하면서 혀를 뒤로 말아 'r': earth '어r쓰', worm '워r엄'. '얼스'나 '웜'처럼 r을 빼지 않아요."
+        ],
+        [
+          "Blends str / squ",
+          "stretch, squeeze",
+          "자음을 모음 없이 붙여요: stretch '스트레치'를 '스-트-레치'로 끊지 말고 한 번에, squeeze는 '스퀴즈'."
+        ],
+        [
+          "th sounds",
+          "earthworms, breathe, through, their",
+          "혀끝을 이 사이에 살짝 물어요: breathe와 their는 떨리는 소리, earth와 through는 바람 소리예요."
+        ]
+      ],
+      "expression": "Start with a curious, noticing voice on the sidewalk scene, read the “no bones, no eyes, and no legs” list with a small pause after each part, ask “How do they move?” with a clear rising voice, stretch out the word “long” and say “short” quickly to act out the movement, sound amazed on “castings, a rich food for plants,” and end kindly and proudly on “It's a garden helper!”",
+      "practice": [
+        "no bones, no eyes, and no legs",
+        "tiny bristles",
+        "stretch long, then squeeze short",
+        "through their damp skin",
+        "a garden helper"
+      ],
+      "events": []
+    },
+    "4": {
+      "title": "Bramble Wants to Be Soft",
+      "title_kr": "부드러워지고 싶은 브램블",
+      "genre": "Fable",
+      "topic": "a young hedgehog who feels too prickly to play with the soft rabbits rolls in thistle fluff to look fluffy, but when a fox appears and the littlest rabbit freezes, he shakes off the fluff, curls into a spiky ball in front of her and the fox backs away; the rabbits welcome him, prickles and all (animals, friendship, feelings, being yourself)",
+      "lines": [
+        "At the *edge* of *Willow* *Wood* | *lived* a *young* *hedgehog* | named *Bramble*. ↘",
+        "Every *morning*, | he *watched* the *rabbits* *tumble* in the *meadow*, | their *fur* as *soft* as *clouds*. ↘",
+        "“*Nobody* wants to *play* | with a *prickly* *ball* like *me*,” | he *sighed*. ↘",
+        "So Bramble *decided* | to *become* *soft*. ↘",
+        "He *rolled* in a *pile* of *thistle* *fluff* | until his *spines* were *covered* in *white*. ↘",
+        "“*Look*!” | he *called* to the rabbits. | “*Now* I'm *fluffy*, *too*!” ↘",
+        "*Just* *then*, | a *dark* *shadow* | *slid* across the *grass*. | “*Fox*!” | *cried* the *oldest* rabbit. ↘",
+        "The rabbits *dashed* into their *burrow*, | but the *littlest* one, | *Clover*, | *tripped* and *froze*. ↘",
+        "Bramble *didn't* *stop* to *think*. | He *shook* off the *fluff*, | *curled* into a *tight* *ball* | and *rolled* in *front* of Clover. ↘",
+        "The fox *sniffed*, | *poked* his *nose* at the *spines*, | and *yelped*. | “*Ouch*!” ↘",
+        "He *backed* *away* | and *slunk* off into the *trees*. ↘",
+        "Clover *peeked* out | from *behind* Bramble. | “Your *prickles* *saved* me!” ↘",
+        "From that *day* on, | the rabbits *saved* Bramble a *spot* in *every* *game*, | *prickles* and *all*. ↘",
+        "And Bramble *never* *wished* to be *soft* *again*. ↘"
+      ],
+      "targets": [
+        "hedgehog",
+        "tumble",
+        "prickly",
+        "decided",
+        "covered",
+        "shadow",
+        "burrow",
+        "curled",
+        "peeked"
+      ],
+      "vocab": [
+        [
+          "edge",
+          "가장자리"
+        ],
+        [
+          "hedgehog",
+          "고슴도치"
+        ],
+        [
+          "tumble",
+          "데굴데굴 구르다"
+        ],
+        [
+          "meadow",
+          "풀밭, 초원"
+        ],
+        [
+          "prickly",
+          "가시투성이의"
+        ],
+        [
+          "sighed",
+          "한숨을 쉬었다"
+        ],
+        [
+          "thistle fluff",
+          "엉겅퀴 솜털"
+        ],
+        [
+          "spines",
+          "(고슴도치의) 가시"
+        ],
+        [
+          "shadow",
+          "그림자"
+        ],
+        [
+          "burrow",
+          "(토끼) 굴"
+        ],
+        [
+          "froze",
+          "얼어붙었다, 꼼짝 못 했다"
+        ],
+        [
+          "curled",
+          "몸을 둥글게 말았다"
+        ],
+        [
+          "yelped",
+          "깨갱 소리를 질렀다"
+        ],
+        [
+          "slunk off",
+          "슬그머니 사라졌다"
+        ],
+        [
+          "peeked",
+          "살짝 엿보았다"
+        ],
+        [
+          "prickles and all",
+          "가시까지 전부 (있는 그대로)"
+        ]
+      ],
+      "sounds": [
+        [
+          "Final -le",
+          "tumble, thistle, prickles",
+          "끝의 -le는 '을'처럼 가볍게: tumble '텀블', thistle '씨슬' (가운데 t는 소리 나지 않아요)."
+        ],
+        [
+          "Short u vs. short o",
+          "fluff, tumble, just / fox, spot, nobody",
+          "short u는 힘을 빼고 짧은 '어': fluff '플러프'. short o는 입을 크게 '아': fox '팍스', spot '스팟'."
+        ],
+        [
+          "-ed endings",
+          "sighed /d/, peeked /t/, decided /id/",
+          "sighed는 '사이드', peeked는 '픽트', decided는 '디사이디드'. 앞 소리에 따라 -ed가 달라져요."
+        ]
+      ],
+      "expression": "Begin like a storyteller, slow and gentle, let Bramble's “Nobody wants to play with a prickly ball like me” sound sad and quiet, make “Now I'm fluffy, too!” hopeful and proud, drop to a tense, low voice on the dark shadow, shout “Fox!” in alarm, speed up as the rabbits dash and Bramble rolls, make the fox's “Ouch!” sharp and funny, let Clover's “Your prickles saved me!” sound amazed and grateful, and end warm and slow on “prickles and all.”",
+      "practice": [
+        "as soft as clouds",
+        "a prickly ball like me",
+        "covered in white",
+        "curled into a tight ball",
+        "prickles and all"
+      ],
+      "events": []
+    }
+  }
+}
