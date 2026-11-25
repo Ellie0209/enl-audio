@@ -596,5 +596,31 @@
         "genre": "Realistic fiction"
       }
     }
+  },
+  {
+    "day": 24,
+    "date": "2026-11-25",
+    "levels": {
+      "1": {
+        "title": "Set the Table!",
+        "topic": "a boy helps set the table for a family dinner before Aunt Kim arrives: a mat, a cup, a fork and a dish for each person, the cat hops up on the table and has to get down, and Aunt Kim hugs him for his big help (family, holidays, helping)",
+        "genre": "Pattern text"
+      },
+      "2": {
+        "title": "The Wrong Backpack",
+        "topic": "a girl grabs a blue backpack after school, finds a dinosaur lunchbox inside at home, realizes it belongs to Marco, the new boy, trades backpacks with him the next morning, and they laugh and become lunch friends (school, friendship, feelings)",
+        "genre": "Story"
+      },
+      "3": {
+        "title": "Earthworms: Little Diggers",
+        "topic": "earthworms: no bones, eyes or legs; a body made of rings with tiny bristles that grip the soil; stretching and squeezing to move underground; breathing through damp skin; sensing light; eating dead leaves and soil and leaving castings that feed plants; tunnels that bring air and water to roots; gently moving a sidewalk worm back to the grass (animals, science, nature)",
+        "genre": "Nonfiction"
+      },
+      "4": {
+        "title": "Bramble Wants to Be Soft",
+        "topic": "a young hedgehog who feels too prickly to play with the soft rabbits rolls in thistle fluff to look fluffy, but when a fox appears and the littlest rabbit freezes, he shakes off the fluff, curls into a spiky ball in front of her and the fox backs away; the rabbits welcome him, prickles and all (animals, friendship, feelings, being yourself)",
+        "genre": "Fable"
+      }
+    }
   }
 ]
