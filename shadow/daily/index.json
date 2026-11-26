@@ -622,5 +622,31 @@
         "genre": "Fable"
       }
     }
+  },
+  {
+    "day": 25,
+    "date": "2026-11-26",
+    "levels": {
+      "1": {
+        "title": "A Box Can Be a Jet!",
+        "topic": "two children play pretend in a big cardboard box that becomes a jet, a ship, a cub's den and a bus, then a bed for a sleepy nap (play, imagination, family)",
+        "genre": "Pattern text"
+      },
+      "2": {
+        "title": "The Last Puzzle Piece",
+        "topic": "a brother and sister finish a farm jigsaw puzzle on a rainy Sunday, search the house for the last missing piece and find it stuck to the bottom of Nora's sock (family, play, humor)",
+        "genre": "Story"
+      },
+      "3": {
+        "title": "Cranberries: The Berries That Float",
+        "topic": "how cranberries grow on low vines in sandy bogs, have tiny air pockets, and are harvested in fall by flooding the bogs so the berries float into a red carpet; fresh cranberries bounce (plants, food, farming, science, Thanksgiving)",
+        "genre": "Nonfiction"
+      },
+      "4": {
+        "title": "Room for Three",
+        "topic": "a girl feels jealous when her best friend starts walking to school with the new girl next door, her dad tells her friendship is not like a pizza because sharing makes it grow, and the three girls learn double Dutch together at recess (friendship, feelings, school, jealousy)",
+        "genre": "Realistic fiction"
+      }
+    }
   }
 ]
