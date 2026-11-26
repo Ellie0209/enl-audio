@@ -1,0 +1,460 @@
+{
+  "day": 25,
+  "date": "2026-11-26",
+  "scripts": {
+    "1": {
+      "title": "A Box Can Be a Jet!",
+      "title_kr": "상자는 비행기도 될 수 있어!",
+      "genre": "Pattern text",
+      "topic": "two children play pretend in a big cardboard box that becomes a jet, a ship, a cub's den and a bus, then a bed for a sleepy nap (play, imagination, family)",
+      "lines": [
+        "*Dad* has a *big* *box*. | *Pam* and *Gus* *hop* in! ↘",
+        "*Zoom*! | It is a *jet*. | *Up* we *go*! ↘",
+        "*Rock*, *rock*! | It is a *ship*. | *Get* the *net*! ↘",
+        "*Shh*! | It is a *den*. | Is a *cub* in it? ↗",
+        "*Beep*! | It is a *bus*. | *Mom* *hops* in! ↘",
+        "*Yawn*. | It is a *bed*. | *Pam* and *Gus* *nap*. ↘"
+      ],
+      "targets": [
+        "box",
+        "hop",
+        "jet",
+        "ship",
+        "net",
+        "den",
+        "cub",
+        "bus",
+        "nap"
+      ],
+      "vocab": [
+        [
+          "box",
+          "상자"
+        ],
+        [
+          "hop in",
+          "쏙 들어가다"
+        ],
+        [
+          "jet",
+          "제트기"
+        ],
+        [
+          "ship",
+          "배"
+        ],
+        [
+          "net",
+          "그물"
+        ],
+        [
+          "den",
+          "(동물의) 굴"
+        ],
+        [
+          "cub",
+          "아기 곰"
+        ],
+        [
+          "bus",
+          "버스"
+        ],
+        [
+          "yawn",
+          "하품하다"
+        ],
+        [
+          "nap",
+          "낮잠 자다"
+        ]
+      ],
+      "sounds": [
+        [
+          "Short o",
+          "box, rock, Mom",
+          "입을 크게 벌리고 짧게 '아': box '박스', rock '락'."
+        ],
+        [
+          "Short e",
+          "jet, net, den, bed",
+          "짧게 '에': jet '젯', net '넷'. '제트'처럼 끝에 '으'를 붙이지 않아요."
+        ],
+        [
+          "Short u",
+          "up, cub, bus",
+          "힘을 빼고 짧게 '어': up '업', cub '컵'."
+        ]
+      ],
+      "expression": "Sound excited on “Pam and Gus hop in!”, make “Zoom!” and “Beep!” fun sound effects, whisper “Shh!” and ask “Is a cub in it?” with a rising voice, and end slow and sleepy on the last line.",
+      "practice": [
+        "Pam and Gus hop in!",
+        "Up we go!",
+        "Get the net!",
+        "Is a cub in it?",
+        "Mom hops in!"
+      ],
+      "events": []
+    },
+    "2": {
+      "title": "The Last Puzzle Piece",
+      "title_kr": "마지막 퍼즐 조각",
+      "genre": "Story",
+      "topic": "a brother and sister finish a farm jigsaw puzzle on a rainy Sunday, search the house for the last missing piece and find it stuck to the bottom of Nora's sock (family, play, humor)",
+      "lines": [
+        "On a *rainy* *Sunday*, | *Nora* and her *brother* *Jack* | *started* a *puzzle* of a *farm*. ↘",
+        "They *sorted* the *edge* *pieces* | and *worked* *all* *afternoon*. ↘",
+        "*Finally*, | only *one* *hole* was *left*, | right in the *middle* of the *barn*. ↘",
+        "“*Where* is the *last* *piece*?” | Nora *asked*. ↘",
+        "They *looked* under the *table*. | They *checked* *behind* the *couch*. | *No* *piece*. ↘",
+        "Then *Jack* *pointed* at *Nora's* *sock*. | “Is *that* it?” ↗",
+        "Nora *lifted* her *foot*. | The *piece* was *stuck* to the *bottom*! ↘",
+        "She *pressed* it into the *barn*. | “We *did* it!” | they *cheered*. ↘"
+      ],
+      "targets": [
+        "started",
+        "sorted",
+        "worked",
+        "asked",
+        "looked",
+        "checked",
+        "pointed",
+        "lifted",
+        "cheered"
+      ],
+      "vocab": [
+        [
+          "puzzle",
+          "퍼즐"
+        ],
+        [
+          "started",
+          "시작했다"
+        ],
+        [
+          "sorted",
+          "(종류별로) 나누었다"
+        ],
+        [
+          "edge pieces",
+          "가장자리 조각"
+        ],
+        [
+          "worked",
+          "(열심히) 했다"
+        ],
+        [
+          "afternoon",
+          "오후"
+        ],
+        [
+          "finally",
+          "마침내"
+        ],
+        [
+          "hole",
+          "구멍, 빈 곳"
+        ],
+        [
+          "barn",
+          "헛간"
+        ],
+        [
+          "checked",
+          "확인했다, 살펴봤다"
+        ],
+        [
+          "behind",
+          "~ 뒤에"
+        ],
+        [
+          "pointed",
+          "가리켰다"
+        ],
+        [
+          "lifted",
+          "들어 올렸다"
+        ],
+        [
+          "stuck",
+          "붙어 있는"
+        ],
+        [
+          "pressed",
+          "눌러 끼웠다"
+        ],
+        [
+          "cheered",
+          "환호했다"
+        ]
+      ],
+      "sounds": [
+        [
+          "-ed as /id/",
+          "started, sorted, pointed, lifted",
+          "t·d 소리 뒤에서만 '이드'가 한 박자 더 생겨요: started '스타r티드', lifted '리프티드'."
+        ],
+        [
+          "-ed as /t/",
+          "worked, asked, looked, checked, pressed",
+          "k·s·sh 소리 뒤 -ed는 짧은 't': asked '애스크트', checked '첵트'. '첵-키드'가 아니에요!"
+        ],
+        [
+          "-ed as /d/",
+          "cheered",
+          "'d'로 가볍게 붙여요: cheered '치어r드'. 한 박자로 읽어요."
+        ]
+      ],
+      "expression": "Read the first lines in a calm, cozy voice, sound puzzled on “Where is the last piece?”, pause after each place the children search, let Jack's “Is that it?” rise with surprise, sound amazed on “stuck to the bottom!” and cheer loudly on “We did it!”",
+      "practice": [
+        "the edge pieces",
+        "Where is the last piece?",
+        "They checked behind the couch.",
+        "Is that it?",
+        "We did it!"
+      ],
+      "events": []
+    },
+    "3": {
+      "title": "Cranberries: The Berries That Float",
+      "title_kr": "물에 뜨는 열매, 크랜베리",
+      "genre": "Nonfiction",
+      "topic": "how cranberries grow on low vines in sandy bogs, have tiny air pockets, and are harvested in fall by flooding the bogs so the berries float into a red carpet; fresh cranberries bounce (plants, food, farming, science, Thanksgiving)",
+      "lines": [
+        "*Cranberries* are *small*, *red*, | and *very* *sour*. ↘",
+        "Many *families* *eat* *cranberry* *sauce* | at *Thanksgiving* *dinner*. ↘",
+        "Do cranberries *grow* on *tall* *trees*? ↗ | *No*! ↘",
+        "They *grow* on *low* *vines* | in *sandy* *fields* | called *bogs*. ↘",
+        "Each *berry* has *tiny* *pockets* of *air* *inside*. ↘",
+        "In *fall*, | *farmers* *flood* the bogs | with *water*. ↘",
+        "*Machines* *stir* the *water* | and *shake* the *berries* *loose*. ↘",
+        "*Thanks* to their *air* *pockets*, | the berries *float* to the *top*. ↘",
+        "The *whole* bog *turns* into a *bright* *red* *carpet*! ↘",
+        "Farmers *push* the berries *together* | and *pump* them into *trucks*. ↘",
+        "Here's a *fun* *test*: | a *fresh* cranberry *bounces*! ↘",
+        "*Drop* one on the *table* | and *watch* it *hop*! ↘"
+      ],
+      "targets": [
+        "cranberries",
+        "sour",
+        "vines",
+        "bogs",
+        "pockets",
+        "flood",
+        "loose",
+        "float",
+        "bounces"
+      ],
+      "vocab": [
+        [
+          "cranberries",
+          "크랜베리"
+        ],
+        [
+          "sour",
+          "(맛이) 신"
+        ],
+        [
+          "sauce",
+          "소스"
+        ],
+        [
+          "vines",
+          "덩굴"
+        ],
+        [
+          "bogs",
+          "크랜베리 밭 (습지)"
+        ],
+        [
+          "pockets of air",
+          "공기주머니"
+        ],
+        [
+          "farmers",
+          "농부"
+        ],
+        [
+          "flood",
+          "물을 가득 채우다"
+        ],
+        [
+          "machines",
+          "기계"
+        ],
+        [
+          "loose",
+          "떨어져 나온, 느슨한"
+        ],
+        [
+          "float",
+          "(물에) 뜨다"
+        ],
+        [
+          "carpet",
+          "양탄자"
+        ],
+        [
+          "pump",
+          "펌프로 옮기다"
+        ],
+        [
+          "bounces",
+          "통통 튀어 오르다"
+        ]
+      ],
+      "sounds": [
+        [
+          "v vs. b",
+          "vines, very / berry, bogs, bounces",
+          "v는 윗니로 아랫입술을 살짝 물고 떨어요: vines, very. b는 두 입술을 붙였다 떼요: berry, bogs. 둘 다 'ㅂ'로 읽지 않아요."
+        ],
+        [
+          "Blends cr / fl / bl",
+          "cranberries, flood, float, bright",
+          "자음을 모음 없이 붙여요: cranberries를 '크-랜'으로 끊지 말고 한 번에, float는 '플로웃'."
+        ],
+        [
+          "Long o",
+          "grow, low, float",
+          "'오우'로 미끄러지듯: low '로우', float '플로웃'. '로'처럼 짧게 끊지 않아요."
+        ]
+      ],
+      "expression": "Read like a friendly fact presenter, ask “Do cranberries grow on tall trees?” with a rising voice and answer “No!” firmly, read the harvest steps clearly with a small pause at each /, slow down and sound amazed on “a bright red carpet,” and end playfully on “watch it hop!”",
+      "practice": [
+        "low vines",
+        "tiny pockets of air",
+        "shake the berries loose",
+        "a bright red carpet",
+        "a fresh cranberry bounces"
+      ],
+      "events": []
+    },
+    "4": {
+      "title": "Room for Three",
+      "title_kr": "셋이라서 더 좋아",
+      "genre": "Realistic fiction",
+      "topic": "a girl feels jealous when her best friend starts walking to school with the new girl next door, her dad tells her friendship is not like a pizza because sharing makes it grow, and the three girls learn double Dutch together at recess (friendship, feelings, school, jealousy)",
+      "lines": [
+        "*Grace* and *Ruby* had been *best* *friends* | since *kindergarten*. ↘",
+        "At *school*, | they *sat* *together* at *lunch* | and *jumped* *rope* at *recess*. ↘",
+        "Then a *new* *girl*, | *Priya*, | *moved* in *next* *door* to Ruby. ↘",
+        "*Every* *morning*, | Ruby and Priya *walked* to *school* *together*. ↘",
+        "*Soon* they were *giggling* at the *same* *jokes*, | and Grace *felt* a *tight* *knot* in her *stomach*. ↘",
+        "At *recess*, | Grace *stayed* by the *fence*, | *pretending* she *didn't* *care*. ↘",
+        "“What if Ruby *likes* Priya *better*?” | she *worried*. ↘",
+        "That *night*, | Grace *told* her *dad* *everything*. ↘",
+        "Dad *thought* for a *moment*. | “*Friendship* *isn't* like a *pizza*,” | he *said*. ↘",
+        "“When you *share* it, | *nobody* gets a *smaller* *slice*. | It just *grows* *bigger*.” ↘",
+        "The *next* *morning*, | Grace *took* a *deep* *breath* | and *walked* *over* to the *girls*. ↘",
+        "“Can I *play*, *too*?” ↗ | she *asked*. ↘",
+        "Ruby *grinned*. | “We were *hoping* you would *come*!” ↘",
+        "*Priya* *held* up a *second* *rope*. | “Have you *ever* *tried* *double* *Dutch*?” ↗",
+        "Grace and Ruby *turned* the *two* *ropes*, | and Priya *hopped* into the *middle*. | Then they *took* *turns*. ↘",
+        "By the *end* of recess, | the *knot* in Grace's *stomach* was *gone*. | Dad was *right*— | their *friendship* had *grown* *bigger*. ↘"
+      ],
+      "targets": [
+        "kindergarten",
+        "recess",
+        "giggling",
+        "stomach",
+        "pretending",
+        "worried",
+        "friendship",
+        "breath",
+        "second"
+      ],
+      "vocab": [
+        [
+          "kindergarten",
+          "유치원"
+        ],
+        [
+          "recess",
+          "쉬는 시간"
+        ],
+        [
+          "moved in next door",
+          "옆집으로 이사 왔다"
+        ],
+        [
+          "giggling",
+          "킥킥 웃는"
+        ],
+        [
+          "a tight knot in her stomach",
+          "배 속이 꽉 조이는 느낌 (불안)"
+        ],
+        [
+          "fence",
+          "울타리"
+        ],
+        [
+          "pretending",
+          "~인 척하는"
+        ],
+        [
+          "worried",
+          "걱정했다"
+        ],
+        [
+          "moment",
+          "잠깐, 순간"
+        ],
+        [
+          "friendship",
+          "우정"
+        ],
+        [
+          "slice",
+          "(피자) 한 조각"
+        ],
+        [
+          "took a deep breath",
+          "숨을 깊이 들이쉬었다"
+        ],
+        [
+          "grinned",
+          "활짝 웃었다"
+        ],
+        [
+          "second",
+          "두 번째의"
+        ],
+        [
+          "double Dutch",
+          "두 줄 줄넘기"
+        ],
+        [
+          "took turns",
+          "번갈아 했다"
+        ]
+      ],
+      "sounds": [
+        [
+          "th sounds",
+          "together, thought, breath, that, their",
+          "혀끝을 이 사이에 살짝 물어요: thought와 breath는 바람 소리, together·that·their는 떨리는 소리예요."
+        ],
+        [
+          "r blends",
+          "friends, Grace, grinned, breath, grown",
+          "자음과 r을 한 번에: friends를 '프-렌즈'로 끊지 말고, r은 혀를 입천장에 대지 않고 살짝 말아요."
+        ],
+        [
+          "-ed endings",
+          "moved /d/, walked /t/, hopped /t/",
+          "moved '무브드', walked '웍트', hopped '합트'. 앞 소리에 따라 -ed 소리가 달라져요."
+        ]
+      ],
+      "expression": "Begin in a warm storyteller voice, slow down and sound uneasy on “a tight knot in her stomach,” make Grace's “What if Ruby likes Priya better?” small and worried, give Dad a calm, gentle voice for the pizza lines, take a breath before a shy, rising “Can I play, too?”, make Ruby sound happy and welcoming, ask Priya's question with excitement, and end proudly on “their friendship had grown bigger.”",
+      "practice": [
+        "a tight knot in her stomach",
+        "pretending she didn't care",
+        "Friendship isn't like a pizza",
+        "Can I play, too?",
+        "Have you ever tried double Dutch?"
+      ],
+      "events": []
+    }
+  }
+}
