@@ -1,0 +1,416 @@
+{
+  "day": 26,
+  "date": "2026-11-27",
+  "scripts": {
+    "1": {
+      "title": "Meg Picks a Pet",
+      "title_kr": "멕이 반려동물을 골라요",
+      "genre": "Pattern text",
+      "topic": "Meg wants a pet and looks at a napping cat, a pecking hen and a digging pig before a pup hops up on her lap and she picks it (pets, animals, choices, feelings)",
+      "lines": [
+        "*Meg* *wants* a *pet*. | *Which* *one* will she *get*? ↘",
+        "Will Meg *pick* the *cat*? ↗ | The *cat* *naps* and *naps*. | *Not* *that* one. ↘",
+        "Will Meg *pick* the *hen*? ↗ | The *hen* *pecks* and *pecks*. | *Not* *that* one. ↘",
+        "Will Meg *pick* the *pig*? ↗ | The *pig* *digs* and *digs*. | *Not* *that* one. ↘",
+        "Will Meg *pick* the *pup*? ↗ | The *pup* *hops* up on her *lap*! ↘",
+        "*Lick*, *lick*! | *Meg* *grins*. | “*Yes*! | *This* one!” ↘"
+      ],
+      "targets": [
+        "pet",
+        "pick",
+        "cat",
+        "naps",
+        "hen",
+        "pecks",
+        "digs",
+        "pup",
+        "lap"
+      ],
+      "vocab": [
+        [
+          "pet",
+          "반려동물"
+        ],
+        [
+          "pick",
+          "고르다"
+        ],
+        [
+          "nap",
+          "낮잠 자다"
+        ],
+        [
+          "hen",
+          "암탉"
+        ],
+        [
+          "peck",
+          "(부리로) 쪼다"
+        ],
+        [
+          "dig",
+          "땅을 파다"
+        ],
+        [
+          "pup",
+          "강아지"
+        ],
+        [
+          "lap",
+          "무릎 (앉았을 때 허벅지 위)"
+        ],
+        [
+          "lick",
+          "핥다"
+        ],
+        [
+          "grin",
+          "활짝 웃다"
+        ]
+      ],
+      "sounds": [
+        [
+          "Short i",
+          "pick, pig, digs, lick, grins",
+          "짧고 가볍게 '이': pick '픽', pig '피그'. '피-익'처럼 길게 늘이지 않아요."
+        ],
+        [
+          "Short e",
+          "Meg, pet, hen, pecks",
+          "입을 살짝 벌리고 짧게 '에': pet '펫', hen '헨'."
+        ],
+        [
+          "Final ck = /k/",
+          "pick, pecks, lick",
+          "ck는 'k' 소리 하나예요: pick '픽', lick '릭'. 끝에 '으'를 붙이지 않아요."
+        ]
+      ],
+      "expression": "Ask each “Will Meg pick the …?” with a rising, curious voice, read the animal actions with a steady beat, shake your head on “Not that one,” sound surprised when the pup hops up, and end with a big happy “Yes! This one!”",
+      "practice": [
+        "Meg wants a pet.",
+        "Will Meg pick the cat?",
+        "The hen pecks and pecks.",
+        "Not that one.",
+        "The pup hops up on her lap!"
+      ],
+      "events": []
+    },
+    "2": {
+      "title": "Six Points on My Mitten",
+      "title_kr": "벙어리장갑 위 여섯 갈래 눈송이",
+      "genre": "Story",
+      "topic": "on the first snowy morning a girl catches snowflakes on her dark blue mitten, notices their six points and that each one looks different, then rushes inside to show Mom but they melt (seasons, weather, science, family)",
+      "lines": [
+        "On *Monday* *morning*, | *Lily* *looked* out the *window*. | It was *snowing*! ↘",
+        "She *pulled* on her *coat* | and her *dark* *blue* *mittens*. ↘",
+        "*Outside*, | a *snowflake* *landed* on her *mitten*. ↘",
+        "Lily *looked* *closely*. | “It has *six* *points*!” | she *shouted*. ↘",
+        "*Another* snowflake *landed* *next* to it. | It *looked* *different*! ↘",
+        "“*Dad*, | is *every* *snowflake* *different*?” ↗ | she *asked*. ↘",
+        "Dad *smiled*. | “*Yes*. | *No* *two* are *exactly* the *same*.” ↘",
+        "Lily *rushed* *inside* to *show* *Mom*, | but the snowflakes had *melted*. ↘",
+        "“*Next* *time*, | I'll *bring* Mom *outside*!” | she *laughed*. ↘"
+      ],
+      "targets": [
+        "looked",
+        "pulled",
+        "mittens",
+        "landed",
+        "points",
+        "shouted",
+        "different",
+        "rushed",
+        "melted"
+      ],
+      "vocab": [
+        [
+          "snowing",
+          "눈이 오는"
+        ],
+        [
+          "pulled on",
+          "(옷을) 끌어당겨 입었다"
+        ],
+        [
+          "mittens",
+          "벙어리장갑"
+        ],
+        [
+          "snowflake",
+          "눈송이"
+        ],
+        [
+          "landed",
+          "내려앉았다"
+        ],
+        [
+          "closely",
+          "자세히"
+        ],
+        [
+          "points",
+          "뾰족한 끝 (갈래)"
+        ],
+        [
+          "different",
+          "다른"
+        ],
+        [
+          "exactly the same",
+          "똑같은"
+        ],
+        [
+          "rushed",
+          "서둘러 갔다"
+        ],
+        [
+          "melted",
+          "녹았다"
+        ]
+      ],
+      "sounds": [
+        [
+          "-ed as /id/",
+          "landed, shouted, melted",
+          "t·d 소리 뒤에서만 '이드'가 한 박자 더 생겨요: landed '랜디드', melted '멜티드'."
+        ],
+        [
+          "-ed as /t/",
+          "looked, asked, rushed, laughed",
+          "k·s·sh·f 소리 뒤 -ed는 짧은 't': looked '룩트', rushed '러쉬트', laughed '래프트'."
+        ],
+        [
+          "-ed as /d/",
+          "pulled, smiled",
+          "가볍게 'd'만 붙여요: pulled '풀드', smiled '스마일드'. 한 박자로 읽어요."
+        ]
+      ],
+      "expression": "Sound excited on “It was snowing!”, slow down and look closely on “Lily looked closely,” shout “It has six points!” with wonder, let Lily's question to Dad rise, give Dad a calm, gentle voice, sound a little disappointed on “had melted,” and end with a cheerful laugh.",
+      "practice": [
+        "her dark blue mittens",
+        "It has six points!",
+        "Is every snowflake different?",
+        "No two are exactly the same.",
+        "the snowflakes had melted"
+      ],
+      "events": []
+    },
+    "3": {
+      "title": "The Yellow Kindness Rock",
+      "title_kr": "노란 친절 돌멩이",
+      "genre": "Story",
+      "topic": "a girl paints a smooth creek rock with a smiling sun and a kind message, hides it under a park bench, sees a lonely older man find it and smile, keeps her secret and paints another one (kindness, community, art, feelings)",
+      "lines": [
+        "*Ava* *found* a *smooth*, *gray* *rock* | by the *creek* *near* her *house*. ↘",
+        "She *painted* it *yellow* | and *added* a *big* *smiling* *sun*. ↘",
+        "On the *back*, | she *wrote*, | “*You* are *awesome*!” ↘",
+        "The *next* *day*, | she *hid* the rock | under a *bench* at the *park*. ↘",
+        "*Who* would *find* it? | Ava *wondered* *all* *week*. ↘",
+        "On *Saturday*, | she *saw* an *older* *man* | *sitting* *alone* on the bench. ↘",
+        "He was *holding* her *yellow* rock | and *smiling*. ↘",
+        "“*Someone* *left* this for *me*,” | he *told* Ava. | “It *made* my *whole* *day*.” ↘",
+        "Ava *grinned*, | but she *kept* her *secret*. ↘",
+        "That *night*, | she *got* out her *paints* *again*. ↘",
+        "This *time*, | she *painted* a *red* *heart* | and the words “*Keep* *smiling*!” ↘"
+      ],
+      "targets": [
+        "smooth",
+        "creek",
+        "painted",
+        "awesome",
+        "bench",
+        "wondered",
+        "alone",
+        "holding",
+        "secret"
+      ],
+      "vocab": [
+        [
+          "smooth",
+          "매끈한"
+        ],
+        [
+          "creek",
+          "개울, 시내"
+        ],
+        [
+          "painted",
+          "색칠했다"
+        ],
+        [
+          "awesome",
+          "멋진, 최고인"
+        ],
+        [
+          "hid",
+          "숨겼다 (hide의 과거)"
+        ],
+        [
+          "bench",
+          "벤치, 긴 의자"
+        ],
+        [
+          "wondered",
+          "궁금해했다"
+        ],
+        [
+          "older man",
+          "나이 지긋한 할아버지"
+        ],
+        [
+          "alone",
+          "혼자"
+        ],
+        [
+          "made my whole day",
+          "하루를 아주 행복하게 해 주었다"
+        ],
+        [
+          "secret",
+          "비밀"
+        ]
+      ],
+      "sounds": [
+        [
+          "Voiced th",
+          "smooth, the, this, That",
+          "혀끝을 윗니와 아랫니 사이에 살짝 내밀고 목을 울려요: smooth '스무ð', this. 'ㄷ'나 'ㅈ'로 바꾸지 않아요."
+        ],
+        [
+          "Long e (ee / ea)",
+          "creek, week, keep, near",
+          "입꼬리를 옆으로 당기고 길게 '이-': creek '크리-크', week '위-크'. 짧은 i (sitting, hid)와 구분해요."
+        ],
+        [
+          "Final -ing",
+          "smiling, sitting, holding",
+          "-ing의 ng는 입을 다물지 않고 코로 울려요: smiling '스마일링'. '스마일링그'처럼 끝에 '그'를 붙이지 않아요."
+        ]
+      ],
+      "expression": "Begin in a warm, quiet storyteller voice, read “You are awesome!” brightly as the message, sound curious and a little impatient on “Ava wondered all week,” soften your voice for the older man sitting alone, give him a slow, grateful voice for “It made my whole day,” whisper a little on “she kept her secret,” and end happily on “Keep smiling!”",
+      "practice": [
+        "a smooth, gray rock",
+        "She painted it yellow",
+        "Who would find it?",
+        "sitting alone on the bench",
+        "It made my whole day."
+      ],
+      "events": []
+    },
+    "4": {
+      "title": "The Monarchs' Long Journey",
+      "title_kr": "제왕나비의 머나먼 여행",
+      "genre": "Nonfiction",
+      "topic": "monarch butterfly migration: monarchs fly up to about 3,000 miles from Canada and the United States to fir forests in the mountains of Mexico, glide on rising air, sip nectar, use the sun like a compass, cluster on trees all winter, and take three or four generations to return north on milkweed (animals, insects, seasons, science)",
+      "lines": [
+        "*Every* *fall*, | *millions* of *orange* and *black* *butterflies* | *begin* an *amazing* *trip*. ↘",
+        "They are *monarch* butterflies, | and *many* of them *fly* from *Canada* and the *United* *States* | *all* the way to *Mexico*. ↘",
+        "*Some* *travel* *nearly* *three* *thousand* *miles*! ↘",
+        "*How* can an *insect* that *weighs* *less* than a *paper* *clip* | fly *that* *far*? ↘",
+        "*First*, | monarchs are *clever* *gliders*. ↘",
+        "They *ride* *warm*, *rising* *air* | and *float* on the *wind* | to *save* *energy*. ↘",
+        "*Along* the way, | they *stop* to *sip* *sweet* *nectar* from *flowers*. ↘",
+        "*Scientists* *think* they use the *sun* | like a *compass* | to *find* their way *south*. ↘",
+        "In *Mexico*, | they *gather* in *tall* *fir* *forests* | *high* in the *mountains*. ↘",
+        "So many butterflies *cluster* on the *branches* | that the *trees* *look* *orange*! ↘",
+        "They *rest* there *all* *winter*, | *huddled* *together* to *stay* *warm*. ↘",
+        "In *spring*, | they *fly* *north* | and *lay* their *eggs* on *milkweed* *plants*. ↘",
+        "Here is the *most* *surprising* *part*: | *no* *single* butterfly *makes* the *whole* *round* *trip*. ↘",
+        "It *takes* *three* or *four* *generations* | to get *all* the way *back* *north*. ↘",
+        "Yet *every* *fall*, | the *great-great-grandchildren* | *find* the *same* *forests* *again*. ↘",
+        "*Nobody* *knows* *exactly* *how* they *do* it! ↘"
+      ],
+      "targets": [
+        "insect",
+        "gliders",
+        "energy",
+        "nectar",
+        "compass",
+        "cluster",
+        "huddled",
+        "milkweed",
+        "generations"
+      ],
+      "vocab": [
+        [
+          "monarch butterfly",
+          "제왕나비"
+        ],
+        [
+          "journey",
+          "(긴) 여행"
+        ],
+        [
+          "insect",
+          "곤충"
+        ],
+        [
+          "weigh",
+          "무게가 나가다"
+        ],
+        [
+          "glider",
+          "활공하는 것 (날갯짓 없이 미끄러지듯 나는 것)"
+        ],
+        [
+          "energy",
+          "힘, 에너지"
+        ],
+        [
+          "nectar",
+          "꽃꿀"
+        ],
+        [
+          "compass",
+          "나침반"
+        ],
+        [
+          "fir forest",
+          "전나무 숲"
+        ],
+        [
+          "cluster",
+          "무리 지어 모이다"
+        ],
+        [
+          "huddled",
+          "옹기종기 모여 있는"
+        ],
+        [
+          "milkweed",
+          "밀크위드 (제왕나비 애벌레가 먹는 풀)"
+        ],
+        [
+          "generation",
+          "세대"
+        ]
+      ],
+      "sounds": [
+        [
+          "Schwa in long words",
+          "butterflies, energy, generations, compass",
+          "강세 없는 모음은 힘을 빼고 짧은 '어'로: EN-er-gy, COM-pass, gen-er-A-tions처럼 대문자 음절만 세게 읽어요."
+        ],
+        [
+          "Final clusters",
+          "insect, nectar, forests, cluster",
+          "자음 사이에 '으'를 넣지 않아요: insect '인섹트'(한 번에), forests '포리스츠', cluster '클러스터r'."
+        ],
+        [
+          "Long i",
+          "fly, ride, find, high, rising",
+          "'아이'로 미끄러지듯: fly '플라이', find '파인드'. 짧은 i (sip, milkweed)와 구분해요."
+        ]
+      ],
+      "expression": "Read like an excited nature-show host: sound amazed on “nearly three thousand miles!”, ask “How can an insect … fly that far?” as a real question, explain the gliding and compass lines clearly with a small pause at each /, slow down and picture the scene on “the trees look orange!”, lean in on “Here is the most surprising part,” and end in a hushed, wondering voice on “Nobody knows exactly how they do it!”",
+      "practice": [
+        "less than a paper clip",
+        "warm, rising air",
+        "like a compass",
+        "huddled together to stay warm",
+        "three or four generations"
+      ],
+      "events": []
+    }
+  }
+}
