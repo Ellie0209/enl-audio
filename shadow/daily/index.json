@@ -648,5 +648,31 @@
         "genre": "Realistic fiction"
       }
     }
+  },
+  {
+    "day": 26,
+    "date": "2026-11-27",
+    "levels": {
+      "1": {
+        "title": "Meg Picks a Pet",
+        "topic": "Meg wants a pet and looks at a napping cat, a pecking hen and a digging pig before a pup hops up on her lap and she picks it (pets, animals, choices, feelings)",
+        "genre": "Pattern text"
+      },
+      "2": {
+        "title": "Six Points on My Mitten",
+        "topic": "on the first snowy morning a girl catches snowflakes on her dark blue mitten, notices their six points and that each one looks different, then rushes inside to show Mom but they melt (seasons, weather, science, family)",
+        "genre": "Story"
+      },
+      "3": {
+        "title": "The Yellow Kindness Rock",
+        "topic": "a girl paints a smooth creek rock with a smiling sun and a kind message, hides it under a park bench, sees a lonely older man find it and smile, keeps her secret and paints another one (kindness, community, art, feelings)",
+        "genre": "Story"
+      },
+      "4": {
+        "title": "The Monarchs' Long Journey",
+        "topic": "monarch butterfly migration: monarchs fly up to about 3,000 miles from Canada and the United States to fir forests in the mountains of Mexico, glide on rising air, sip nectar, use the sun like a compass, cluster on trees all winter, and take three or four generations to return north on milkweed (animals, insects, seasons, science)",
+        "genre": "Nonfiction"
+      }
+    }
   }
 ]
