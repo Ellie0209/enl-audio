@@ -5,11 +5,12 @@ Usage: python tools/daily/build_worksheets.py DAY [OUT_DIR]
 Each PDF: 1) Shadowing worksheet  2) Dictation worksheet  3) Answer key & teacher script.
 HTML → PDF with Chromium (Playwright). Needs: pip install segno playwright; font "Noto Sans CJK KR".
 """
-import argparse, html, json, os, re, sys, tempfile
+import argparse, html, io, json, os, re, sys, tempfile
 from pathlib import Path
 from publication import read_days, level_dir, pdf_name, worksheet_digest, has_signature, check_pdf
 
 import segno
+from pypdf import PdfReader
 from playwright.sync_api import sync_playwright
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -166,10 +167,10 @@ def page_dictation(lv, day, date, sc, urls, answer=False):
     else:
         c = "<ol class='cl'>" + "".join(f"<li>{hw_lines(2)}</li>" for _ in sel) + "</ol>"
     if answer:
-        return f"""<h2 class="sec">Dictation · Answer Key</h2>
+        return f"""<div class="akey"><h2 class="sec">Dictation · Answer Key</h2>
 <section class="box"><h3>A. Target Words</h3>{a}</section>
 <section class="box"><h3>B. Fill in the Blanks</h3>{b}</section>
-<section class="box"><h3>C. Sentence Dictation</h3>{c}</section>"""
+<section class="box"><h3>C. Sentence Dictation</h3>{c}</section></div>"""
     bar = "".join(f'<span><i class="cb"></i>{t}</span>' for t in ["Shadowing done first?", "Capital", "Spaces", "Period"])
     # last sentence + check bar stay together (no orphaned check bar on its own page)
     c_head = "<ol class='cl'>" + "".join(f"<li>{hw_lines(2)}</li>" for _ in sel[:-1]) + "</ol>" if len(sel) > 1 else ""
@@ -200,6 +201,66 @@ def page_teacher(lv, day, date, sc, urls):
 {page_dictation(lv, day, date, sc, urls, answer=True)}{ev}</div>"""
 
 
+# Fit step: each sheet (shadowing / dictation / teacher+answer key) is printed on its own and
+# shrunk in small steps (never below 85%, so 12pt body text stays >= ~10pt) when that removes a
+# near-empty trailing page. The largest scale that reaches the fewest pages wins.
+ZOOMS = (1.0, 0.95, 0.9, 0.85)
+PDF_OPTS = dict(format="A4", print_background=True, margin=dict(top="10mm", bottom="12mm", left="12mm", right="12mm"))
+
+
+def _pages(pg):
+    return len(PdfReader(io.BytesIO(pg.pdf(**PDF_OPTS))).pages)
+
+
+PAGE_H_PX = 275 * 96 / 25.4   # printable A4 height in CSS px
+PAGE_W_PX = 186 * 96 / 25.4
+
+
+def reorder_shadow(pg):
+    """If Words/Sound Tips cannot fit under the script on page 1 but Solo + Steps can,
+    move Solo + Steps up so page 1 is not left half empty."""
+    pg.set_viewport_size({"width": round(PAGE_W_PX), "height": 1000})
+    pg.evaluate("""(H) => {
+      const sh = document.querySelector('.sheet'); if (!sh) return;
+      const two = sh.querySelector(':scope > .two'); if (!two) return;
+      const tail = [...sh.querySelectorAll(':scope > .box')].slice(-2);   // Solo + Steps
+      const top = sh.getBoundingClientRect().top;
+      const used = two.getBoundingClientRect().top - top;
+      const h = el => el.getBoundingClientRect().height + 6;
+      const tailH = tail.reduce((a, el) => a + h(el), 0);
+      if (used + h(two) > H * 0.97 && used + tailH <= H * 0.95) tail.forEach(el => sh.insertBefore(el, two));
+    }""", PAGE_H_PX)
+
+
+def _fit_one(pg, i):
+    """Return (pages, zoom) for sheet i at the largest zoom that gives the fewest pages."""
+    pg.evaluate("""(i) => document.querySelectorAll('.sheet').forEach((s, k) => {
+        s.style.display = k === i ? '' : 'none'; })""", i)
+    best = None
+    for z in ZOOMS:
+        pg.evaluate("([i, z]) => { document.querySelectorAll('.sheet')[i].style.zoom = z; }", [i, z])
+        c = _pages(pg)
+        if best is None or c < best[0]:
+            best = (c, z)
+    pg.evaluate("([i, z]) => { document.querySelectorAll('.sheet')[i].style.zoom = z; }", [i, best[1]])
+    return best
+
+
+def fit_sheets(pg):
+    n = pg.evaluate("document.querySelectorAll('.sheet').length")
+    for i in range(n):
+        best = _fit_one(pg, i)
+        if i == 0 and best[0] > 1:
+            # Shrinking alone cannot avoid a second page: try moving Solo + Steps up under the script.
+            html_before = pg.evaluate("document.querySelector('.sheet').innerHTML")
+            pg.evaluate("document.querySelector('.sheet').style.zoom = 1")
+            reorder_shadow(pg)
+            if _fit_one(pg, i)[0] > best[0]:
+                pg.evaluate("(h) => { const s = document.querySelector('.sheet'); s.innerHTML = h; }", html_before)
+                _fit_one(pg, i)
+    pg.evaluate("() => document.querySelectorAll('.sheet').forEach(s => { s.style.display = ''; })")
+
+
 CSS = """
 @page{size:A4;margin:10mm 12mm 12mm 12mm}
 *{box-sizing:border-box}
@@ -224,7 +285,7 @@ h1{margin:0;font-size:19pt;line-height:1.1}.kr{margin:1px 0 0;font-size:12pt;col
 .small{font-size:12pt;color:#555;margin:2px 0 4px}
 .steps{display:flex;gap:8px}.step{white-space:nowrap}
 .cb{display:inline-block;width:13px;height:13px;border:1.6px solid var(--lv);border-radius:3px;margin-right:5px;vertical-align:-1px;flex:none}
-.two{display:grid;grid-template-columns:minmax(0,max-content) 1fr;gap:8px}.two .box{margin-bottom:6px}
+.two{display:grid;grid-template-columns:minmax(0,max-content) 1fr;gap:8px}.two>.box:first-child{max-width:88mm}.vocab td+td{white-space:normal}.two .box{margin-bottom:6px}
 .vocab{border-collapse:collapse;width:100%}.vocab td{white-space:nowrap;padding:1px 4px;border-bottom:1px dotted #ccc;font-size:12pt;vertical-align:top}
 .sounds{margin:0;padding-left:16px}.sounds li{margin-bottom:1px;font-size:12pt;line-height:1.25}.sounds i{color:#555}.sounds span{color:#333}
 .pro{margin:4px 0 0;font-size:12pt;border-top:1px dashed #ccc;padding-top:3px}.pro b{color:var(--lv)}
@@ -253,7 +314,7 @@ h1{margin:0;font-size:19pt;line-height:1.1}.kr{margin:1px 0 0;font-size:12pt;col
 .checkbar .sign{margin:0 0 0 auto}.checkbar{border-top:1px dashed #ccc;padding-top:4px;margin-top:4px;display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12pt}
 .ans{color:#B23B3B;font-weight:700;border-bottom:1.5px solid #B23B3B;padding:0 2px}
 .ans-grid{grid-template-columns:repeat(3,1fr)}.ans-grid .ans{border:0}
-.sec{font-size:16pt;color:var(--lv);margin:0 0 6px;break-before:page}
+.sec{font-size:16pt;color:var(--lv);margin:8px 0 6px;break-after:avoid}.akey{break-inside:avoid}
 .plan{border-collapse:collapse;width:100%}.plan td{border-bottom:1px dotted #ccc;padding:3px 4px;font-size:12pt;vertical-align:top}
 .brk{break-inside:auto}.brk h3{break-after:avoid}
 .ev{margin:0;padding-left:22px;font-size:12pt}
@@ -279,6 +340,7 @@ def build(day, out_dir):
             open(os.path.join(out_dir, f"L{lv}.html"), "w", encoding="utf-8").write(doc)
             pg.set_content(doc, wait_until="load")
             pg.evaluate("document.fonts.ready")
+            fit_sheets(pg)
             fn = os.path.join(out_dir, f"ShadowShine_Daily_D{day:03d}_L{lv}_{L['name']}.pdf")
             foot = ('<div style="width:100%;font-family:\'Noto Sans CJK KR\',sans-serif;font-size:8pt;color:#666;text-align:center;'
                     f'padding:0 13mm">{e(FOOTER)}</div>')
