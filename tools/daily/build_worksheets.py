@@ -5,11 +5,12 @@ Usage: python tools/daily/build_worksheets.py DAY [OUT_DIR]
 Each PDF: 1) Shadowing worksheet  2) Dictation worksheet  3) Answer key & teacher script.
 HTML → PDF with Chromium (Playwright). Needs: pip install segno playwright; font "Noto Sans CJK KR".
 """
-import argparse, html, json, os, re, sys, tempfile
+import argparse, html, io, json, os, re, sys, tempfile
 from pathlib import Path
 from publication import read_days, level_dir, pdf_name, worksheet_digest, has_signature, check_pdf
 
 import segno
+from pypdf import PdfReader
 from playwright.sync_api import sync_playwright
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -168,7 +169,7 @@ def page_dictation(lv, day, date, sc, urls, answer=False):
     if answer:
         return f"""<h2 class="sec">Dictation · Answer Key</h2>
 <section class="box"><h3>A. Target Words</h3>{a}</section>
-<section class="box"><h3>B. Fill in the Blanks</h3>{b}</section>
+<section class="box tbox"><h3>B. Fill in the Blanks</h3>{b}</section>
 <section class="box"><h3>C. Sentence Dictation</h3>{c}</section>"""
     bar = "".join(f'<span><i class="cb"></i>{t}</span>' for t in ["Shadowing done first?", "Capital", "Spaces", "Period"])
     # last sentence + check bar stay together (no orphaned check bar on its own page)
@@ -194,8 +195,8 @@ def page_teacher(lv, day, date, sc, urls):
     return f"""<div class="sheet"><header class="hd"><div class="band">Answer Key &amp; Teacher Script · Level {lv} {L['name']} · Day {day} · {e(date)}</div>
 <div class="hrow"><div><p class="kind">For teachers · 교사용</p><h1>{e(sc['title'])}</h1><p class="kr">{e(sc['title_kr'])} · {e(sc['genre'])} · {words} words · {len(sc['lines'])} lines</p></div>
 <div class="qrs"><figure><img src="{qr(urls['page'])}"><figcaption>PLAYER</figcaption></figure></div></div></header>
-<section class="box"><h3>Teacher Script · 지문 (stress / phrase / intonation)</h3><div class="script tscript">{lines}</div></section>
-<section class="box"><h3>10-minute Lesson · 수업 흐름</h3><table class="plan">{planh}</table>
+<section class="box tbox"><h3>Teacher Script · 지문 (stress / phrase / intonation)</h3><div class="script tscript">{lines}</div></section>
+<section class="box tbox"><h3>10-minute Lesson · 수업 흐름</h3><table class="plan">{planh}</table>
 <p class="small"><b>Expression:</b> {e(sc['expression'])} &nbsp; <b>Practice:</b> {e(' · '.join(sc['practice']))}</p></section>
 {page_dictation(lv, day, date, sc, urls, answer=True)}{ev}</div>"""
 
@@ -253,11 +254,21 @@ h1{margin:0;font-size:19pt;line-height:1.1}.kr{margin:1px 0 0;font-size:12pt;col
 .checkbar .sign{margin:0 0 0 auto}.checkbar{border-top:1px dashed #ccc;padding-top:4px;margin-top:4px;display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12pt}
 .ans{color:#B23B3B;font-weight:700;border-bottom:1.5px solid #B23B3B;padding:0 2px}
 .ans-grid{grid-template-columns:repeat(3,1fr)}.ans-grid .ans{border:0}
-.sec{font-size:16pt;color:var(--lv);margin:0 0 6px;break-before:page}
+.sec{font-size:16pt;color:var(--lv);margin:4px 0 6px;break-after:avoid}
 .plan{border-collapse:collapse;width:100%}.plan td{border-bottom:1px dotted #ccc;padding:3px 4px;font-size:12pt;vertical-align:top}
 .brk{break-inside:auto}.brk h3{break-after:avoid}
 .ev{margin:0;padding-left:22px;font-size:12pt}
+/* let long boxes continue on the next page instead of leaving a gap */
+.box h3,.sec{break-after:avoid}.tbox{break-inside:auto}.vocab tr,.sounds li,.plan tr,.bl li,.pro{break-inside:avoid}
+/* fit levels: chosen automatically to remove near-empty pages; text never below 12pt */
+.c1 .box{padding:3px 10px 4px;margin-bottom:5px}.c1 .hd{margin-bottom:6px}.c1 .script{line-height:1.3}
+.c1 .bl li{line-height:1.6}.c1 .hw{height:8.5mm}.c1 .cl .hw{height:8mm}.c1 .hwline{height:7mm}.c1 .tw{gap:2px 14px}
+.c2 .bl li{font-size:12pt;line-height:1.5}.c2 .hw{height:8mm}.c2 .cl .hw{height:7.5mm}.c2 .script p{margin:0 0 1px}.c2 .tscript{font-size:12pt}.c2 .sec{font-size:14pt}
+.c3 .bl li{line-height:1.45}.c3 .script{line-height:1.25}.c3 .chip{font-size:13pt}.c3 .hd{margin-bottom:4px}.c3 .plan td{padding:1px 4px}.c3 .bl li{line-height:1.4}
 """
+# Fit candidates, tried in order: (spacing level, script font scale, whole-page print scale).
+# The first candidate with the fewest pages wins, so normal-size layouts are kept whenever they fit.
+FIT = ((0, 1.0, 1.0), (1, 1.0, 1.0), (2, 0.92, 1.0), (3, 0.86, 1.0), (1, 1.0, 0.9), (3, 0.9, 0.9))
 
 
 def build(day, out_dir):
@@ -272,19 +283,31 @@ def build(day, out_dir):
             L = LEVELS[lv]
             b = f"{BASE}l{lv}/{nnn}/"
             urls = dict(page=b, us1=b + "us-1.mp3", slow=b + "us-slow.mp3")
-            doc = (f'<!doctype html><html><head><meta charset="utf-8"><style>{CSS}</style></head>'
-                   f'<body style="--lv:{L["color"]};--lt:{L["light"]}">'
-                   + page_shadow(lv, d["day"], d["date"], sc, urls) + page_dictation(lv, d["day"], d["date"], sc, urls)
-                   + page_teacher(lv, d["day"], d["date"], sc, urls) + "</body></html>")
-            open(os.path.join(out_dir, f"L{lv}.html"), "w", encoding="utf-8").write(doc)
-            pg.set_content(doc, wait_until="load")
-            pg.evaluate("document.fonts.ready")
             fn = os.path.join(out_dir, f"ShadowShine_Daily_D{day:03d}_L{lv}_{L['name']}.pdf")
             foot = ('<div style="width:100%;font-family:\'Noto Sans CJK KR\',sans-serif;font-size:8pt;color:#666;text-align:center;'
                     f'padding:0 13mm">{e(FOOTER)}</div>')
-            pg.pdf(path=fn, format="A4", print_background=True, display_header_footer=True,
-                   header_template="<div></div>", footer_template=foot,
-                   margin=dict(top="10mm", bottom="12mm", left="12mm", right="12mm"))
+            best = None
+            for fit, scale, zoom in FIT:
+                Lf = dict(L, font=max(12, round(L["font"] * scale, 1)))
+                LEVELS[lv] = Lf
+                try:
+                    body = (page_shadow(lv, d["day"], d["date"], sc, urls) + page_dictation(lv, d["day"], d["date"], sc, urls)
+                            + page_teacher(lv, d["day"], d["date"], sc, urls))
+                finally:
+                    LEVELS[lv] = L
+                cls = " ".join(f"c{k}" for k in range(1, fit + 1))
+                doc = (f'<!doctype html><html><head><meta charset="utf-8"><style>{CSS}</style></head>'
+                       f'<body class="{cls}" style="--lv:{L["color"]};--lt:{L["light"]}">' + body + "</body></html>")
+                pg.set_content(doc, wait_until="load")
+                pg.evaluate("document.fonts.ready")
+                pdf = pg.pdf(format="A4", scale=zoom, print_background=True, display_header_footer=True,
+                             header_template="<div></div>", footer_template=foot,
+                             margin=dict(top="10mm", bottom="12mm", left="12mm", right="12mm"))
+                n = len(PdfReader(io.BytesIO(pdf)).pages)
+                if best is None or n < best[0]:
+                    best = (n, pdf, doc)
+            open(os.path.join(out_dir, f"L{lv}.html"), "w", encoding="utf-8").write(best[2])
+            open(fn, "wb").write(best[1])
             paths.append(fn)
         br.close()
     for f in paths:
